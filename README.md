@@ -132,8 +132,8 @@ The **Second robot** was an upgraded version on the first one. It had a camera a
 <br>
 The following pictures are pictures of robot when it was finished.
 <br><br>
-<img src="back2.jpeg" width="250"> <img src="front2.jpeg" width="250"> <img src="down2.jpeg" width="250"> 
-<img src="up2.jpeg" width="250"> <img src="left side2.jpeg" width="250"> <img src="right side2.jpeg" width="250"> 
+<img src="back real.jpeg" width="250"> <img src="front real.jpeg" width="250"> <img src="down real.jpeg" width="250"> 
+<img src="up real.jpeg" width="250"> <img src="left real.jpeg" width="250"> <img src="right real.jpeg" width="250"> 
 <br> 
 <br> 
 The **Third robot** was LEGO robot. It was made because we had big problems with connecting second robot to our laptop. It was inspired by classic Ford Model T.
