@@ -5,7 +5,7 @@
 - TODO
 - TODO
 
-![MechaMinds Team](media/team/team.jpg)
+![MechaMinds Team](media/team/team.jpeg)
 
 ## Table of Contents
 
@@ -79,5 +79,5 @@
 ## 4. Development history
 Our robot wemt through several major design iterations during the development process.
 ### Version 1
-|![Prototype V1 - Front](media/development/V1/front.jpeg)|
-|![Prototype V1 - Rear](media/development/V1/rear.jpeg)|
+|![Prototype V1 - Front](media/development/version_1/front.jpeg)|
+|![Prototype V1 - Rear](media/development/version_1/rear.jpeg)|
