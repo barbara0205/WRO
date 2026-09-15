@@ -116,7 +116,7 @@ Our robot wemt through several major design iterations during the development pr
 
 | Top | Bottom |
 |---|---|
-| <img src="media/development/version_3/top.jpeg" width="200"> | <img src="media/development/version_3/bottom.jpeg" width="200"> |
+| <img src="media/development/version_3/ford1.jpeg" width="200"> | <img src="media/development/version_3/bottom.jpeg" width="200"> |
 
 ### Version 4
 
