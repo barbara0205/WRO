@@ -78,7 +78,7 @@
 ## 1. Project Overview
 ## 4. Development history
 Our robot wemt through several major design iterations during the development process.
-### Version 1
+###4.1. Version 1
 
 | Front | Rear |
 |---|---|
@@ -92,7 +92,7 @@ Our robot wemt through several major design iterations during the development pr
 |---|---|
 | <img src="media/development/version_1/top.jpeg" width="200"> | <img src="media/development/version_1/bottom.jpeg" width="200"> |
 
-### Version 2
+### 4.2. Version 2
 | Front | Rear |
 |---|---|
 | <img src="media/development/version_2/final/front.jpeg" width="200"> | <img src="media/development/version_2/final/rear.jpeg" width="200"> |
@@ -104,7 +104,7 @@ Our robot wemt through several major design iterations during the development pr
 | Top | Bottom |
 |---|---|
 | <img src="media/development/version_2/final/top.jpeg" width="200"> | <img src="media/development/version_2/final/bottom.jpeg" width="200"> |
-### Version 3
+### 4.3. Version 3
 
 | Front | Rear |
 |---|---|
@@ -118,7 +118,7 @@ Our robot wemt through several major design iterations during the development pr
 |---|---|
 | <img src="media/development/version_3/ford1.jpeg" width="200"> | <img src="media/development/version_3/bottom.jpeg" width="200"> |
 
-### Version 4
+### 4.4. Version 4
 
 | Front | Rear |
 |---|---|
