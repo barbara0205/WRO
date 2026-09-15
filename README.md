@@ -1,9 +1,9 @@
 # MechaMinds-WRO 2026 Future Engineers
 # WRO Future Engineers - Engineering Documentation
 # Team Members
-- TODO
-- TODO
-- TODO
+- Nadia Kravčuk
+- Ivano Koren
+- Barbara Lukić
 
 <img src="media/team/team.jpeg" width="500" height="500">
 
