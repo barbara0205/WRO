@@ -79,5 +79,5 @@
 ## 4. Development history
 Our robot wemt through several major design iterations during the development process.
 ### Version 1
-<img src="media/development/version_1/front.jpeg" width="500" height="500">
-<img src="media/development/version_1/rear.jpeg" width="500" height="500">
+|<img src="media/development/version_1/front.jpeg" width="500" height="500">|<img src="media/development/version_1/rear.jpeg" width="500" height="500">|
+
