@@ -81,3 +81,14 @@ Our robot wemt through several major design iterations during the development pr
 ### Version 1
 |<img src="media/development/version_1/front.jpeg" width="500" height="500">|<img src="media/development/version_1/rear.jpeg" width="500" height="500">|
 
+| Front | Rear |
+|---|---|
+| <img src="media/development/version_1/front.jpeg" width="300"> | <img src="media/development/version_1/rear.jpeg" width="300"> |
+
+| Left | Right |
+|---|---|
+| <img src="media/development/version_1/left.jpeg" width="300"> | <img src="media/development/version_1/right.jpeg" width="300"> |
+
+| Top | Bottom |
+|---|---|
+| <img src="media/development/version_1/top.jpeg" width="300"> | <img src="media/development/version_1/bottom.jpeg" width="300"> |
