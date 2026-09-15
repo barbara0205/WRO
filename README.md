@@ -79,7 +79,8 @@
 ## 4. Development history
 Our robot wemt through several major design iterations during the development process.
 ### 4.1. Version 1
-
+- about the robot: we used 3D printed and built by hand robot, using several distance sensors
+- problem: the robot was not very realible in making 3 laps so we decided to change the robot for better performance
 | Front | Rear |
 |---|---|
 | <img src="media/development/version_1/front.jpeg" width="200"> | <img src="media/development/version_1/rear.jpeg" width="200"> |
@@ -93,6 +94,8 @@ Our robot wemt through several major design iterations during the development pr
 | <img src="media/development/version_1/top.jpeg" width="200"> | <img src="media/development/version_1/bottom.jpeg" width="200"> |
 
 ### 4.2. Version 2
+- about the robot: this robot was an upgraded version on the first one, it had a camera and several distance sensors 
+- problem: all year we have been working on this robot, about two months before the competition we started having problems connecting the robot to Wi-Fi, it started crashing and we tried to find a solution before the competition but we did not succeed
 | Front | Rear |
 |---|---|
 | <img src="media/development/version_2/final/front.jpeg" width="200"> | <img src="media/development/version_2/final/rear.jpeg" width="200"> |
@@ -105,7 +108,8 @@ Our robot wemt through several major design iterations during the development pr
 |---|---|
 | <img src="media/development/version_2/final/top.jpeg" width="200"> | <img src="media/development/version_2/final/bottom.jpeg" width="200"> |
 ### 4.3. Version 3
-
+- about the robot: this robot that we had build out of LEGO, it represents a model of a ford car 
+- problem: robot had a problem turning its wheels beacuse of the design, so it could not compleate even one lap, beacuse of this, we had to completaly redesing it
 | Front | Rear |
 |---|---|
 | <img src="media/development/version_3/front.jpeg" width="200"> | <img src="media/development/version_3/rear.jpeg" width="200"> |
@@ -119,7 +123,8 @@ Our robot wemt through several major design iterations during the development pr
 | <img src="media/development/version_3/ford1.jpeg" width="200"> | <img src="media/development/version_3/bottom.jpeg" width="200"> |
 
 ### 4.4. Version 4
-
+- about the robot: this was our final robot that we went to the competition with, it was also build out of lego bricks, it worked with help of distance sensors 
+- problem: ????
 | Front | Rear |
 |---|---|
 | <img src="media/development/version_4/front.jpeg" width="200"> | <img src="media/development/version_4/rear.jpeg" width="200"> |
