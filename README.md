@@ -5,7 +5,7 @@
 - TODO
 - TODO
 
-![MechaMinds Team](media/team/team.jpeg) <img src="media/team/team.jpeg" width="400" height="300">
+<img src="media/team/team.jpeg" width="500" height="500">
 
 ## Table of Contents
 
