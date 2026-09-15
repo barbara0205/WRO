@@ -83,12 +83,12 @@ Our robot wemt through several major design iterations during the development pr
 
 | Front | Rear |
 |---|---|
-| <img src="media/development/version_1/front.jpeg" width="200"> | <img src="media/development/version_1/rear.jpeg" width="200"> |
+| <img src="media/development/version_1/front.jpeg" width="100"> | <img src="media/development/version_1/rear.jpeg" width="100"> |
 
 | Left | Right |
 |---|---|
-| <img src="media/development/version_1/left.jpeg" width="200"> | <img src="media/development/version_1/right.jpeg" width="200"> |
+| <img src="media/development/version_1/left.jpeg" width="100"> | <img src="media/development/version_1/right.jpeg" width="100"> |
 
 | Top | Bottom |
 |---|---|
-| <img src="media/development/version_1/top.jpeg" width="200"> | <img src="media/development/version_1/bottom.jpeg" width="200"> |
+| <img src="media/development/version_1/top.jpeg" width="100"> | <img src="media/development/version_1/bottom.jpeg" width="100"> |
