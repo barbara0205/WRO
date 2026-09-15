@@ -91,3 +91,43 @@ Our robot wemt through several major design iterations during the development pr
 | Top | Bottom |
 |---|---|
 | <img src="media/development/version_1/top.jpeg" width="200"> | <img src="media/development/version_1/bottom.jpeg" width="200"> |
+
+### Version 2
+| Front | Rear |
+|---|---|
+| <img src="media/development/version_2/front.jpeg" width="200"> | <img src="media/development/version_2/rear.jpeg" width="200"> |
+
+| Left | Right |
+|---|---|
+| <img src="media/development/version_2/left.jpeg" width="200"> | <img src="media/development/version_2/right.jpeg" width="200"> |
+
+| Top | Bottom |
+|---|---|
+| <img src="media/development/version_2/top.jpeg" width="200"> | <img src="media/development/version_2/bottom.jpeg" width="200"> |
+### Version 3
+
+| Front | Rear |
+|---|---|
+| <img src="media/development/version_3/front.jpeg" width="200"> | <img src="media/development/version_3/rear.jpeg" width="200"> |
+
+| Left | Right |
+|---|---|
+| <img src="media/development/version_3/left.jpeg" width="200"> | <img src="media/development/version_3/right.jpeg" width="200"> |
+
+| Top | Bottom |
+|---|---|
+| <img src="media/development/version_3/top.jpeg" width="200"> | <img src="media/development/version_3/bottom.jpeg" width="200"> |
+
+### Version 4
+
+| Front | Rear |
+|---|---|
+| <img src="media/development/version_4/front.jpeg" width="200"> | <img src="media/development/version_4/rear.jpeg" width="200"> |
+
+| Left | Right |
+|---|---|
+| <img src="media/development/version_4/left.jpeg" width="200"> | <img src="media/development/version_4/right.jpeg" width="200"> |
+
+| Top | Bottom |
+|---|---|
+| <img src="media/development/version_4/top.jpeg" width="200"> | <img src="media/development/version_4/bottom.jpeg" width="200"> |
