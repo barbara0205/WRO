@@ -78,7 +78,7 @@
 ## 1. Project Overview
 ## 4. Development history
 Our robot wemt through several major design iterations during the development process.
-###4.1. Version 1
+### 4.1. Version 1
 
 | Front | Rear |
 |---|---|
