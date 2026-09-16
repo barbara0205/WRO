@@ -27,16 +27,16 @@
   - 5.5 Torque / Speed Reasoning
   - 5.6 Mechanical Testing and Iterations
 
-12. Power & Sensor Architecture
-6.1 Controller
-6.2 Motors
-6.3 Sensors
-6.4 Sensor Placement
+- 6. Power & Sensor Architecture
+    - 6.1 Controller
+    - 6.2 Motors
+    - 6.3 Sensors
+    - 6.4 Sensor Placement
 6.5 Wiring Diagram
 6.6 Power Architecture
 6.7 Sensor Calibration and Testing
 
-13. Software Architecture
+7. Software Architecture
 7.1 Overview
 7.2 Program Structure
 7.3 State Machine / Flowchart
@@ -45,27 +45,44 @@
 7.6 Control Algorithms
 7.7 Edge Cases and Failure Handling
 
-14. Engineering Decisions
+8. Engineering Decisions
 8.1 Constraints
 8.2 Design Trade-offs
 8.3 Major Problems and Solutions
 8.4 Why We Chose X Instead of Y
 
-15. Testing & Results
+9. Testing & Results
 9.1 Mechanical Tests
 9.2 Sensor Tests
 9.3 Open Challenge Tests
 9.4 Obstacle Challenge Tests
 9.5 Reliability Results
 
+- 10. Build & Reproduction Guide
+   - 10.1 Parts
+   - 10.2 Assembly
+   - 10.3 Wiring
+   - 10.4 Software Installation
+   - 10.5 Uploading / Running the Code
+    
+- 11. Photos
+    - 11.1 Parts
+    - 11.2 Assembly
+    - 11.3 Wiring
+    - 11.4 Software Installation
+    - 11.5 Uploading / Running the Code
+
+12. Power & Sensor Architecture
+
+13. Software Architecture
+
+14. Engineering Decisions
+
+15. Testing & Results
+
 16. Components / Bill of Materials
 
 17. Build & Reproduction Guide
-11.1 Parts
-11.2 Assembly
-11.3 Wiring
-11.4 Software Installation
-11.5 Uploading / Running the Code
 
 18. Repository Structure
 
