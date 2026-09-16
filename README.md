@@ -76,7 +76,7 @@
 15. Authors / Team
 
 ## 1. Project Overview
-## 4. Development history
+## 4. Development history [Development History](#4-development-history)
 Our robot went through several major design changes during the development process.
 ### 4.1. Version 1 [Prototype Version_1](#41-prototype-version_1)
 - about the robot: we used 3D printed and built by hand robot, using several distance sensors
