@@ -58,21 +58,23 @@
     - 9.3 Open Challenge Tests
     - 9.4 Obstacle Challenge Tests
     - 9.5 Reliability Results
+    - 
+-10. Components/ Bill of Materials
 
-- 10. Build & Reproduction Guide
+- 11. Build & Reproduction Guide
    - 10.1 Parts
    - 10.2 Assembly
    - 10.3 Wiring
    - 10.4 Software Installation
    - 10.5 Uploading / Running the Code
 
-- 11. Repository Structure
+- 12. Repository Structure
 
-- 12. Version History
+- 13. Version History
 
-- 13. Engineering Journal
+- 14. Engineering Journal
 
-- 14. Authors / Team
+- 15. Authors / Team
 
 ## 1. Project Overview
 ## 2.Team
