@@ -9,14 +9,14 @@
 
 ## Table of Contents
 
-- 1. Project Overview [Project Overview](#1-project-overview)
-- 2. Team [Team](#2-team)
+- 1. [Project Overview](#1-project-overview)
+- 2. [Team](#2-team)
 - 3. Vehicle Overview
-- 4. Development History [Development History](#4-development-history)
-  - 4.1 Prototype Version_1 [4.1 Version_1](#41-version_1)
-  - 4.2 Prototype Version_2 [4.2 Version_2](#41-version_2)
-  - 4.3 Prototype Version_3 [4.3 Version_3](#41-version_3)
-  - 4.4 Prototype Version_4 [4.4 Version_4](#41-version_4)
+- 4. [Development History](#4-development-history)
+  -  [4.1 Version_1](#41-version_1)
+  -  [4.2 Version_2](#41-version_2)
+  - [4.3 Version_3](#41-version_3)
+  - [4.4 Version_4](#41-version_4)
   - 4.5 Current Robot
   - 4.6 Crash / Failure Analysis and Redesign
 
