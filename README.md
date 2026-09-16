@@ -12,7 +12,7 @@
 1. Project Overview
 2. Team
 3. Vehicle Overview
-4. Development History
+4. Development History [Development History](#4-development-history)
    4.1 Prototype V1
    4.2 Prototype V2
    4.3 Prototype V3
@@ -78,7 +78,7 @@
 ## 1. Project Overview
 ## 4. Development history
 Our robot went through several major design changes during the development process.
-### 4.1. Version 1
+### 4.1. Version 1 [Prototype Version_1](#41-prototype-version_1)
 - about the robot: we used 3D printed and built by hand robot, using several distance sensors
 - problem: the robot was not very realible in making 3 laps so we decided to change the robot for better performance
 
