@@ -65,33 +65,14 @@
    - 10.3 Wiring
    - 10.4 Software Installation
    - 10.5 Uploading / Running the Code
-    
-- 11. Photos
-    - 11.1 Parts
-    - 11.2 Assembly
-    - 11.3 Wiring
-    - 11.4 Software Installation
-    - 11.5 Uploading / Running the Code
 
-- 12. Power & Sensor Architecture
+- 11. Repository Structure
 
-- 13. Software Architecture
+- 12. Version History
 
-- 14. Engineering Decisions
+- 13. Engineering Journal
 
-- 15. Testing & Results
-
-- 16. Components / Bill of Materials
-
-- 17. Build & Reproduction Guide
-
-- 18. Repository Structure
-
-- 19. Version History
-
-- 20. Engineering Journal
-
-- 21. Authors / Team
+- 14. Authors / Team
 
 ## 1. Project Overview
 ## 2.Team
