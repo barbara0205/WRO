@@ -9,25 +9,25 @@
 
 ## Table of Contents
 
-1. Project Overview [Project Overview](#1-project-overview)
-2. Team [Team](#2-team)
-3. Vehicle Overview
-4. Development History [Development History](#4-development-history)
-4.1 Prototype V1 [Prototype Version_1](#41-prototype-version_1)
-4.2 Prototype V2 [Prototype Version_2](#41-prototype-version_2)
-4.3 Prototype V3 [Prototype Version_3](#41-prototype-version_3)
-4.4 Current Robot [Prototype Version_4](#41-prototype-version_4)
-4.5 Crash / Failure Analysis and Redesign
+-1. Project Overview [Project Overview](#1-project-overview)
+-2. Team [Team](#2-team)
+-3. Vehicle Overview
+-4. Development History [Development History](#4-development-history)
+  *4.1 Prototype V1 [Prototype Version_1](#41-prototype-version_1)
+  +4.2 Prototype V2 [Prototype Version_2](#41-prototype-version_2)
+  -4.3 Prototype V3 [Prototype Version_3](#41-prototype-version_3)
+  -4.4 Current Robot [Prototype Version_4](#41-prototype-version_4)
+  -4.5 Crash / Failure Analysis and Redesign
 
-5. Mobility & Mechanical Design
-5.1 Chassis
-5.2 Drive System
-5.3 Steering System
-5.4 Dimensions and Weight
-5.5 Torque / Speed Reasoning
-5.6 Mechanical Testing and Iterations
+-5. Mobility & Mechanical Design
+  -5.1 Chassis
+  -5.2 Drive System
+  -5.3 Steering System
+  -5.4 Dimensions and Weight
+  -5.5 Torque / Speed Reasoning
+  -5.6 Mechanical Testing and Iterations
 
-6. Power & Sensor Architecture
+12. Power & Sensor Architecture
 6.1 Controller
 6.2 Motors
 6.3 Sensors
@@ -36,7 +36,7 @@
 6.6 Power Architecture
 6.7 Sensor Calibration and Testing
 
-7. Software Architecture
+13. Software Architecture
 7.1 Overview
 7.2 Program Structure
 7.3 State Machine / Flowchart
@@ -45,35 +45,35 @@
 7.6 Control Algorithms
 7.7 Edge Cases and Failure Handling
 
-8. Engineering Decisions
+14. Engineering Decisions
 8.1 Constraints
 8.2 Design Trade-offs
 8.3 Major Problems and Solutions
 8.4 Why We Chose X Instead of Y
 
-9. Testing & Results
+15. Testing & Results
 9.1 Mechanical Tests
 9.2 Sensor Tests
 9.3 Open Challenge Tests
 9.4 Obstacle Challenge Tests
 9.5 Reliability Results
 
-10. Components / Bill of Materials
+16. Components / Bill of Materials
 
-11. Build & Reproduction Guide
+17. Build & Reproduction Guide
 11.1 Parts
 11.2 Assembly
 11.3 Wiring
 11.4 Software Installation
 11.5 Uploading / Running the Code
 
-12. Repository Structure
+18. Repository Structure
 
-13. Version History
+19. Version History
 
-14. Engineering Journal
+20. Engineering Journal
 
-15. Authors / Team
+21. Authors / Team
 
 ## 1. Project Overview
 ## 2.Team
