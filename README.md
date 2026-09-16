@@ -145,12 +145,12 @@ Our robot went through several major design changes during the development proce
 ### 4.6 Crash / Failure Analysis and Redesign
 
 ## 5. Mobility & Mechanical Design
-  ### 5.1 Chassis
-  ### 5.2 Drive System
-  ### 5.3 Steering System
-  ### 5.4 Dimensions and Weight
-  ### 5.5 Torque / Speed Reasoning
-  ### 5.6 Mechanical Testing and Iterations
+### 5.1 Chassis
+### 5.2 Drive System
+### 5.3 Steering System
+### 5.4 Dimensions and Weight
+### 5.5 Torque / Speed Reasoning
+### 5.6 Mechanical Testing and Iterations
 
 ## 6. Power & Sensor Architecture
     ### 6.1 Controller
