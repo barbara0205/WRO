@@ -9,10 +9,10 @@
 
 ## Table of Contents
 
-- 1. [Project Overview](#1-project-overview)
-- 2. [Team](#2-team)
+- [1. Project Overview](#1-project-overview)
+- [2. Team](#2-team)
 - [3. Vehicle Overview](#3-vehicle-overview)
-- 4. [Development History](#4-development-history)
+- [4. Development History](#4-development-history)
   - [4.1 Version 1](#41-version-1)
   - [4.2 Version 2](#42-version-2)
   - [4.3 Version 3](#43-version-3)
