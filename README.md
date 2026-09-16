@@ -59,14 +59,14 @@
     - 9.4 Obstacle Challenge Tests
     - 9.5 Reliability Results
     - 
--10. Components/ Bill of Materials
+- 10. Components/ Bill of Materials
 
 - 11. Build & Reproduction Guide
-   - 10.1 Parts
-   - 10.2 Assembly
-   - 10.3 Wiring
-   - 10.4 Software Installation
-   - 10.5 Uploading / Running the Code
+   - 11.1 Parts
+   - 11.2 Assembly
+   - 11.3 Wiring
+   - 11.4 Software Installation
+   - 11.5 Uploading / Running the Code
 
 - 12. Repository Structure
 
