@@ -77,7 +77,7 @@
 
 ## 1. Project Overview
 ## 4. Development history
-Our robot wemt through several major design iterations during the development process.
+Our robot went through several major design changes during the development process.
 ### 4.1. Version 1
 - about the robot: we used 3D printed and built by hand robot, using several distance sensors
 - problem: the robot was not very realible in making 3 laps so we decided to change the robot for better performance
