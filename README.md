@@ -76,6 +76,7 @@
 15. Authors / Team
 
 ## 1. Project Overview
+## 2.Team
 ## 4. Development history 
 Our robot went through several major design changes during the development process.
 ### 4.1. Version 1 [Prototype Version_1](#41-prototype-version_1)
