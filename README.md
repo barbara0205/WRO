@@ -9,8 +9,8 @@
 
 ## Table of Contents
 
-1. Project Overview
-2. Team
+1. Project Overview [Project Overview](#1-project-overview)
+2. Team [Team](#2-team)
 3. Vehicle Overview
 4. Development History [Development History](#4-development-history)
    4.1 Prototype V1
@@ -76,7 +76,7 @@
 15. Authors / Team
 
 ## 1. Project Overview
-## 4. Development history [Development History](#4-development-history)
+## 4. Development history 
 Our robot went through several major design changes during the development process.
 ### 4.1. Version 1 [Prototype Version_1](#41-prototype-version_1)
 - about the robot: we used 3D printed and built by hand robot, using several distance sensors
