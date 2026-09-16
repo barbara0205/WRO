@@ -13,10 +13,10 @@
 2. Team [Team](#2-team)
 3. Vehicle Overview
 4. Development History [Development History](#4-development-history)
-   4.1 Prototype V1
-   4.2 Prototype V2
-   4.3 Prototype V3
-   4.4 Current Robot
+   4.1 Prototype V1 [Prototype Version_1](#41-prototype-version_1)
+   4.2 Prototype V2 [Prototype Version_2](#41-prototype-version_2)
+   4.3 Prototype V3 [Prototype Version_3](#41-prototype-version_3)
+   4.4 Current Robot [Prototype Version_4](#41-prototype-version_4)
    4.5 Crash / Failure Analysis and Redesign
 
 5. Mobility & Mechanical Design
@@ -79,7 +79,7 @@
 ## 2.Team
 ## 4. Development history 
 Our robot went through several major design changes during the development process.
-### 4.1. Version 1 [Prototype Version_1](#41-prototype-version_1)
+### 4.1. Version 1 
 - about the robot: we used 3D printed and built by hand robot, using several distance sensors
 - problem: the robot was not very realible in making 3 laps so we decided to change the robot for better performance
 
