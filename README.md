@@ -14,9 +14,9 @@
 - 3. Vehicle Overview
 - 4. [Development History](#4-development-history)
   - [4.1 Version_1](#41-version_1)
-  - [4.2 Version_2](#41-version_2)
-  - [4.3 Version_3](#41-version_3)
-  - [4.4 Version_4](#41-version_4)
+  - [4.2 Version_2](#42-version_2)
+  - [4.3 Version_3](#43-version_3)
+  - [4.4 Version_4](#44-version_4)
   - 4.5 Current Robot
   - 4.6 Crash / Failure Analysis and Redesign
 
