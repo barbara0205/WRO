@@ -80,10 +80,10 @@
 Our robot went through several major design changes during the development process.
 ### 4.1. Version 1 
 **About the robot** 
-Our first robot was a custom-build vehicle made using 3D-prined and hand-build parts. It had several distance
+  - Our first robot was a custom-build vehicle made using 3D-prined and hand-build parts. It had several distance
 sensors that helped us test the robot.
 **Main problem** 
-The robot was not realible in making 3 laps so we decided to change the robot for better performance.
+  - The robot was not realible in making 3 laps so we decided to change the robot for better performance.
 
 | Front | Rear |
 |---|---|
