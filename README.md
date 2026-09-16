@@ -189,6 +189,8 @@ sensors that helped us test the robot.
   
 ## 10. Components / Bill of Materials
 
+[View the Bill of Materials PDF](docs/bill-of-materials/bill-of-materials.pdf)
+
 ## 11. Build & Reproduction Guide
 ### 11.1 Parts
 ### 11.2 Assembly
