@@ -141,61 +141,61 @@ Our robot went through several major design changes during the development proce
 |---|---|
 | <img src="media/development/version_4/top.jpeg" width="200"> | <img src="media/development/version_4/bottom.jpeg" width="200"> |
 
- - 4.5 Current Robot
-  - 4.6 Crash / Failure Analysis and Redesign
+### 4.5 Current Robot
+### 4.6 Crash / Failure Analysis and Redesign
 
-- 5. Mobility & Mechanical Design
-  - 5.1 Chassis
-  - 5.2 Drive System
-  - 5.3 Steering System
-  - 5.4 Dimensions and Weight
-  - 5.5 Torque / Speed Reasoning
-  - 5.6 Mechanical Testing and Iterations
+## 5. Mobility & Mechanical Design
+  ### 5.1 Chassis
+  ### 5.2 Drive System
+  ### 5.3 Steering System
+  ### 5.4 Dimensions and Weight
+  ### 5.5 Torque / Speed Reasoning
+  ### 5.6 Mechanical Testing and Iterations
 
-- 6. Power & Sensor Architecture
-    - 6.1 Controller
-    - 6.2 Motors
-    - 6.3 Sensors
-    - 6.4 Sensor Placement
-    - 6.5 Wiring Diagram
-    - 6.6 Power Architecture
-    - 6.7 Sensor Calibration and Testing
+## 6. Power & Sensor Architecture
+    ### 6.1 Controller
+    ### 6.2 Motors
+    ### 6.3 Sensors
+    ### 6.4 Sensor Placement
+    ### 6.5 Wiring Diagram
+    ### 6.6 Power Architecture
+    ### 6.7 Sensor Calibration and Testing
 
-- 7. Software Architecture
-    - 7.1 Overview
-    - 7.2 Program Structure
-    - 7.3 State Machine / Flowchart
-    - 7.4 Open Challenge Strategy
-    - 7.5 Obstacle Challenge Strategy
-    - 7.6 Control Algorithms
-    - 7.7 Edge Cases and Failure Handling
+## 7. Software Architecture
+    ### 7.1 Overview
+    ### 7.2 Program Structure
+    ### 7.3 State Machine / Flowchart
+    ### 7.4 Open Challenge Strategy
+    ### 7.5 Obstacle Challenge Strategy
+    ### 7.6 Control Algorithms
+    ### 7.7 Edge Cases and Failure Handling
 
-- 8. Engineering Decisions
-    - 8.1 Constraints
-    - 8.2 Design Trade-offs
-    - 8.3 Major Problems and Solutions
-    - 8.4 Why We Chose X Instead of Y
+## 8. Engineering Decisions
+    ### 8.1 Constraints
+    ### 8.2 Design Trade-offs
+    ### 8.3 Major Problems and Solutions
+    ### 8.4 Why We Chose X Instead of Y
 
-- 9. Testing & Results
-    - 9.1 Mechanical Tests
-    - 9.2 Sensor Tests
-    - 9.3 Open Challenge Tests
-    - 9.4 Obstacle Challenge Tests
-    - 9.5 Reliability Results
+## 9. Testing & Results
+    ### 9.1 Mechanical Tests
+    ### 9.2 Sensor Tests
+    ### 9.3 Open Challenge Tests
+    ### 9.4 Obstacle Challenge Tests
+    ### 9.5 Reliability Results
   
-- 10. Components / Bill of Materials
+## 10. Components / Bill of Materials
 
-- 11. Build & Reproduction Guide
-   - 11.1 Parts
-   - 11.2 Assembly
-   - 11.3 Wiring
-   - 11.4 Software Installation
-   - 11.5 Uploading / Running the Code
+## 11. Build & Reproduction Guide
+   ### 11.1 Parts
+   ### 11.2 Assembly
+   ### 11.3 Wiring
+   ### 11.4 Software Installation
+   ### 11.5 Uploading / Running the Code
 
-- 12. Repository Structure
+## 12. Repository Structure
 
-- 13. Version History
+## 13. Version History
 
-- 14. Engineering Journal
+## 14. Engineering Journal
 
-- 15. Authors / Team
+## 15. Authors / Team
