@@ -17,8 +17,8 @@
   - [4.2 Version 2](#42-version-2)
   - [4.3 Version 3](#43-version-3)
   - [4.4 Version 4](#44-version-4)
-  - 4.5 Current Robot [4.5 Current Robot](#45-current-robot)
-  - 4.6 Crash / Failure Analysis and Redesign [4.6 Crash / Failure Analysis and Redesign](#46-crash--failure-analysis-and-redesign)
+  - [4.5 Current Robot](#45-current-robot)
+  - [4.6 Crash / Failure Analysis and Redesign](#46-crash--failure-analysis-and-redesign)
  
 - [5. Mobility & Mechanical Design](#5-mobility--mechanical-design)
   - [5.1 Chassis](#51-chassis)
