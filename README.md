@@ -11,7 +11,7 @@
 
 - 1. [Project Overview](#1-project-overview)
 - 2. [Team](#2-team)
-- 3. Vehicle Overview  [3. Vehicle Overview](#3-vehicle-overview)
+- [3. Vehicle Overview](#3-vehicle-overview)
 - 4. [Development History](#4-development-history)
   - [4.1 Version 1](#41-version-1)
   - [4.2 Version 2](#42-version-2)
@@ -20,8 +20,8 @@
   - 4.5 Current Robot [4.5 Current Robot](#45-current-robot)
   - 4.6 Crash / Failure Analysis and Redesign [4.6 Crash / Failure Analysis and Redesign](#46-crash--failure-analysis-and-redesign)
  
-- 5. Mobility & Mechanical Design [5. Mobility & Mechanical Design](#5-mobility--mechanical-design)
-  - 5.1 Chassis  [5.1 Chassis](#51-chassis)
+- [5. Mobility & Mechanical Design](#5-mobility--mechanical-design)
+  - [5.1 Chassis](#51-chassis)
    - [5.2 Drive System](#52-drive-system)
   - [5.3 Steering System](#53-steering-system)
   - [5.4 Dimensions and Weight](#54-dimensions-and-weight)
