@@ -79,8 +79,11 @@
 ## 4. Development history 
 Our robot went through several major design changes during the development process.
 ### 4.1. Version 1 
-- about the robot: we used 3D printed and built by hand robot, using several distance sensors
-- problem: the robot was not very realible in making 3 laps so we decided to change the robot for better performance
+**About the robot** 
+Our first robot was a custom-build vehicle made using 3D-prined and hand-build parts. It had several distance
+sensors that helped us test the robot.
+**Main problem** 
+The robot was not realible in making 3 laps so we decided to change the robot for better performance.
 
 | Front | Rear |
 |---|---|
