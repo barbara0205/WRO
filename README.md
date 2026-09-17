@@ -77,6 +77,20 @@
 ## 1. Project Overview
 ## 2.Team
 ## 3.Vehicle Overview
+| Specification | Value |
+|---|---|
+| Length | _ cm |
+| Width | _ cm |
+| Height | _ cm |
+| Weight | _ |
+| Drive type | Rear-wheel drive |
+| Steering type | Ackermann steering |
+| Main controller | ___ |
+| Programming language | C++ |
+| Main sensors | ___ |
+| Camera | ______ |
+| Power source | ______ |
+
 ## 4. Development history 
 Our robot went through several major design changes during the development process.
 ### 4.1. Version 1 
