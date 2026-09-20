@@ -85,7 +85,7 @@
 | Weight | _ |
 | Drive type | Rear-wheel drive |
 | Steering type | Ackermann steering |
-| Main controller | ___ |
+| Main controller | Rasberry Pi 5 Model (B Rev1.1) |
 | Programming language | C++ |
 | Main sensors | ___ |
 | Camera | ______ |
