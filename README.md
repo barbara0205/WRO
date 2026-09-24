@@ -172,6 +172,8 @@ Our current vehicle uses a four-wheel chassis designed for the WRO Future Engine
 #### Material and Construction
 
 #### Component Placement
+The electronic components are arranged on several levels above the main chassis plate. The battery is positioned low inside the chassis, while the processing and control electronics are mounted above it. The camera is mounted at the front of the robot on a dedicated 3D-printed support. The distance sensors are positioned near the front of the vehicle so that they can detect the surrounding walls during navigation.
+
 (gdje se nalaze no)
 - Main controller: 
 - Battery: 
@@ -190,6 +192,12 @@ This improved...
 #### Chassis Improvements
 
 During testing, the distance sensors were positioned on the upper part of the robot. In this position, the sensors were too high and could not reliably detect the wall directly in front of the vehicle. After identifying this issue, we redesigned the sensor position and moved the distance sensors lower on the chassis. This improved their field of view and allowed them to detect the wall more reliably. This change showed us how strongly sensor placement can affect the performance of the navigation system.
+
+| Original sensor position | Improved sensor position |
+|---|---|
+| <img src="docs/images/mechanical/lidar-before.jpeg" width="300"> | <img src="docs/images/mechanical/lidar-after.jpeg" width="300"> |
+
+**OVO NE GINE NAPRAVIT**
 
 before: wall missed in 4/10 runs
 after: wall detected in 10/10 runs
