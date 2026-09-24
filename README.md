@@ -165,6 +165,35 @@ sensors that helped us test the robot.
 
 ## 5. Mobility & Mechanical Design
 ### 5.1 Chassis
+
+#### Chassis Overview
+Our current vehicle uses a four-wheel chassis designed for the WRO Future Engineers challenge. The chassis provides the mechanical base for the drive system, steering mechanism, sensors and processing hardware. The design was developed with stability, compact dimensions and reliable steering in mind.
+
+#### Material and Construction
+
+#### Component Placement
+(gdje se nalaze no)
+- Main controller: 
+- Battery: 
+- Drive motor: 
+- Steering servo: 
+- Sensors: 
+
+#### Design Reasoning
+
+The battery was positioned low in the chassis to keep the center of gravity as low as possible.
+We placed X here because...
+We chose X instead of Y because...
+This reduced...
+This improved...
+
+#### Chassis Improvements
+
+During testing, the distance sensors were positioned on the upper part of the robot. In this position, the sensors were too high and could not reliably detect the wall directly in front of the vehicle. After identifying this issue, we redesigned the sensor position and moved the distance sensors lower on the chassis. This improved their field of view and allowed them to detect the wall more reliably. This change showed us how strongly sensor placement can affect the performance of the navigation system.
+
+before: wall missed in 4/10 runs
+after: wall detected in 10/10 runs
+
 ### 5.2 Drive System
 ### 5.3 Steering System
 ### 5.4 Dimensions and Weight
