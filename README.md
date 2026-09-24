@@ -192,6 +192,8 @@ This improved...
 #### Chassis Improvements
 
 During testing, the distance sensors were positioned on the upper part of the robot. In this position, the sensors were too high and could not reliably detect the wall directly in front of the vehicle. After identifying this issue, we redesigned the sensor position and moved the distance sensors lower on the chassis. This improved their field of view and allowed them to detect the wall more reliably. This change showed us how strongly sensor placement can affect the performance of the navigation system.
+<img src="media/development/version_2/build/build-03.jpeg" width="300">
+<img src="media/development/version_2/build/build-04.jpeg" width="300">
 
 | Original sensor position | Improved sensor position |
 |---|---|
@@ -217,6 +219,18 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 </p>
 
 ### 5.4 Dimensions and Weight
+
+| Measurement | Value |
+|---|---|
+| Length | TODO mm |
+| Width | TODO mm |
+| Height | TODO mm |
+| Weight | TODO g |
+| Wheelbase | TODO mm |
+| Front track width | TODO mm |
+| Rear track width | TODO mm |
+| Front wheel diameter | TODO mm |
+| Rear wheel diameter | TODO mm |
 
 ### 5.5 Torque / Speed Reasoning
 
