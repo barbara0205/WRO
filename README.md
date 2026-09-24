@@ -209,7 +209,7 @@ after: wall detected in 10/10 runs
 The vehicle uses a servo-controlled front steering mechanism. A steering servo mounted at the front of the chassis moves a mechanical linkage that connects the two front wheels. Instead of controlling the left and right wheels with separate motors, both front wheels are mechanically linked and change direction together. This provides car-like steering while the rear axle provides propulsion. The steering components are mounted directly to the 3D-printed chassis, which allowed us to adjust the geometry and mounting positions during development.
 
 <p align="center">
-  <img src="media/development/version_2/bottom.jpeg" width="500">
+  <img src="media/development/version_2/final/bottom.jpeg" width="500">
 </p>
 
 <p align="center">
