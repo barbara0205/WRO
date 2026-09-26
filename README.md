@@ -301,4 +301,4 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 
 ## 14. Engineering Journal
 
-## 15. Authors / Team
+
