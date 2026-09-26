@@ -78,6 +78,8 @@
 Our project is an autonomous vehicle that can navigate the competition field, detect and avoid obstacles, follow the track and make real time decisions without human intervention.
 
 ## 2. Team
+We are Croatia robotics team **MechaMinds** and our names are **Barbara Lukić**, **Ivano Koren** and **Nadia Kravčuk**. We come from high school Tin Ujević in Kutina. Our mentors name is Damir Petravić. Together we worked on design of the robot, programming and testing our robot.
+
 ## 3. Vehicle Overview
 | Specification | Value |
 |---|---|
@@ -89,9 +91,9 @@ Our project is an autonomous vehicle that can navigate the competition field, de
 | Steering type | Ackermann steering |
 | Main controller | Rasberry Pi 5 Model (B Rev1.1) |
 | Programming language | C++ |
-| Main sensors | ___ |
-| Camera | ______ |
-| Power source | ______ |
+| Main sensors | MRMS LIDAR 2 m (VL53L0CX), CAN Bus |
+| Camera | Raspberry Pi Camera Module 3 |
+| Power source | 11.1 V, 5000 mAh (55.5 Wh) battery |
 
 ## 4. Development history 
 Our robot went through several major design changes during the development process.
@@ -174,6 +176,11 @@ sensors that helped us test the robot.
 ### 4.5 Current Robot
 ### 4.6 Crash / Failure Analysis and Redesign
 
+- During development, we experienced repeated problems with the Wi-Fi connection between the robot and the development computer. The connection was unstable and we could not work with the robot properly. To improve reliability, we tested a wired Ethernet connection using an RJ45 network cable. During our tests, this connection proved to be significantly more stable and reliable than Wi-Fi, so we decided to use the wired connection during development.
+
+<img src="media/development/version_4/top.jpeg" width="200">
+
+
 ## 5. Mobility & Mechanical Design
 ### 5.1 Chassis
 
@@ -207,13 +214,7 @@ During testing, the distance sensors were positioned on the upper part of the ro
 
 <img src="media/development/version_2/build/build-03.jpeg" width="250">  <img src="media/development/version_2/build/build-04.jpeg" width="250">
 
-
-| Original sensor position | Improved sensor position |
-|---|---|
-| <img src="docs/images/mechanical/lidar-before.jpeg" width="300"> | <img src="docs/images/mechanical/lidar-after.jpeg" width="300"> |
-
-**OVO NE GINE NAPRAVIT**
-
+**OVO UREDIT NES NASRAT FAZON**
 before: wall missed in 4/10 runs
 after: wall detected in 10/10 runs
 
