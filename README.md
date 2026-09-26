@@ -69,9 +69,8 @@
   - [11.5 Uploading / Running the Code](#115-uploading--running-the-code)
 
 - [12. Repository Structure](#12-repository-structure)
-- [13. Version History](#13-version-history)
-- [14. Engineering Journal](#14-engineering-journal)
-- [15. Authors / Team](#15-authors--team)
+- [13. Engineering Journal](#14-engineering-journal)
+
 
 ## 1. Project Overview
 Our project is an autonomous vehicle that can navigate the competition field, detect and avoid obstacles, follow the track and make real time decisions without human intervention.
@@ -302,8 +301,6 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 
 ## 12. Repository Structure
 
-## 13. Version History
-
-## 14. Engineering Journal
+## 13. Engineering Journal
 
 
