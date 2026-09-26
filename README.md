@@ -75,6 +75,8 @@
 - [15. Authors / Team](#15-authors--team)
 
 ## 1. Project Overview
+Our project is an autonomous vehicle that can navigate the competition field, detect and avoid obstacles, follow the track and make real time decisions without human intervention.
+
 ## 2. Team
 ## 3. Vehicle Overview
 | Specification | Value |
@@ -114,8 +116,11 @@ sensors that helped us test the robot.
 | <img src="media/development/version_1/top.jpeg" width="200"> | <img src="media/development/version_1/bottom.jpeg" width="200"> |
 
 ### 4.2. Version 2
-- about the robot: this robot was an upgraded version on the first one, it had a camera and several distance sensors 
-- problem: all year we have been working on this robot, about two months before the competition we started having problems connecting the robot to Wi-Fi, it started crashing and we tried to find a solution before the competition but we did not succeed
+**About the robot**
+- This robot was an upgraded version on the first one, it had a camera and several distance sensors.
+  
+**Main problem**
+- All year we have been working on this robot, about two months before the competition we started having problems connecting the robot to Wi-Fi, it started crashing and we tried to find a solution before the competition but we did not succeed.
 
 | Front | Rear |
 |---|---|
@@ -129,8 +134,11 @@ sensors that helped us test the robot.
 |---|---|
 | <img src="media/development/version_2/final/top.jpeg" width="200"> | <img src="media/development/version_2/final/bottom.jpeg" width="200"> |
 ### 4.3. Version 3
-- about the robot: this robot that we had build out of LEGO, it represents a model of a ford car 
-- problem: robot had a problem turning its wheels beacuse of the design, so it could not compleate even one lap, beacuse of this, we had to completaly redesing it
+**About the robot**
+- This robot that we had build out of LEGO, it represents a model of a Ford car.
+
+**Main problem**
+- Robot had a problem turning its wheels because of the design, so it could not compleate even one lap, beacuse of this we had to completaly redesign it.
 
 | Front | Rear |
 |---|---|
@@ -145,8 +153,11 @@ sensors that helped us test the robot.
 | <img src="media/development/version_3/ford1.jpeg" width="200"> | <img src="media/development/version_3/bottom.jpeg" width="200"> |
 
 ### 4.4. Version 4
-- about the robot: this was our final robot that we went to the competition with, it was also build out of lego bricks, it worked with help of distance sensors 
-- problem: ????
+**About the robot**
+- This was our final robot that we went to the competition with, it was also build out of lego bricks, it worked with help of distance sensors.
+  
+**Main problem**
+- Although we went to the competition with this robot it still had a few flaws.
 
 | Front | Rear |
 |---|---|
