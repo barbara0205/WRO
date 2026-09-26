@@ -175,7 +175,7 @@ sensors that helped us test the robot.
 
 ### 4.5 Current Robot
 ### 4.6 Crash / Failure Analysis and Redesign
-
+- We have had a lot of problems with connecting robot to WI-FI, so we decided that we are going to try to connecting 
 ## 5. Mobility & Mechanical Design
 ### 5.1 Chassis
 
