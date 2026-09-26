@@ -5,7 +5,7 @@
 - **Nadia Kravčuk**
 - **Ivano Koren**
 
-<img src="media/team/team.jpeg" width="500" height="500">
+<img src="media/team/team.jpeg" width="500" >
 
 ## Table of Contents
 
