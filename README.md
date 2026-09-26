@@ -273,7 +273,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 ### 8.1 Constraints
 ### 8.2 Design Trade-offs
 ### 8.3 Major Problems and Solutions
-## Connection Failure 
+#### Connection Failure 
 
 - During development, we experienced repeated problems with the Wi-Fi connection between the robot and the development computer. The connection was unstable and we could not work with the robot properly. To improve reliability, we tested a wired Ethernet connection using an RJ45 network cable. During our tests, this connection proved to be significantly more stable and reliable than Wi-Fi, so we decided to use the wired connection during development.
 
