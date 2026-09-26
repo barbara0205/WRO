@@ -249,7 +249,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 ### 5.5 Torque / Speed Reasoning
 
 ### 5.6 Mechanical Design Iterations
-**fazon ovdje fusion i gradnju robota**
+**ovo mozd obrisat**
 
 ## 6. Power & Sensor Architecture
 ### 6.1 Controller
