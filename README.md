@@ -1,6 +1,6 @@
 # MechaMinds-WRO 2026 Future Engineers
 # WRO Future Engineers - Engineering Documentation
-# Team Members
+## Team Members
 - **Barbara Lukić**
 - **Nadia Kravčuk**
 - **Ivano Koren**
@@ -26,8 +26,7 @@
   - [5.3 Steering System](#53-steering-system)
   - [5.4 Dimensions and Weight](#54-dimensions-and-weight)
   - [5.5 Torque / Speed Reasoning](#55-torque--speed-reasoning)
-  - [5.6 Mechanical Design Iterations](#56-mechanical-design-iterations)
-
+  
 - [6. Power & Sensor Architecture](#6-power--sensor-architecture)
   - [6.1 Controller](#61-controller)
   - [6.2 Motors](#62-motors)
@@ -69,7 +68,7 @@
   - [11.5 Uploading / Running the Code](#115-uploading--running-the-code)
 
 - [12. Repository Structure](#12-repository-structure)
-- [13. Engineering Journal](#14-engineering-journal)
+- [13. Engineering Journal](#13-engineering-journal)
 
 
 ## 1. Project Overview
@@ -82,8 +81,8 @@ We are Croatia robotics team **MechaMinds** and our names are **Barbara Lukić**
 | Specification | Value |
 |---|---|
 | Length | 18 cm |
-| Width | 17,5 cm |
-| Height | 15,5 cm |
+| Width | 17.5 cm |
+| Height | 15.5 cm |
 | Weight | _ |
 | Drive type | Rear-wheel drive |
 | Steering type | Ackermann steering |     ---Servo-controlled front steering???
@@ -182,6 +181,7 @@ The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-ver
 Our current vehicle uses a four-wheel chassis designed for the WRO Future Engineers challenge. The chassis provides the mechanical base for the drive system, steering mechanism, sensors and processing hardware. The design was developed with stability, compact dimensions and reliable steering in mind.
 
 #### Material and Construction
+Our robot is completly made out of 3D-printed parts. The parts are explained in section 11.
 
 #### Component Placement
 The electronic components are arranged on several levels above the main chassis plate. The battery is positioned low inside the chassis, while the processing and control electronics are mounted above it. The camera is mounted at the front of the robot on a dedicated 3D-printed support. The distance sensors are positioned near the front of the vehicle so that they can detect the surrounding walls during navigation.
@@ -246,9 +246,6 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 | Rear wheel diameter | 65 mm |
 
 ### 5.5 Torque / Speed Reasoning
-
-### 5.6 Mechanical Design Iterations
-**ovo mozd obrisat**
 
 ## 6. Power & Sensor Architecture
 ### 6.1 Controller
