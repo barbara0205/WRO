@@ -237,15 +237,15 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 
 | Measurement | Value |
 |---|---|
-| Length | TODO mm |
-| Width | TODO mm |
-| Height | TODO mm |
+| Length | 180 mm |
+| Width | 175 mm |
+| Height | 155 mm |
 | Weight | TODO g |
-| Wheelbase | TODO mm |
-| Front track width | TODO mm |
-| Rear track width | TODO mm |
-| Front wheel diameter | TODO mm |
-| Rear wheel diameter | TODO mm |
+| Wheelbase | 100 mm |
+| Front track width | 175 mm |
+| Rear track width | 170 mm |
+| Front wheel diameter | 60 mm |
+| Rear wheel diameter | 65 mm |
 
 ### 5.5 Torque / Speed Reasoning
 
