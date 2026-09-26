@@ -157,7 +157,7 @@ sensors that helped us test the robot.
 - This was our final robot that we went to the competition with, it was also build out of lego bricks, it worked with help of distance sensors.
   
 **Main problem**
-- Although we went to the competition with this robot it still had a few flaws.
+- Although we went to the competition with this robot it still had a few flaws. The LEGO sensors that we used to measure distance were not able to detect walls from sufficient distance so the robot couldn't compleate even one lap.
 
 | Front | Rear |
 |---|---|
