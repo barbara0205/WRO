@@ -19,7 +19,7 @@
   - [4.3 Version 3](#43-version-3)
   - [4.4 Version 4](#44-version-4)
   - [4.5 Current Robot](#45-current-robot)
-  - [4.6 Crash / Failure Analysis and Redesign](#46-crash--failure-analysis-and-redesign)
+  - [4.6 Connection Failure ](#46-connection--failure)
  
 - [5. Mobility & Mechanical Design](#5-mobility--mechanical-design)
   - [5.1 Chassis](#51-chassis)
@@ -88,8 +88,8 @@ We are Croatia robotics team **MechaMinds** and our names are **Barbara Lukić**
 | Height | 15,5 cm |
 | Weight | _ |
 | Drive type | Rear-wheel drive |
-| Steering type | Ackermann steering |
-| Main controller | Rasberry Pi 5 Model (B Rev1.1) |
+| Steering type | Ackermann steering |     ---Servo-controlled front steering???
+| Main controller | Raspberry Pi 5 Model (B Rev1.1) |
 | Programming language | C++ |
 | Main sensors | MRMS LIDAR 2 m (VL53L0CX), CAN Bus |
 | Camera | Raspberry Pi Camera Module 3 |
@@ -175,7 +175,7 @@ sensors that helped us test the robot.
 
 ### 4.5 Current Robot
 The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-version-2) 
-### 4.6 Crash / Failure Analysis and Redesign
+### 4.6 Connection Failure 
 
 - During development, we experienced repeated problems with the Wi-Fi connection between the robot and the development computer. The connection was unstable and we could not work with the robot properly. To improve reliability, we tested a wired Ethernet connection using an RJ45 network cable. During our tests, this connection proved to be significantly more stable and reliable than Wi-Fi, so we decided to use the wired connection during development.
 
@@ -215,8 +215,12 @@ During testing, the distance sensors were positioned on the upper part of the ro
 
 <img src="media/development/version_2/build/build-03.jpeg" width="250">  <img src="media/development/version_2/build/build-04.jpeg" width="250">
 
-before: wall missed in 4/10 runs <br>
-after: wall detected in 8/10 runs
+**Test result:**
+| Sensor position | Successful wall detections |
+|---|---:|
+| Original higher position | 4/10 |
+| Lowered position | 8/10 |
+????????????
 
 ### 5.2 Drive System
 
