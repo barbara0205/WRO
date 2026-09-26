@@ -77,6 +77,20 @@
 ## 1. Project Overview
 ## 2.Team
 ## 3.Vehicle Overview
+| Specification | Value |
+|---|---|
+| Length | _ cm |
+| Width | _ cm |
+| Height | _ cm |
+| Weight | _ |
+| Drive type | Rear-wheel drive |
+| Steering type | Ackermann steering |
+| Main controller | Rasberry Pi 5 Model (B Rev1.1) |
+| Programming language | C++ |
+| Main sensors | ___ |
+| Camera | ______ |
+| Power source | ______ |
+
 ## 4. Development history 
 Our robot went through several major design changes during the development process.
 ### 4.1. Version 1 
@@ -151,11 +165,79 @@ sensors that helped us test the robot.
 
 ## 5. Mobility & Mechanical Design
 ### 5.1 Chassis
+
+#### Chassis Overview
+Our current vehicle uses a four-wheel chassis designed for the WRO Future Engineers challenge. The chassis provides the mechanical base for the drive system, steering mechanism, sensors and processing hardware. The design was developed with stability, compact dimensions and reliable steering in mind.
+
+#### Material and Construction
+
+#### Component Placement
+The electronic components are arranged on several levels above the main chassis plate. The battery is positioned low inside the chassis, while the processing and control electronics are mounted above it. The camera is mounted at the front of the robot on a dedicated 3D-printed support. The distance sensors are positioned near the front of the vehicle so that they can detect the surrounding walls during navigation.
+
+(gdje se nalaze no)
+- Main controller: 
+- Battery: 
+- Drive motor: 
+- Steering servo: 
+- Sensors: 
+
+#### Design Reasoning
+
+The battery was positioned low in the chassis to keep the center of gravity as low as possible.
+We placed X here because...
+We chose X instead of Y because...
+This reduced...
+This improved...
+
+#### Chassis Improvements
+
+During testing, the distance sensors were positioned on the upper part of the robot. In this position, the sensors were too high and could not reliably detect the wall directly in front of the vehicle. After identifying this issue, we redesigned the sensor position and moved the distance sensors lower on the chassis. This improved their field of view and allowed them to detect the wall more reliably. This change showed us how strongly sensor placement can affect the performance of the navigation system.
+
+
+<img src="media/development/version_2/build/build-03.jpeg" width="250">  <img src="media/development/version_2/build/build-04.jpeg" width="250">
+
+
+| Original sensor position | Improved sensor position |
+|---|---|
+| <img src="docs/images/mechanical/lidar-before.jpeg" width="300"> | <img src="docs/images/mechanical/lidar-after.jpeg" width="300"> |
+
+**OVO NE GINE NAPRAVIT**
+
+before: wall missed in 4/10 runs
+after: wall detected in 10/10 runs
+
 ### 5.2 Drive System
+
 ### 5.3 Steering System
+
+The vehicle uses a servo-controlled front steering mechanism. A steering servo mounted at the front of the chassis moves a mechanical linkage that connects the two front wheels. Instead of controlling the left and right wheels with separate motors, both front wheels are mechanically linked and change direction together. This provides car-like steering while the rear axle provides propulsion. The steering components are mounted directly to the 3D-printed chassis, which allowed us to adjust the geometry and mounting positions during development.
+
+<p align="center">
+  <img src="media/development/version_2/final/bottom.jpeg" width="500">
+</p>
+
+<p align="center">
+  <em>Front steering mechanism and mechanical linkage.</em>
+</p>
+
 ### 5.4 Dimensions and Weight
+
+| Measurement | Value |
+|---|---|
+| Length | TODO mm |
+| Width | TODO mm |
+| Height | TODO mm |
+| Weight | TODO g |
+| Wheelbase | TODO mm |
+| Front track width | TODO mm |
+| Rear track width | TODO mm |
+| Front wheel diameter | TODO mm |
+| Rear wheel diameter | TODO mm |
+
 ### 5.5 Torque / Speed Reasoning
+
 ### 5.6 Mechanical Testing and Iterations
+
 
 ## 6. Power & Sensor Architecture
 ### 6.1 Controller
