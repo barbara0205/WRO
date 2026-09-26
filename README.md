@@ -3,7 +3,7 @@
 # Team Members
 - **Nadia Kravčuk**-
 - **Ivano Koren**-Ivano spearheaded the physical construction of the vehicle, optimizing the chassis layout, steering geometry, and weight distribution, while the team assisted in testing mechanical durability.
-- **Barbara Lukić**
+- **Barbara Lukić**-
 
 <img src="media/team/team.jpeg" width="500" height="500">
 
