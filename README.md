@@ -26,7 +26,7 @@
   - [5.3 Steering System](#53-steering-system)
   - [5.4 Dimensions and Weight](#54-dimensions-and-weight)
   - [5.5 Torque / Speed Reasoning](#55-torque--speed-reasoning)
-  - [5.6 Mechanical Testing and Iterations](#56-mechanical-testing-and-iterations)
+  - [5.6 Mechanical Design Iterations](#56-mechanical-design-iterations)
 
 - [6. Power & Sensor Architecture](#6-power--sensor-architecture)
   - [6.1 Controller](#61-controller)
@@ -248,7 +248,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 
 ### 5.5 Torque / Speed Reasoning
 
-### 5.6 Mechanical Testing and Iterations
+### 5.6 Mechanical Design Iterations
 
 
 ## 6. Power & Sensor Architecture
