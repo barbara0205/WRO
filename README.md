@@ -91,9 +91,9 @@ We are Croatia robotics team **MechaMinds** and our names are **Barbara Lukić**
 | Steering type | Ackermann steering |
 | Main controller | Rasberry Pi 5 Model (B Rev1.1) |
 | Programming language | C++ |
-| Main sensors | ___ |
-| Camera | ______ |
-| Power source | ______ |
+| Main sensors | MRMS LIDAR 2 m (VL53L0CX), CAN Bus |
+| Camera | Raspberry Pi Camera Module 3 |
+| Power source | 11.1 V, 5000 mAh (55.5 Wh) battery |
 
 ## 4. Development history 
 Our robot went through several major design changes during the development process.
