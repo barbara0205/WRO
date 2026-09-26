@@ -75,8 +75,8 @@
 - [15. Authors / Team](#15-authors--team)
 
 ## 1. Project Overview
-## 2.Team
-## 3.Vehicle Overview
+## 2. Team
+## 3. Vehicle Overview
 | Specification | Value |
 |---|---|
 | Length | 18 cm |
