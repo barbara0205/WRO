@@ -174,6 +174,7 @@ sensors that helped us test the robot.
 | <img src="media/development/version_4/top.jpeg" width="200"> | <img src="media/development/version_4/bottom.jpeg" width="200"> |
 
 ### 4.5 Current Robot
+The robot we are using for competition in Zagreb will be Version 2. (#42-version-2) 
 ### 4.6 Crash / Failure Analysis and Redesign
 
 - During development, we experienced repeated problems with the Wi-Fi connection between the robot and the development computer. The connection was unstable and we could not work with the robot properly. To improve reliability, we tested a wired Ethernet connection using an RJ45 network cable. During our tests, this connection proved to be significantly more stable and reliable than Wi-Fi, so we decided to use the wired connection during development.
