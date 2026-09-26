@@ -207,13 +207,7 @@ During testing, the distance sensors were positioned on the upper part of the ro
 
 <img src="media/development/version_2/build/build-03.jpeg" width="250">  <img src="media/development/version_2/build/build-04.jpeg" width="250">
 
-
-| Original sensor position | Improved sensor position |
-|---|---|
-| <img src="docs/images/mechanical/lidar-before.jpeg" width="300"> | <img src="docs/images/mechanical/lidar-after.jpeg" width="300"> |
-
-**OVO NE GINE NAPRAVIT**
-
+**OVO UREDIT NES NASRAT FAZON**
 before: wall missed in 4/10 runs
 after: wall detected in 10/10 runs
 
