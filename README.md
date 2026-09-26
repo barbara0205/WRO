@@ -477,6 +477,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 ## 12. Repository Structure
 This repository is organized into separate folders for documentation, hardware, software, media and testing. It makes it easier to locate files needed to understand and reproduce the robot.
 
+```text
 WRO/
 ├── README.md
 │
@@ -522,6 +523,7 @@ WRO/
 ├── Other/
 ├── software/
 └── tests/
+```
 
 **OVO JE PODLOZNO MJENJANU NECE OVAK NIS BIT SAM DA VIDIMO KAK TREBA IZGLEDAT**
 
