@@ -214,8 +214,8 @@ During testing, the distance sensors were positioned on the upper part of the ro
 
 <img src="media/development/version_2/build/build-03.jpeg" width="250">  <img src="media/development/version_2/build/build-04.jpeg" width="250">
 
-**OVO UREDIT NES NASRAT FAZON**
-before: wall missed in 4/10 runs
+**OVO UREDIT NES  FAZON**
+before: wall missed in 4/10 runs <br>
 after: wall detected in 10/10 runs
 
 ### 5.2 Drive System
