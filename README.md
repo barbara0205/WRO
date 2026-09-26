@@ -79,9 +79,9 @@
 ## 3.Vehicle Overview
 | Specification | Value |
 |---|---|
-| Length | _ cm |
-| Width | _ cm |
-| Height | _ cm |
+| Length | 18 cm |
+| Width | 17,5 cm |
+| Height | 15,5 cm |
 | Weight | _ |
 | Drive type | Rear-wheel drive |
 | Steering type | Ackermann steering |
