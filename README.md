@@ -187,20 +187,20 @@ Our current vehicle uses a four-wheel chassis designed for the WRO Future Engine
 #### Component Placement
 The electronic components are arranged on several levels above the main chassis plate. The battery is positioned low inside the chassis, while the processing and control electronics are mounted above it. The camera is mounted at the front of the robot on a dedicated 3D-printed support. The distance sensors are positioned near the front of the vehicle so that they can detect the surrounding walls during navigation.
 
-(gdje se nalaze no)
-- Main controller: 
-- Battery: 
-- Drive motor: 
-- Steering servo: 
-- Sensors: 
+(gdje se nalaze no) **TU CE ICI SLIKA SVEGA**
+- Main controller: on top of the robot
+- Battery: inside the chassis
+- Drive motor: in the back, underneath the chassis
+- Steering servo: in the front, underneath the chasis
+- Sensors: in the front, inside the chassis
+- Camera: the front of the robot
 
 #### Design Reasoning
 
 The battery was positioned low in the chassis to keep the center of gravity as low as possible.
-We placed X here because...
-We chose X instead of Y because...
-This reduced...
-This improved...
+We placed sensors at the front and inside the chasis because we found that in these positions the results were much better.
+The button used to turn the robot on, start it, and stop it was placed on top to make it easily accessible.
+Camera was placed in the front of the robot so it could have good visibility of the field.
 
 #### Chassis Improvements
 
