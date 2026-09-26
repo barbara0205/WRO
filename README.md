@@ -19,7 +19,6 @@
   - [4.3 Version 3](#43-version-3)
   - [4.4 Version 4](#44-version-4)
   - [4.5 Current Robot](#45-current-robot)
-  - [4.6 Connection Failure ](#46-connection--failure)
  
 - [5. Mobility & Mechanical Design](#5-mobility--mechanical-design)
   - [5.1 Chassis](#51-chassis)
@@ -175,12 +174,7 @@ sensors that helped us test the robot.
 
 ### 4.5 Current Robot
 The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-version-2) 
-### 4.6 Connection Failure 
 
-- During development, we experienced repeated problems with the Wi-Fi connection between the robot and the development computer. The connection was unstable and we could not work with the robot properly. To improve reliability, we tested a wired Ethernet connection using an RJ45 network cable. During our tests, this connection proved to be significantly more stable and reliable than Wi-Fi, so we decided to use the wired connection during development.
-
-<img src="media/connection-solution/connection1.jpeg" width="200"> <img src="media/connection-solution/connection2.jpeg" width="200">
-<img src="media/connection-solution/connection3.jpeg" width="200"> <img src="media/connection-solution/connection4.jpeg" width="200">
 
 ## 5. Mobility & Mechanical Design
 ### 5.1 Chassis
@@ -279,6 +273,13 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 ### 8.1 Constraints
 ### 8.2 Design Trade-offs
 ### 8.3 Major Problems and Solutions
+## Connection Failure 
+
+- During development, we experienced repeated problems with the Wi-Fi connection between the robot and the development computer. The connection was unstable and we could not work with the robot properly. To improve reliability, we tested a wired Ethernet connection using an RJ45 network cable. During our tests, this connection proved to be significantly more stable and reliable than Wi-Fi, so we decided to use the wired connection during development.
+
+<img src="media/connection-solution/connection1.jpeg" width="200"> <img src="media/connection-solution/connection2.jpeg" width="200">
+<img src="media/connection-solution/connection3.jpeg" width="200"> <img src="media/connection-solution/connection4.jpeg" width="200">
+
 ### 8.4 Why We Chose X Instead of Y
 
 ## 9. Testing & Results
