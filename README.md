@@ -477,6 +477,55 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 ## 12. Repository Structure
 This repository is organized into separate folders for documentation, hardware, software, media and testing. It makes it easier to locate files needed to understand and reproduce the robot.
 
+```text
+WRO/
+├── README.md
+│
+├── backup photos/
+│   └── lego - mechaminds
+│
+├── docs/
+│   ├── archive/
+│   ├── bill-of-materials/
+│   ├── images/
+│   ├── build-guide.md
+│   ├── engineering-decisions.md
+│   ├── mechanical-design.md
+│   ├── power-and-sensor.md
+│   ├── software-arhitecture.md
+│   └── testing.md
+│
+├── hardware/
+│
+├── media/
+│   ├── connection-solution/
+│   ├── development/
+│   │   ├── version_1/
+│   │   ├── version_2/
+│   │   │   ├── build/
+│   │   │   └── final/
+│   │   ├── version_3/
+│   │   ├── version_4/
+│   │   └── version_4.1/
+│   │       ├── before-repair/
+│   │       ├── final/
+│   │       ├── repair-process/
+│   │       └── testing/
+│   │
+│   ├── final-robot/
+│   ├── team/
+│   ├── team2
+│   ├── team3
+│   └── team4
+│
+├── obstacle challenge/
+├── open challenge/
+├── Other/
+├── software/
+└── tests/
+
+**OVO JE PODLOZNO MJENJANU NECE OVAK NIS BIT SAM DA VIDIMO KAK TREBA IZGLEDAT**
+
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
