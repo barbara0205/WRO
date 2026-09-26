@@ -81,6 +81,10 @@ Our project is an autonomous vehicle that can navigate the competition field, de
 ## 2. Team
 We are Croatia robotics team **MechaMinds** and our names are **Barbara Lukić**, **Ivano Koren** and **Nadia Kravčuk**. We come from high school Tin Ujević in Kutina. Our mentors name is Damir Petravić. Together we worked on design of the robot, programming and testing our robot.
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ## 3. Vehicle Overview
 | Specification | Value |
 |---|---|
@@ -95,6 +99,10 @@ We are Croatia robotics team **MechaMinds** and our names are **Barbara Lukić**
 | Main sensors | MRMS LIDAR 2 m (VL53L0CX), CAN Bus |
 | Camera | Raspberry Pi Camera Module 3 |
 | Power source | 11.1 V, 5000 mAh (55.5 Wh) battery |
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 ## 4. Development history 
 Our robot went through several major design changes during the development process.
@@ -118,6 +126,10 @@ sensors that helped us test the robot.
 |---|---|
 | <img src="media/development/version_1/top.jpeg" width="200"> | <img src="media/development/version_1/bottom.jpeg" width="200"> |
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 4.2. Version 2
 **About the robot**
 - This robot was an upgraded version on the first one, it had a camera and several distance sensors.
@@ -136,6 +148,11 @@ sensors that helped us test the robot.
 | Top | Bottom |
 |---|---|
 | <img src="media/development/version_2/final/top.jpeg" width="200"> | <img src="media/development/version_2/final/bottom.jpeg" width="200"> |
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 4.3. Version 3
 **About the robot**
 - This robot that we had build out of LEGO, it represents a model of a Ford car.
@@ -154,6 +171,10 @@ sensors that helped us test the robot.
 | Top | Bottom |
 |---|---|
 | <img src="media/development/version_3/ford1.jpeg" width="200"> | <img src="media/development/version_3/bottom.jpeg" width="200"> |
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 ### 4.4. Version 4
 **About the robot**
@@ -174,9 +195,16 @@ sensors that helped us test the robot.
 |---|---|
 | <img src="media/development/version_4/top.jpeg" width="200"> | <img src="media/development/version_4/bottom.jpeg" width="200"> |
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 4.5 Current Robot
 The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-version-2) 
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 ## 5. Mobility & Mechanical Design
 ### 5.1 Chassis
@@ -219,9 +247,17 @@ During testing, the distance sensors were positioned on the upper part of the ro
 | Lowered position | 8/10 |
 ????????????
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 5.2 Drive System
 
 **TU TREBA SLIKA OD DOLJE I ZADNJI KOTACI (POGON)**
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 ### 5.3 Steering System
 
@@ -233,6 +269,10 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 
 <p align="center">
   <em>Front steering mechanism and mechanical linkage.</em>
+</p>
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
 ### 5.4 Dimensions and Weight
@@ -249,29 +289,111 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 | Front wheel diameter | 60 mm |
 | Rear wheel diameter | 65 mm |
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 5.5 Torque / Speed Reasoning
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 ## 6. Power & Sensor Architecture
 ### 6.1 Controller
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 6.2 Motors
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 6.3 Sensors
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 6.4 Sensor Placement
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 6.5 Wiring Diagram
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 6.6 Power Architecture
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 6.7 Sensor Calibration and Testing
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 
 ## 7. Software Architecture
 ### 7.1 Overview
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 7.2 Program Structure
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 7.3 State Machine / Flowchart
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 7.4 Open Challenge Strategy
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 7.5 Obstacle Challenge Strategy
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 7.6 Control Algorithms
-### 7.7 Edge Cases and Failure Handling
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 
 ## 8. Engineering Decisions
 ### 8.1 Constraints
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 8.2 Design Trade-offs
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 8.3 Major Problems and Solutions
 #### Connection Failure 
 
@@ -280,28 +402,86 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 <img src="media/connection-solution/connection1.jpeg" width="200"> <img src="media/connection-solution/connection2.jpeg" width="200">
 <img src="media/connection-solution/connection3.jpeg" width="200"> <img src="media/connection-solution/connection4.jpeg" width="200">
 
-### 8.4 Why We Chose X Instead of Y
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+### 8.4 Why We Chose X Instead of Y- treba li ovo?
 
 ## 9. Testing & Results
 ### 9.1 Mechanical Tests
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 9.2 Sensor Tests
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 9.3 Open Challenge Tests
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 9.4 Obstacle Challenge Tests
-### 9.5 Reliability Results
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+### 9.5 Reliability Results-treba li ovo?
   
 ## 10. Components / Bill of Materials
 
 [View the Bill of Materials PDF](docs/bill-of-materials/bill-of-materials.pdf)
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ## 11. Build & Reproduction Guide
 ### 11.1 Parts
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 11.2 Assembly
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 11.3 Wiring
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 11.4 Software Installation
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ### 11.5 Uploading / Running the Code
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 ## 12. Repository Structure
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ## 13. Engineering Journal
 
-
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
