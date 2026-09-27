@@ -445,7 +445,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 
 ## 11. Build & Reproduction Guide
 ### 11.1 Parts
-.**wheels**:
+-**wheels**:
 
  <img src="media/wheels-making/wheels1.jpeg" width="200">  <img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200">
 
