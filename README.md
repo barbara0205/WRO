@@ -450,6 +450,11 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
  <img src="media/wheels-making/wheels1.jpeg" width="200">  <img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200">
 
 
+-**wheels**
+
+<img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200">
+
+
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
