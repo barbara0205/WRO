@@ -25,7 +25,6 @@
    - [5.2 Drive System](#52-drive-system)
   - [5.3 Steering System](#53-steering-system)
   - [5.4 Dimensions and Weight](#54-dimensions-and-weight)
-  - [5.5 Torque / Speed Reasoning](#55-torque--speed-reasoning)
   
 - [6. Power & Sensor Architecture](#6-power--sensor-architecture)
   - [6.1 Controller](#61-controller)
@@ -293,11 +292,6 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 5.5 Torque / Speed Reasoning
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
 
 ## 6. Power & Sensor Architecture
 ### 6.1 Controller
