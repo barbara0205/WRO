@@ -32,7 +32,7 @@
   - [6.3 Sensor Placement](#63-sensor-placement)
   - [6.4 Wiring Diagram](#64-wiring-diagram)
   - [6.5 Power Architecture](#65-power-architecture)
-  - [6.6 ON/OFF Button](#66-on-/-off-button)
+  - [6.6 ON/OFF Button](#66-on/off-button)
   
 - [7. Software Architecture](#7-software-architecture)
   - [7.1 Overview](#71-overview)
