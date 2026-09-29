@@ -32,6 +32,7 @@
   - [6.3 Sensor Placement](#63-sensor-placement)
   - [6.4 Wiring Diagram](#64-wiring-diagram)
   - [6.5 Power Architecture](#65-power-architecture)
+  - [6.6 ON/OFF Button](#66-on-/-off-button)
   
 - [7. Software Architecture](#7-software-architecture)
   - [7.1 Overview](#71-overview)
@@ -307,6 +308,11 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 
 ### 6.5 Power Architecture
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+### 6.6 ON/OFF Button
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
