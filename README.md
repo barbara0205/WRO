@@ -316,6 +316,29 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
+<p>This section explains the code structure and button controls for operating the robot.</p>
+
+<h4 align="center">Code for Buttons</h4>
+
+<p align="center">
+  <img src="media/buttons/button1.jpeg" alt="Code for Buttons" width="80%" />
+</p>
+
+<p align="center">
+  <img src="media/buttons/button2.jpeg" alt="Physical Buttons on Robot" width="50%" />
+</p>
+
+<h4>Button Functions</h4>
+
+<p><strong>1. Button 1 (Pin 1) &ndash; Start / Stop:</strong> Launches <code>system_start()</code> or halts the robot with <code>full_stop()</code>.</p>
+
+<p><strong>2. Button 2 (Pin 2) &ndash; Open Challenge:</strong> Selects and starts <code>open_challenge()</code>.</p>
+
+<p><strong>3. Button 3 (Pin 3) &ndash; Obstacle Challenge:</strong> Selects and starts <code>prepreke_challenge()</code>.</p>
+
+<p><strong>4. Button 4 (Pin 4) &ndash; Servo +2°:</strong> Manually increases the servo angle by 2 degrees.</p>
+
+<p><strong>5. Button 5 (Pin 5) &ndash; Servo Reset:</strong> Resets the servo angle back to 0°.</p>
 
 ## 7. Software Architecture
 ### 7.1 Overview
