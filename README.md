@@ -27,13 +27,12 @@
   - [5.4 Dimensions and Weight](#54-dimensions-and-weight)
   
 - [6. Power & Sensor Architecture](#6-power--sensor-architecture)
-  - [6.1 Controller](#61-controller)
-  - [6.2 Motors](#62-motors)
-  - [6.3 Sensors](#63-sensors)
-  - [6.4 Sensor Placement](#64-sensor-placement)
-  - [6.5 Wiring Diagram](#65-wiring-diagram)
-  - [6.6 Power Architecture](#66-power-architecture)
-  - [6.7 Sensor Calibration and Testing](#67-sensor-calibration-and-testing)
+  - [6.1 Motors](#61-motors)
+  - [6.2 Sensors](#62-sensors)
+  - [6.3 Sensor Placement](#63-sensor-placement)
+  - [6.4 Wiring Diagram](#64-wiring-diagram)
+  - [6.5 Power Architecture](#65-power-architecture)
+  
 
 - [7. Software Architecture](#7-software-architecture)
   - [7.1 Overview](#71-overview)
