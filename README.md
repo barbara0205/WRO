@@ -294,48 +294,35 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 
 
 ## 6. Power & Sensor Architecture
-### 6.1 Controller
+### 6.1 Motors
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.2 Motors
+### 6.2 Sensors
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.3 Sensors
+### 6.3 Sensor Placement
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.4 Sensor Placement
+### 6.4 Wiring Diagram
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.5 Wiring Diagram
+### 6.5 Power Architecture
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
-
-### 6.6 Power Architecture
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 6.7 Sensor Calibration and Testing
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
 
 ## 7. Software Architecture
 ### 7.1 Overview
