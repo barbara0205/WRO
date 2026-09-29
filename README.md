@@ -33,37 +33,25 @@
   - [6.4 Wiring Diagram](#64-wiring-diagram)
   - [6.5 Power Architecture](#65-power-architecture)
   
-
 - [7. Software Architecture](#7-software-architecture)
   - [7.1 Overview](#71-overview)
-  - [7.2 Program Structure](#72-program-structure)
-  - [7.3 State Machine / Flowchart](#73-state-machine--flowchart)
-  - [7.4 Open Challenge Strategy](#74-open-challenge-strategy)
-  - [7.5 Obstacle Challenge Strategy](#75-obstacle-challenge-strategy)
-  - [7.6 Control Algorithms](#76-control-algorithms)
-  - [7.7 Edge Cases and Failure Handling](#77-edge-cases-and-failure-handling)
-
+  - [7.2 Code](#72-code)
+  - [7.3 Open Challenge Strategy](#73-open-challenge-strategy)
+  - [7.4 Obstacle Challenge Strategy](#74-obstacle-challenge-strategy)
+    
 - [8. Engineering Decisions](#8-engineering-decisions)
   - [8.1 Constraints](#81-constraints)
-  - [8.2 Design Trade-offs](#82-design-trade-offs)
-  - [8.3 Major Problems and Solutions](#83-major-problems-and-solutions)
-  - [8.4 Why We Chose X Instead of Y](#84-why-we-chose-x-instead-of-y)
+  - [8.2 Major Problems and Solutions](#82-major-problems-and-solutions)
 
 - [9. Testing & Results](#9-testing--results)
   - [9.1 Mechanical Tests](#91-mechanical-tests)
   - [9.2 Sensor Tests](#92-sensor-tests)
-  - [9.3 Open Challenge Tests](#93-open-challenge-tests)
-  - [9.4 Obstacle Challenge Tests](#94-obstacle-challenge-tests)
-  - [9.5 Reliability Results](#95-reliability-results)
 
 - [10. Components / Bill of Materials](#10-components--bill-of-materials)
 
 - [11. Build & Reproduction Guide](#11-build--reproduction-guide)
   - [11.1 Parts](#111-parts)
   - [11.2 Assembly](#112-assembly)
-  - [11.3 Wiring](#113-wiring)
-  - [11.4 Software Installation](#114-software-installation)
-  - [11.5 Uploading / Running the Code](#115-uploading--running-the-code)
 
 - [12. Repository Structure](#12-repository-structure)
 - [13. Engineering Journal](#13-engineering-journal)
@@ -330,31 +318,18 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 7.2 Program Structure
+### 7.2 Code
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
+### 7.3 Open Challenge Strategy
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 7.3 State Machine / Flowchart
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 7.4 Open Challenge Strategy
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 7.5 Obstacle Challenge Strategy
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 7.6 Control Algorithms
+### 7.4 Obstacle Challenge Strategy
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -368,13 +343,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 8.2 Design Trade-offs
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 8.3 Major Problems and Solutions
+### 8.2 Major Problems and Solutions
 #### Connection Failure 
 
 - During development, we experienced repeated problems with the Wi-Fi connection between the robot and the development computer. The connection was unstable and we could not work with the robot properly. To improve reliability, we tested a wired Ethernet connection using an RJ45 network cable. During our tests, this connection proved to be significantly more stable and reliable than Wi-Fi, so we decided to use the wired connection during development.
@@ -386,8 +355,6 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 8.4 Why We Chose X Instead of Y- treba li ovo?
-
 ## 9. Testing & Results
 ### 9.1 Mechanical Tests
 
@@ -396,24 +363,11 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 </p>
 
 ### 9.2 Sensor Tests
+tu ide video s ytuba kad stavimo ruku on skrece
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
-
-### 9.3 Open Challenge Tests
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 9.4 Obstacle Challenge Tests
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 9.5 Reliability Results-treba li ovo?
   
 ## 10. Components / Bill of Materials
 
@@ -445,23 +399,6 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 11.3 Wiring
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 11.4 Software Installation
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 11.5 Uploading / Running the Code
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
 
 ## 12. Repository Structure
 This repository is organized into separate folders for documentation, hardware, software, media and testing. It makes it easier to locate files needed to understand and reproduce the robot.
