@@ -78,7 +78,7 @@ We are Croatia robotics team **MechaMinds** and our names are **Barbara Lukić**
 | Length | 18 cm |
 | Width | 17.5 cm |
 | Height | 15.5 cm |
-| Weight | _ |
+| Weight | 0.876 kg |
 | Drive type | Rear-wheel drive |
 | Steering type | Ackermann steering |     ---Servo-controlled front steering???
 | Main controller | Raspberry Pi 5 Model (B Rev1.1) |
