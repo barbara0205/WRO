@@ -238,7 +238,6 @@ During testing, the distance sensors were positioned on the upper part of the ro
 
 ### 5.2 Drive System
 
-<img src="media/development/version_2/final/front.jpeg" width="200">  <img src="media/development/version_4/bottom.jpeg" width="200">
 **TU TREBA SLIKA OD DOLJE I ZADNJI KOTACI (POGON)**
 
 <p align="right">
@@ -247,7 +246,7 @@ During testing, the distance sensors were positioned on the upper part of the ro
 
 ### 5.3 Steering System
 
-The vehicle uses a servo-controlled front steering mechanism. A steering servo mounted at the front of the chassis moves a mechanical linkage that connects the two front wheels. Instead of controlling the left and right wheels with separate motors, both front wheels are mechanically linked and change direction together. This provides car-like steering while the rear wheels make the robot move forward. The steering components are mounted directly to the 3D-printed chassis, which allowed us to adjust the geometry and mounting positions during development.
+The vehicle uses a servo-controlled front steering mechanism. A steering servo placed at the front of the chassis moves a mechanical linkage that connects the two front wheels. Instead of controlling the left and right wheels with separate motors, both front wheels are mechanically linked and change direction together. This provides car-like steering while the rear wheels make the robot move forward. The steering components are mounted directly to the 3D-printed chassis, which allowed us to adjust the geometry and mounting positions during development.
 
 <p align="center">
   <img src="media/development/version_2/final/bottom.jpeg" width="500">
