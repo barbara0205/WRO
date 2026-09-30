@@ -238,6 +238,7 @@ During testing, the distance sensors were positioned on the upper part of the ro
 
 ### 5.2 Drive System
 
+<img src="media/development/version_2/final/front.jpeg" width="200">  <img src="media/development/version_4/bottom.jpeg" width="200">
 **TU TREBA SLIKA OD DOLJE I ZADNJI KOTACI (POGON)**
 
 <p align="right">
