@@ -451,7 +451,7 @@ All custom mechanical components and structural parts of the robot were designed
 
 -**wheels**:
 
-<img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200"> <img src="media/wheels-making/wheels-fusion.png" width="200">
+<img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200"> <img src="media/wheels-making/wheels-fusion.png" width="400" height='400'>
 
 
 <p align="right">
