@@ -197,10 +197,10 @@ The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-ver
 ### 5.1 Chassis
 
 #### Chassis Overview
-Our current vehicle uses a four-wheel chassis designed for the WRO Future Engineers challenge. The chassis provides the mechanical base for the drive system, steering mechanism, sensors and processing hardware. The design was developed with stability, compact dimensions and reliable steering in mind.
+Our current vehicle uses a four-wheel chassis, the chassis provides the mechanical base for the drive system, steering mechanism, sensors and processing hardware. The design was developed with stability, compact dimensions and reliable steering in mind.
 
 #### Material and Construction
-Our robot is completly made out of 3D-printed parts. The parts are explained in section 11.
+Our robot is completly made out of 3D-printed parts. The parts are explained in [11.1 Parts](#111-parts) .
 
 #### Component Placement
 The electronic components are arranged on several levels above the main chassis plate. The battery is positioned low inside the chassis, while the processing and control electronics are mounted above it. The camera is mounted at the front of the robot on a dedicated 3D-printed support. The distance sensors are positioned near the front of the vehicle so that they can detect the surrounding walls during navigation.
