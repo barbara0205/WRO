@@ -335,8 +335,9 @@ supplying high current to the motors while maintaining a stable voltage.
 <img src="media/power/battery/battery1.jpeg" width="200"> <img src="media/power/battery/battery3.jpeg" width="200"> <img src="media/power/battery/battery4.jpeg" width="200">
 #### Charger
 
-<img src="media/power/charger/charger1.jpeg" width="200">
+The robot uses a B6 LiPro 80W Balance Charger to charge the LiPo battery. It supports 1–6 cell LiPo batteries and includes a balance function to keep the voltage of the individual cells equal during charging.
 
+<img src="media/power/charger/charger1.jpeg" width="200">
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
