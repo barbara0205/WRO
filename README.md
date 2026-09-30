@@ -29,10 +29,9 @@
 - [6. Power & Sensor Architecture](#6-power--sensor-architecture)
   - [6.1 Motors](#61-motors)
   - [6.2 Sensors](#62-sensors)
-  - [6.3 Sensor Placement](#63-sensor-placement)
-  - [6.4 Wiring Diagram](#64-wiring-diagram)
-  - [6.5 Power](#65-power)
-  - [6.6 ON/OFF Button](#66-onoff-button)
+  - [6.3 Wiring Diagram](#63-wiring-diagram)
+  - [6.4 Power](#64-power)
+  - [6.5 ON/OFF Button](#65-onoff-button)
   
 - [7. Software Architecture](#7-software-architecture)
   - [7.1 Overview](#71-overview)
@@ -187,7 +186,7 @@ sensors that helped us test the robot.
 </p>
 
 ### 4.5 Current Robot
-The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-version-2) 
+The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-version-2) and the problem with connection was solved. The solution can be found in [8.2 Major Problems and Solutions](#82-major-problems-and-solutions)
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -199,11 +198,8 @@ The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-ver
 #### Chassis Overview
 Our current vehicle uses a four-wheel chassis, the chassis provides the mechanical base for the drive system, steering mechanism, sensors and processing hardware. The design was developed with stability, compact dimensions and reliable steering in mind.
 
-#### Material and Construction
-Our robot is completly made out of 3D-printed parts. The parts are explained in [11.1 Parts](#111-parts) .
-
 #### Component Placement
-The electronic components are arranged on several levels above the main chassis plate. The battery is positioned low inside the chassis, while the processing and control electronics are placed above it. The camera is placed at the front of the robot on a dedicated 3D-printed support. The distance sensors are positioned near the front of the vehicle so that they can detect the surrounding walls during navigation.
+The electronic components are arranged on several levels above the main chassis plate. The battery is positioned low inside the chassis to keep the center of gravity as low as possible, while the processing and control electronics are placed above it. The camera is placed at the front of the robot on a dedicated 3D-printed support so it could have good visibility of the field. The distance sensors are positioned near the front of the vehicle so that they can detect the surrounding walls during navigation.
 
 (gdje se nalaze no) **TU CE ICI SLIKA SVEGA**
 - Main controller: on top of the robot
@@ -212,25 +208,6 @@ The electronic components are arranged on several levels above the main chassis 
 - Steering servo: in the front, underneath the chasis
 - Sensors: in the front, inside the chassis
 - Camera: the front of the robot
-
-#### Design Reasoning
-
-The battery was positioned low in the chassis to keep the center of gravity as low as possible. We placed sensors at the front and inside the chassis because we found that in these positions the results were much better.
-The button used to turn the robot on, start it, and stop it was placed on top to make it easily accessible. Camera was placed in the front of the robot so it could have good visibility of the field.
-
-**kae ovo frende**
-
-#### Chassis Improvements
-
-During testing, the distance sensors were positioned on the upper part of the robot. In this position, the sensors were too high and could not reliably detect the wall directly in front of the vehicle. After identifying this issue, we redesigned the sensor position and moved the distance sensors lower on the chassis. This improved their field of view and allowed them to detect the wall more reliably. This change showed us how sensor placement can affect the performance of the navigation system.
-
-<img src="media/development/version_2/build/build-03.jpeg" width="250">  <img src="media/development/version_2/build/build-04.jpeg" width="250">
-
-**Test result:**
-| Sensor position | Successful wall detections |
-|---|---:|
-| Original higher position | 3/10 |
-| Lowered position | 8/10 |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -287,25 +264,20 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
 </p>
 
 ### 6.2 Sensors
+We are using two MRMS LIDAR 2 m (VL53L0CX), CAN Bus sensors. Both sensors are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.3 Sensor Placement
+
+### 6.3 Wiring Diagram
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.4 Wiring Diagram
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 6.5 Power
-
+### 6.4 Power
 #### Battery
 
 Our robot is powered by a Turnigy 5.0 High Discharge LiPo battery. 
@@ -341,7 +313,8 @@ The robot uses a B6 LiPro 80W Balance Charger to charge the LiPo battery. It sup
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.6 ON/OFF Button
+### 6.5 ON/OFF Button
+The button used to turn the robot on, start it, and stop it was placed on top to make it easily accessible.
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
@@ -409,6 +382,19 @@ The robot uses a B6 LiPro 80W Balance Charger to charge the LiPo battery. It sup
 <img src="media/connection-solution/connection1.jpeg" width="200"> <img src="media/connection-solution/connection2.jpeg" width="200">
 <img src="media/connection-solution/connection3.jpeg" width="200"> <img src="media/connection-solution/connection4.jpeg" width="200">
 
+#### Sensor Placement
+
+During testing, the distance sensors were positioned on the upper part of the robot. In this position, the sensors were too high and could not reliably detect the wall directly in front of the vehicle. After identifying this issue, we redesigned the sensor position and moved the distance sensors lower on the chassis. This improved their field of view and allowed them to detect the wall more reliably. This change showed us how sensor placement can affect the performance of the navigation system.
+
+<img src="media/development/version_2/build/build-03.jpeg" width="250">  <img src="media/development/version_2/build/build-04.jpeg" width="250">
+
+**Test result:**
+| Sensor position | Successful wall detections |
+|---|---:|
+| Original higher position | 3/10 |
+| Lowered position | 8/10 |
+
+
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
@@ -436,6 +422,8 @@ tu ide video s ytuba kad stavimo ruku on skrece
 </p>
 
 ## 11. Build & Reproduction Guide
+Our robot is completly made out of 3D-printed parts.
+
 ### 11.1 Parts
 
 All custom mechanical components and structural parts of the robot were designed using Autodesk Fusion and manufactured via 3D printing.
