@@ -244,7 +244,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
 | Length | 180 mm |
 | Width | 175 mm |
 | Height | 155 mm |
-| Weight | TODO g |
+| Weight | 0.876 kg |
 | Wheelbase | 100 mm |
 | Front track width | 175 mm |
 | Rear track width | 170 mm |
