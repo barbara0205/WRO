@@ -85,7 +85,7 @@ We are Croatia robotics team **MechaMinds** and our names are **Barbara Lukić**
 | Programming language | C++ |
 | Main sensors | MRMS LIDAR 2 m (VL53L0CX), CAN Bus |
 | Camera | Raspberry Pi Camera Module 3 |
-| Power source | 11.1 V, 5000 mAh (55.5 Wh) battery |
+| Power source | Turnigy 5S LiPo, 18.5 V, 5000 mAh |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
