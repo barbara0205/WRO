@@ -444,14 +444,14 @@ All custom mechanical components and structural parts of the robot were designed
 * **3D Modeling & CAD:** Autodesk Fusion
 * **Manufacturing:** 3D Printed
 * **3D Models & STL Files:**
-  * Wheel STL file: [STL files/wheels/wheel11.stl](STLfiles/wheels/wheel1.stl)
+  * Wheel STL file: [STL files/wheels/wheel11.stl](STL_files/wheels/wheel1.stl)
 
 
 
 
 -**wheels**:
 
-<img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200">
+<img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200"> <img src="media/wheels-making/wheels-fusion.png" width="200">
 
 
 <p align="right">
