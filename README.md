@@ -40,8 +40,7 @@
   - [7.4 Obstacle Challenge Strategy](#74-obstacle-challenge-strategy)
     
 - [8. Engineering Decisions](#8-engineering-decisions)
-  - [8.1 Constraints](#81-constraints)
-  - [8.2 Major Problems and Solutions](#82-major-problems-and-solutions)
+  - [8.1 Major Problems and Solutions](#81-major-problems-and-solutions)
 
 - [9. Testing & Results](#9-testing--results)
   - [9.1 Mechanical Tests](#91-mechanical-tests)
@@ -368,13 +367,7 @@ The button used to turn the robot on, start it, and stop it was placed on top to
 
 
 ## 8. Engineering Decisions
-### 8.1 Constraints
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 8.2 Major Problems and Solutions
+### 8.1 Major Problems and Solutions
 #### Connection Failure 
 
 - During development, we experienced repeated problems with the Wi-Fi connection between the robot and the development computer. The connection was unstable and we could not work with the robot properly. To improve reliability, we tested a wired Ethernet connection using an RJ45 network cable. During our tests, this connection proved to be significantly more stable and reliable than Wi-Fi, so we decided to use the wired connection during development.
