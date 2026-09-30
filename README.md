@@ -332,7 +332,7 @@ current for the robot's motors and electronic components.
 We chose this battery because our robot requires a power source capable of 
 supplying high current to the motors while maintaining a stable voltage.
 
-<img src="media/power/battery/battery1.jpeg" width="200"> <img src="media/power/battery/battery2.jpeg" width="200"> <img src="media/power/battery/battery3.jpeg" width="200"> <img src="media/power/battery/battery4.jpeg" width="200">
+<img src="media/power/battery/battery1.jpeg" width="200"> <img src="media/power/battery/battery3.jpeg" width="200"> <img src="media/power/battery/battery4.jpeg" width="200">
 #### Charger
 
 <img src="media/power/charger/charger1.jpeg" width="200">
