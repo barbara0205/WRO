@@ -203,7 +203,7 @@ Our current vehicle uses a four-wheel chassis, the chassis provides the mechanic
 Our robot is completly made out of 3D-printed parts. The parts are explained in [11.1 Parts](#111-parts) .
 
 #### Component Placement
-The electronic components are arranged on several levels above the main chassis plate. The battery is positioned low inside the chassis, while the processing and control electronics are mounted above it. The camera is mounted at the front of the robot on a dedicated 3D-printed support. The distance sensors are positioned near the front of the vehicle so that they can detect the surrounding walls during navigation.
+The electronic components are arranged on several levels above the main chassis plate. The battery is positioned low inside the chassis, while the processing and control electronics are placed above it. The camera is placed at the front of the robot on a dedicated 3D-printed support. The distance sensors are positioned near the front of the vehicle so that they can detect the surrounding walls during navigation.
 
 (gdje se nalaze no) **TU CE ICI SLIKA SVEGA**
 - Main controller: on top of the robot
@@ -215,24 +215,22 @@ The electronic components are arranged on several levels above the main chassis 
 
 #### Design Reasoning
 
-The battery was positioned low in the chassis to keep the center of gravity as low as possible.
-We placed sensors at the front and inside the chasis because we found that in these positions the results were much better.
-The button used to turn the robot on, start it, and stop it was placed on top to make it easily accessible.
-Camera was placed in the front of the robot so it could have good visibility of the field.
+The battery was positioned low in the chassis to keep the center of gravity as low as possible. We placed sensors at the front and inside the chassis because we found that in these positions the results were much better.
+The button used to turn the robot on, start it, and stop it was placed on top to make it easily accessible. Camera was placed in the front of the robot so it could have good visibility of the field.
+
+**kae ovo frende**
 
 #### Chassis Improvements
 
-During testing, the distance sensors were positioned on the upper part of the robot. In this position, the sensors were too high and could not reliably detect the wall directly in front of the vehicle. After identifying this issue, we redesigned the sensor position and moved the distance sensors lower on the chassis. This improved their field of view and allowed them to detect the wall more reliably. This change showed us how strongly sensor placement can affect the performance of the navigation system.
-
+During testing, the distance sensors were positioned on the upper part of the robot. In this position, the sensors were too high and could not reliably detect the wall directly in front of the vehicle. After identifying this issue, we redesigned the sensor position and moved the distance sensors lower on the chassis. This improved their field of view and allowed them to detect the wall more reliably. This change showed us how sensor placement can affect the performance of the navigation system.
 
 <img src="media/development/version_2/build/build-03.jpeg" width="250">  <img src="media/development/version_2/build/build-04.jpeg" width="250">
 
 **Test result:**
 | Sensor position | Successful wall detections |
 |---|---:|
-| Original higher position | 4/10 |
+| Original higher position | 3/10 |
 | Lowered position | 8/10 |
-????????????
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
