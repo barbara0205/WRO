@@ -31,7 +31,7 @@
   - [6.2 Sensors](#62-sensors)
   - [6.3 Sensor Placement](#63-sensor-placement)
   - [6.4 Wiring Diagram](#64-wiring-diagram)
-  - [6.5 Power Architecture](#65-power-architecture)
+  - [6.5 Power](#65-power)
   - [6.6 ON/OFF Button](#66-onoff-button)
   
 - [7. Software Architecture](#7-software-architecture)
@@ -306,7 +306,37 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.5 Power Architecture
+### 6.5 Power
+
+#### Battery
+
+Our robot is powered by a Turnigy 5.0 High Discharge LiPo battery. 
+The battery was selected to provide sufficient voltage, capacity and 
+current for the robot's motors and electronic components.
+
+#### Specifications
+
+| Parameter | Value |
+|---|---|
+| Battery type | LiPo (Lithium Polymer) |
+| Configuration | 5S |
+| Nominal voltage | 18.5 V |
+| Capacity | 5000 mAh (5.0 Ah) |
+| Discharge rating | 20–30C |
+| Maximum theoretical discharge current | 150 A |
+| Manufacturer | Turnigy |
+| Model | Turnigy 5.0 |
+| Main connector | High-current connector |
+| Balance connector | 5S balance connector |
+
+We chose this battery because our robot requires a power source capable of 
+supplying high current to the motors while maintaining a stable voltage.
+
+<img src="media/power/battery/battery1.jpeg" width="200"> <img src="media/power/battery/battery2.jpeg" width="200"> <img src="media/power/battery/battery3.jpeg" width="200"> <img src="media/power/battery/batter4y.jpeg" width="200">
+#### Charger
+
+<img src="media/power/charger/charger1.jpeg" width="200">
+
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
