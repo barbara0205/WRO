@@ -441,11 +441,6 @@ tu ide video s ytuba kad stavimo ruku on skrece
 ### 11.1 Parts
 -**wheels**:
 
- <img src="media/wheels-making/wheels1.jpeg" width="200">  <img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200">
-
-
--**wheels**
-
 <img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200">
 
 
