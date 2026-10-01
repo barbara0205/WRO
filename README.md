@@ -63,7 +63,7 @@ Our project is an autonomous vehicle that can navigate the competition field, de
 </p>
 
 ## 2. Team
-We are the Croatian robotics team **MechaMinds** and our names are **Barbara Lukić**, **Ivano Koren** and **Nadia Kravčuk**. We come from high school Tin Ujević in Kutina. Our mentor's name is Damir Petravić. Together we worked on the design of the robot, programming and testing our robot.
+We are the Croatian robotics team **MechaMinds** and our names are **Barbara Lukić**, **Ivano Koren** and **Nadia Kravčuk**. We come from Tin Ujević High School in Kutina. Our mentor's name is Damir Petravić. Together we worked on the design of the robot, programming and testing our robot.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -92,10 +92,10 @@ We are the Croatian robotics team **MechaMinds** and our names are **Barbara Luk
 Our robot went through several major design changes during the development process.
 ### 4.1. Version 1 
 **About the robot** 
-  - Our first robot was a custom-built vehicle made using 3D-prined and hand-built parts. It had several distance sensors that helped us test the robot.
+  - Our first robot was a custom-built vehicle made using 3D-printed and hand-built parts. It had several distance sensors that helped us test the robot.
 
 **Main problem** 
-  - The robot was not reliable in making 3 laps so we decided to change the robot for better performance.
+  - The robot was not reliable enough to complete three laps so we decided to change the robot for better performance.
 
 | Front | Rear |
 |---|---|
@@ -115,7 +115,7 @@ Our robot went through several major design changes during the development proce
 
 ### 4.2. Version 2
 **About the robot**
-- This robot was an upgraded version on the first one, it had a camera and several distance sensors.
+- This robot was an upgraded version of the first one, it had a camera and several distance sensors.
   
 **Main problem**
 - All year we have been working on this robot, about two months before the competition we started having problems connecting the robot to Wi-Fi, it started crashing and we tried to find a solution before the competition but we did not succeed.
