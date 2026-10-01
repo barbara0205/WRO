@@ -264,22 +264,15 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
   <img src="media/hardware/motor/motor.png" alt="ML-R BDC N20 Motor" width="200" />
 </p>
 
-<p>The robot is powered by a single <b>ML-R BDC N20</b> micro brushed DC motor.</p>
-
-<p>It operates at <b>12V DC</b> with a low-power profile, ensuring high efficiency for battery-powered operation.</p>
-
-<p>The integrated <b>1:100 gear ratio</b> provides high output torque within a compact <b>12 mm</b> form factor.</p>
-
-<p>This motor serves as the primary drive source for the robot's propulsion mechanism.</p>
+The robot is powered by a single ML-R BDC N20 micro brushed DC motor. It operates at 12V DC with a low-power profile, ensuring high efficiency for battery-powered operation. The integrated 1:100 gear ratio provides high output torque within a compact 12 mm form factor. This motor serves as the primary drive source for the robot's propulsion mechanism.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
 ### 6.2 Sensors
-We are using two MRMS LIDAR 2 m (VL53L0CX), CAN Bus sensors. Both sensors are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
 
-The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obstacles. The sensors have a specified range of up to 2 m and communicate with the rest of the system via CAN Bus. Each robot is equipped with three lidar sensors, allowing distance measurements in multiple directions. The collected data can be used for obstacle detection, navigation, and collision avoidance.  
+The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obstacles. The sensors have a specified range of up to 2 m and communicate with the rest of the system via CAN Bus. Each robot is equipped with three lidar sensors, allowing distance measurements in multiple directions. The collected data can be used for obstacle detection, navigation, and collision avoidance. Both sensors are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
 
 <img src="media/hardware/sensors/sensor.jpg" width="200"> 
 
@@ -373,9 +366,7 @@ The button used to turn the robot on, start it, and stop it was placed on top to
 ## 7. Software Architecture
 ### 7.1 Overview
 
-<p>The robot software is written in C++.</p>
-<p>The code is developed and maintained within Visual Studio Code, utilizing dedicated extensions for embedded C++ compilation and debugging.</p>
-<p>The software architecture handles direct motor control, power management, and timing routines required for accurate motor drive operations.</p>
+The robot software is written in C++. The code is developed and maintained within Visual Studio Code, utilizing dedicated extensions for embedded C++ compilation and debugging. The software architecture handles direct motor control, power management, and timing routines required for accurate motor drive operations.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -534,7 +525,7 @@ WRO/
 └── tests/
 ```
 
-**OVO JE PODLOZNO MJENJANU NECE OVAK NIS BIT SAM DA VIDIMO KAK TREBA IZGLEDAT**
+**OVO JE PODLOZNO MiJENJANU NECE OVAK NIS BIT SAM DA VIDIMO KAK TREBA IZGLEDAT**
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
