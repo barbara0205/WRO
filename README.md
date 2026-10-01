@@ -23,9 +23,8 @@
  
 - [5. Mobility & Mechanical Design](#5-mobility--mechanical-design)
   - [5.1 Chassis](#51-chassis)
-   - [5.2 Drive System](#52-drive-system)
-  - [5.3 Steering System](#53-steering-system)
-  - [5.4 Dimensions and Weight](#54-dimensions-and-weight)
+  - [5.2 Steering $ Driving System](#52-steering-&-driving-system)
+  - [5.3 Dimensions and Weight](#53-dimensions-and-weight)
   
 - [6. Power & Sensor Architecture](#6-power--sensor-architecture)
   - [6.1 Motors](#61-motors)
@@ -211,15 +210,7 @@ The electronic components are arranged on several levels above the main chassis 
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 5.2 Drive System
-
-**TU TREBA SLIKA OD DOLJE I ZADNJI KOTACI (POGON)**
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 5.3 Steering System
+### 5.2 Steering & Driving System
 
 The vehicle uses a servo-controlled front steering mechanism. A steering servo placed at the front of the chassis moves a mechanical linkage that connects the two front wheels. Instead of controlling the left and right wheels with separate motors, both front wheels are mechanically linked and change direction together. This provides car-like steering while the rear wheels make the robot move forward. The steering components are mounted directly to the 3D-printed chassis, which allowed us to adjust the geometry and mounting positions during development.
 
@@ -235,7 +226,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 5.4 Dimensions and Weight
+### 5.3 Dimensions and Weight
 
 | Measurement | Value |
 |---|---|
