@@ -276,10 +276,18 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
 ### 6.2 Sensors
 We are using two MRMS LIDAR 2 m (VL53L0CX), CAN Bus sensors. Both sensors are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
 
+The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obstacles. The sensors have a specified range of up to 2 m and communicate with the rest of the system via CAN Bus. Each robot is equipped with three lidar sensors, allowing distance measurements in multiple directions. The collected data can be used for obstacle detection, navigation, and collision avoidance.  
+
+<img src="media/hardware/sensors/sensor.jpg" width="200"> 
+
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
+###  6.3 Camera
+
+<img src="media/hardware/camera/camera.png" width="200"> 
+### 6.3 Sensor Placement
 
 ### 6.3 Wiring Diagram
 
