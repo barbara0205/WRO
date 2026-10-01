@@ -185,7 +185,7 @@ sensors that helped us test the robot.
 </p>
 
 ### 4.5 Current Robot
-The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-version-2) and the problem with connection was solved. The solution can be found in [8.2 Major Problems and Solutions](#82-major-problems-and-solutions)
+The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-version-2) and the problem with connection was solved. The solution can be found in [8.1 Major Problems and Solutions](#81-major-problems-and-solutions)
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
