@@ -100,15 +100,15 @@ Our robot went through several major design changes during the development proce
 
 | Front | Rear |
 |---|---|
-| <img src="media/development/version_1/front.jpeg" width="200"> | <img src="media/development/version_1/rear.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_1/front.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_1/rear.jpeg" width="200"> |
 
 | Left | Right |
 |---|---|
-| <img src="media/development/version_1/left.jpeg" width="200"> | <img src="media/development/version_1/right.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_1/left.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_1/right.jpeg" width="200"> |
 
 | Top | Bottom |
 |---|---|
-| <img src="media/development/version_1/top.jpeg" width="200"> | <img src="media/development/version_1/bottom.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_1/top.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_1/bottom.jpeg" width="200"> |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -123,15 +123,15 @@ Our robot went through several major design changes during the development proce
 
 | Front | Rear |
 |---|---|
-| <img src="media/development/version_2/final/front.jpeg" width="200"> | <img src="media/development/version_2/final/rear.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_2/final/front.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_2/final/rear.jpeg" width="200"> |
 
 | Left | Right |
 |---|---|
-| <img src="media/development/version_2/final/left.jpeg" width="200"> | <img src="media/development/version_2/final/right.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_2/final/left.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_2/final/right.jpeg" width="200"> |
 
 | Top | Bottom |
 |---|---|
-| <img src="media/development/version_2/final/top.jpeg" width="200"> | <img src="media/development/version_2/final/bottom.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_2/final/top.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_2/final/bottom.jpeg" width="200"> |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -146,15 +146,15 @@ Our robot went through several major design changes during the development proce
 
 | Front | Rear |
 |---|---|
-| <img src="media/development/version_3/front.jpeg" width="200"> | <img src="media/development/version_3/rear.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_3/front.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_3/rear.jpeg" width="200"> |
 
 | Left | Right |
 |---|---|
-| <img src="media/development/version_3/left.jpeg" width="200"> | <img src="media/development/version_3/right.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_3/left.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_3/right.jpeg" width="200"> |
 
 | Top | Bottom |
 |---|---|
-| <img src="media/development/version_3/ford1.jpeg" width="200"> | <img src="media/development/version_3/bottom.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_3/ford1.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_3/bottom.jpeg" width="200"> |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -169,15 +169,15 @@ Our robot went through several major design changes during the development proce
 
 | Front | Rear |
 |---|---|
-| <img src="media/development/version_4/front.jpeg" width="200"> | <img src="media/development/version_4/rear.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_4/front.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_4/rear.jpeg" width="200"> |
 
 | Left | Right |
 |---|---|
-| <img src="media/development/version_4/left.jpeg" width="200"> | <img src="media/development/version_4/right.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_4/left.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_4/right.jpeg" width="200"> |
 
 | Top | Bottom |
 |---|---|
-| <img src="media/development/version_4/top.jpeg" width="200"> | <img src="media/development/version_4/bottom.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_4/top.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_4/bottom.jpeg" width="200"> |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -224,7 +224,7 @@ The electronic components are arranged on several levels above the main chassis 
 The vehicle uses a servo-controlled front steering mechanism. A steering servo placed at the front of the chassis moves a mechanical linkage that connects the two front wheels. Instead of controlling the left and right wheels with separate motors, both front wheels are mechanically linked and change direction together. This provides car-like steering while the rear wheels make the robot move forward. The steering components are mounted directly to the 3D-printed chassis, which allowed us to adjust the geometry and mounting positions during development.
 
 <p align="center">
-  <img src="media/development/version_2/final/bottom.jpeg" width="500">
+  <img src="DEVELOPMENT-HISTORY/version_2/final/bottom.jpeg" width="500">
 </p>
 
 <p align="center">
