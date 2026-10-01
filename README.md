@@ -5,7 +5,8 @@
 - **Nadia Kravčuk**
 - **Ivano Koren**
 
-<img src="media/team/team.jpeg" width="500" >
+<img src="TEAM-PICTURES/team photo/team photo.jpeg" width="500" > <br>
+[Watch the test video](TEAM-PICTURES/video/video_mechaminds.mp4)
 
 ## Table of Contents
 
@@ -22,9 +23,8 @@
  
 - [5. Mobility & Mechanical Design](#5-mobility--mechanical-design)
   - [5.1 Chassis](#51-chassis)
-   - [5.2 Drive System](#52-drive-system)
-  - [5.3 Steering System](#53-steering-system)
-  - [5.4 Dimensions and Weight](#54-dimensions-and-weight)
+  - [5.2 Steering & Driving System](#52-steering--driving-system)
+  - [5.3 Dimensions and Weight](#53-dimensions-and-weight)
   
 - [6. Power & Sensor Architecture](#6-power--sensor-architecture)
   - [6.1 Motors](#61-motors)
@@ -99,15 +99,15 @@ Our robot went through several major design changes during the development proce
 
 | Front | Rear |
 |---|---|
-| <img src="media/development/version_1/front.jpeg" width="200"> | <img src="media/development/version_1/rear.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_1/front.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_1/rear.jpeg" width="200"> |
 
 | Left | Right |
 |---|---|
-| <img src="media/development/version_1/left.jpeg" width="200"> | <img src="media/development/version_1/right.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_1/left.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_1/right.jpeg" width="200"> |
 
 | Top | Bottom |
 |---|---|
-| <img src="media/development/version_1/top.jpeg" width="200"> | <img src="media/development/version_1/bottom.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_1/top.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_1/bottom.jpeg" width="200"> |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -122,15 +122,15 @@ Our robot went through several major design changes during the development proce
 
 | Front | Rear |
 |---|---|
-| <img src="media/development/version_2/final/front.jpeg" width="200"> | <img src="media/development/version_2/final/rear.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_2/final/front.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_2/final/rear.jpeg" width="200"> |
 
 | Left | Right |
 |---|---|
-| <img src="media/development/version_2/final/left.jpeg" width="200"> | <img src="media/development/version_2/final/right.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_2/final/left.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_2/final/right.jpeg" width="200"> |
 
 | Top | Bottom |
 |---|---|
-| <img src="media/development/version_2/final/top.jpeg" width="200"> | <img src="media/development/version_2/final/bottom.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_2/final/top.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_2/final/bottom.jpeg" width="200"> |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -145,15 +145,15 @@ Our robot went through several major design changes during the development proce
 
 | Front | Rear |
 |---|---|
-| <img src="media/development/version_3/front.jpeg" width="200"> | <img src="media/development/version_3/rear.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_3/front.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_3/rear.jpeg" width="200"> |
 
 | Left | Right |
 |---|---|
-| <img src="media/development/version_3/left.jpeg" width="200"> | <img src="media/development/version_3/right.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_3/left.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_3/right.jpeg" width="200"> |
 
 | Top | Bottom |
 |---|---|
-| <img src="media/development/version_3/ford1.jpeg" width="200"> | <img src="media/development/version_3/bottom.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_3/ford1.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_3/bottom.jpeg" width="200"> |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -168,15 +168,15 @@ Our robot went through several major design changes during the development proce
 
 | Front | Rear |
 |---|---|
-| <img src="media/development/version_4/front.jpeg" width="200"> | <img src="media/development/version_4/rear.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_4/front.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_4/rear.jpeg" width="200"> |
 
 | Left | Right |
 |---|---|
-| <img src="media/development/version_4/left.jpeg" width="200"> | <img src="media/development/version_4/right.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_4/left.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_4/right.jpeg" width="200"> |
 
 | Top | Bottom |
 |---|---|
-| <img src="media/development/version_4/top.jpeg" width="200"> | <img src="media/development/version_4/bottom.jpeg" width="200"> |
+| <img src="DEVELOPMENT-HISTORY/version_4/top.jpeg" width="200"> | <img src="DEVELOPMENT-HISTORY/version_4/bottom.jpeg" width="200"> |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -210,20 +210,12 @@ The electronic components are arranged on several levels above the main chassis 
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 5.2 Drive System
-
-**TU TREBA SLIKA OD DOLJE I ZADNJI KOTACI (POGON)**
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 5.3 Steering System
+### 5.2 Steering & Driving System
 
 The vehicle uses a servo-controlled front steering mechanism. A steering servo placed at the front of the chassis moves a mechanical linkage that connects the two front wheels. Instead of controlling the left and right wheels with separate motors, both front wheels are mechanically linked and change direction together. This provides car-like steering while the rear wheels make the robot move forward. The steering components are mounted directly to the 3D-printed chassis, which allowed us to adjust the geometry and mounting positions during development.
 
 <p align="center">
-  <img src="media/development/version_2/final/bottom.jpeg" width="500">
+  <img src="DEVELOPMENT-HISTORY/version_2/final/bottom.jpeg" width="500">
 </p>
 
 <p align="center">
@@ -234,7 +226,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 5.4 Dimensions and Weight
+### 5.3 Dimensions and Weight
 
 | Measurement | Value |
 |---|---|
@@ -259,7 +251,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
 The robot is powered by a single ML-R BDC N20 micro brushed DC motor. It operates at 12V DC with a low-power profile, ensuring high efficiency for battery-powered operation. The integrated 1:100 gear ratio provides high output torque within a compact 12 mm form factor. This motor serves as the primary drive source for the robot's propulsion mechanism.
 
 <p align="left">
-  <img src="media/hardware/motor/motor.png" alt="ML-R BDC N20 Motor" width="200" />
+  <img src="POWER-AND-SENSORS/motor/motor.png" alt="ML-R BDC N20 Motor" width="200" />
 </p>
 
 <p align="right">
@@ -270,7 +262,7 @@ The robot is powered by a single ML-R BDC N20 micro brushed DC motor. It operate
 
 The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obstacles. The sensors have a specified range of up to 2 m and communicate with the rest of the system via CAN Bus. Each robot is equipped with three LiDAR sensors, allowing distance measurements in multiple directions. The collected data can be used for obstacle detection, navigation, and collision avoidance. Both LiDARSs are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
 
-<img src="media/hardware/sensors/sensor.jpg" width="200"> 
+<img src="POWER-AND-SENSORS/sensors/sensor.jpg" width="200"> 
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -280,7 +272,7 @@ The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obs
 
 The robot uses a Raspberry Pi Camera Module 3 for visual perception of its surroundings. The camera is connected to the Raspberry Pi 5 and can be used to capture images and video for further processing. It can support tasks such as line detection, object recognition, marker detection, and navigation. The camera complements the LiDAR sensors by providing visual information that distance sensors alone cannot provide.
 
-<img src="media/hardware/camera/camera.png" width="200"> 
+<img src="POWER-AND-SENSORS/camera/camera.png" width="200"> 
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -317,12 +309,12 @@ current for the robot's motors and electronic components.
 We chose this battery because our robot requires a power source capable of 
 supplying high current to the motors while maintaining a stable voltage.
 
-<img src="media/power/battery/battery1.jpeg" width="200"> <img src="media/power/battery/battery3.jpeg" width="200"> <img src="media/power/battery/battery4.jpeg" width="200">
+<img src="BATTERY-AND-CHARGER/battery/battery1.jpeg" width="200"> <img src="BATTERY-AND-CHARGER/battery/battery3.jpeg" width="200"> <img src="BATTERY-AND-CHARGER/battery/battery4.jpeg" width="200">
 #### Charger
 
 The robot uses a B6 LiPro 80W Balance Charger to charge the LiPo battery. It supports 1–6 cell LiPo batteries and includes a balance function to keep the voltage of the individual cells equal during charging.
 
-<img src="media/power/charger/charger1.jpeg" width="200">
+<img src="BATTERY-AND-CHARGER/charger/charger1.jpeg" width="200">
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -336,11 +328,11 @@ The buttons used to turn the robot on, start it, and stop it was placed on top t
 <h4 align="center">Code for Buttons</h4>
 
 <p align="center">
-  <img src="media/buttons/button1.jpeg" alt="Code for Buttons" width="80%" />
+  <img src="POWER-AND-SENSORS/buttons/button1.jpeg" alt="Code for Buttons" width="80%" />
 </p>
 
 <p align="center">
-  <img src="media/buttons/button2.jpeg" alt="Physical Buttons on Robot" width="50%" />
+  <img src="POWER-AND-SENSORS/buttons/button2.jpeg" alt="Physical Buttons on Robot" width="50%" />
 </p>
 
 <h4>Button Functions</h4>
@@ -362,7 +354,7 @@ The buttons used to turn the robot on, start it, and stop it was placed on top t
 ### 7.2 Program Structure
 ### 7.3 State Machine / Flowchart
 ### 7.4 Open Challenge Strategy
-  -  For the open challenge we decedided that robot is going to use two ______ distance/giro??? sensors to avoid all the walls and to turn in a right direction.
+  -  For the open challenge we decedided that robot is going to use two distance sensors to avoid all the walls and to turn in a right direction.
 ### 7.5 Obstacle Challenge Strategy
   - For the obstacle challenge the strategy was to asamble a camera that 
 ### 7.6 Control Algorithms
@@ -402,14 +394,14 @@ The Open Challenge requires the robot to complete three laps of the track autono
 
 - During development, we experienced repeated problems with the Wi-Fi connection between the robot and the development computer. The connection was unstable and we could not work with the robot properly. To improve reliability, we tested a wired Ethernet connection using an RJ45 network cable. During our tests, this connection proved to be significantly more stable and reliable than Wi-Fi, so we decided to use the wired connection during development.
 
-<img src="media/connection-solution/connection1.jpeg" width="200"> <img src="media/connection-solution/connection2.jpeg" width="200">
-<img src="media/connection-solution/connection3.jpeg" width="200"> <img src="media/connection-solution/connection4.jpeg" width="200">
+<img src="connection-solution/connection1.jpeg" width="200"> <img src="connection-solution/connection2.jpeg" width="200">
+<img src="connection-solution/connection3.jpeg" width="200"> <img src="connection-solution/connection4.jpeg" width="200">
 
 #### Sensor Placement
 
 - During testing, the distance sensors were positioned on the upper part of the robot. In this position, the sensors were too high and could not reliably detect the wall directly in front of the vehicle. After identifying this issue, we redesigned the sensor position and moved the distance sensors lower on the chassis. This improved their field of view and allowed them to detect the wall more reliably. This change showed us how sensor placement can affect the performance of the navigation system.
 
-<img src="media/development/version_2/build/build-03.jpeg" width="250">  <img src="media/development/version_2/build/build-04.jpeg" width="250">
+<img src="DEVELOPMENT-HISTORY/version_2/build/build-03.jpeg" width="250">  <img src="DEVELOPMENT-HISTORY/version_2/build/build-04.jpeg" width="250">
 
 **Test result:**
 | Sensor position | Successful wall detections |
@@ -458,7 +450,7 @@ All custom mechanical components and structural parts of the robot were designed
 
 -**wheels**:
 
-<img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200"> <img src="media/wheels-making/wheels-fusion.png" width="400" height='400'>
+<img src="BUILD-GUIDE/wheels-making/wheels2.jpeg" width="200">  <img src="BUILD-GUIDE/wheels-making/wheels3.jpeg" width="200"> <img src="BUILD-GUIDE/wheels-making/wheels-fusion.png" width="400" height='400'>
 
 -**chassis**:
 
