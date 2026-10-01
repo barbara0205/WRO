@@ -287,13 +287,13 @@ The robot uses a Raspberry Pi Camera Module 3 for visual perception of its surro
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.3 Wiring Diagram
+### 6.4 Wiring Diagram
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.4 Power
+### 6.5 Power
 #### Battery
 
 Our robot is powered by a Turnigy 5.0 High Discharge LiPo battery. 
@@ -329,7 +329,7 @@ The robot uses a B6 LiPro 80W Balance Charger to charge the LiPo battery. It sup
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.5 ON/OFF Button
+### 6.6 ON/OFF Button
 The button used to turn the robot on, start it, and stop it was placed on top to make it easily accessible.
 
 <p>This section explains the code structure and button controls for operating the robot.</p>
