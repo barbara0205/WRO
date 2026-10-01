@@ -26,7 +26,7 @@
   - [5.3 Steering System](#53-steering-system)
   - [5.4 Dimensions and Weight](#54-dimensions-and-weight)
   
- [6. Power & Sensor Architecture](#6-power--sensor-architecture)
+- [6. Power & Sensor Architecture](#6-power--sensor-architecture)
   - [6.1 Motors](#61-motors)
   - [6.2 Sensors](#62-sensors)
   - [6.3 Camera](#63-camera)
