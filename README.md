@@ -23,7 +23,7 @@
  
 - [5. Mobility & Mechanical Design](#5-mobility--mechanical-design)
   - [5.1 Chassis](#51-chassis)
-  - [5.2 Steering $ Driving System](#52-steering-&-driving-system)
+  - [5.2 Steering & Driving System](#52-steering-&-driving-system)
   - [5.3 Dimensions and Weight](#53-dimensions-and-weight)
   
 - [6. Power & Sensor Architecture](#6-power--sensor-architecture)
