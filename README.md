@@ -525,7 +525,7 @@ WRO/
 └── tests/
 ```
 
-**OVO JE PODLOZNO MJENJANU NECE OVAK NIS BIT SAM DA VIDIMO KAK TREBA IZGLEDAT**
+**OVO JE PODLOZNO MiJENJANU NECE OVAK NIS BIT SAM DA VIDIMO KAK TREBA IZGLEDAT**
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
