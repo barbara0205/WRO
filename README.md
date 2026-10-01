@@ -329,7 +329,7 @@ The robot uses a B6 LiPro 80W Balance Charger to charge the LiPo battery. It sup
 </p>
 
 ### 6.6 ON/OFF Button
-The button used to turn the robot on, start it, and stop it was placed on top to make it easily accessible.
+The buttons used to turn the robot on, start it, and stop it was placed on top to make it easily accessible.
 
 <p>This section explains the code structure and button controls for operating the robot.</p>
 
@@ -373,7 +373,7 @@ The robot software is written in C++. The code is developed and maintained withi
 
 ### 7.3 Open Challenge Strategy
 
-The Open Challenge requires the robot to complete three laps of the track autonomously without colliding with obstacles. During the run, the robot uses its lidar sensors and camera to detect the track boundaries and nearby objects. Based on the sensor data, the control system continuously adjusts the robot’s direction and movement. The main goal is to achieve reliable navigation, smooth cornering, and consistent obstacle avoidance throughout all three laps.
+The Open Challenge requires the robot to complete three laps of the track autonomously without colliding with obstacles. During the run, the robot uses its LiDAR sensors and camera to detect the track boundaries and nearby objects. Based on the sensor data, the control system continuously adjusts the robot’s direction and movement. The main goal is to achieve reliable navigation, smooth cornering, and consistent obstacle avoidance throughout all three laps.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
