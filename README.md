@@ -314,7 +314,7 @@ supplying high current to the motors while maintaining a stable voltage.
 
 The robot uses a B6 LiPro 80W Balance Charger to charge the LiPo battery. It supports 1–6 cell LiPo batteries and includes a balance function to keep the voltage of the individual cells equal during charging.
 
-<img src="media/power/charger/charger1.jpeg" width="200">
+<img src="BATTERY-AND-CHARGER/charger/charger1.jpeg" width="200">
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -328,11 +328,11 @@ The buttons used to turn the robot on, start it, and stop it was placed on top t
 <h4 align="center">Code for Buttons</h4>
 
 <p align="center">
-  <img src="media/buttons/button1.jpeg" alt="Code for Buttons" width="80%" />
+  <img src="POWER-AND-SENSORS/buttons/button1.jpeg" alt="Code for Buttons" width="80%" />
 </p>
 
 <p align="center">
-  <img src="media/buttons/button2.jpeg" alt="Physical Buttons on Robot" width="50%" />
+  <img src="POWER-AND-SENSORS/button2.jpeg" alt="Physical Buttons on Robot" width="50%" />
 </p>
 
 <h4>Button Functions</h4>
@@ -354,7 +354,7 @@ The buttons used to turn the robot on, start it, and stop it was placed on top t
 ### 7.2 Program Structure
 ### 7.3 State Machine / Flowchart
 ### 7.4 Open Challenge Strategy
-  -  For the open challenge we decedided that robot is going to use two ______ distance/giro??? sensors to avoid all the walls and to turn in a right direction.
+  -  For the open challenge we decedided that robot is going to use two distance sensors to avoid all the walls and to turn in a right direction.
 ### 7.5 Obstacle Challenge Strategy
   - For the obstacle challenge the strategy was to asamble a camera that 
 ### 7.6 Control Algorithms
@@ -394,14 +394,14 @@ The Open Challenge requires the robot to complete three laps of the track autono
 
 - During development, we experienced repeated problems with the Wi-Fi connection between the robot and the development computer. The connection was unstable and we could not work with the robot properly. To improve reliability, we tested a wired Ethernet connection using an RJ45 network cable. During our tests, this connection proved to be significantly more stable and reliable than Wi-Fi, so we decided to use the wired connection during development.
 
-<img src="media/connection-solution/connection1.jpeg" width="200"> <img src="media/connection-solution/connection2.jpeg" width="200">
-<img src="media/connection-solution/connection3.jpeg" width="200"> <img src="media/connection-solution/connection4.jpeg" width="200">
+<img src="connection-solution/connection1.jpeg" width="200"> <img src="connection-solution/connection2.jpeg" width="200">
+<img src="connection-solution/connection3.jpeg" width="200"> <img src="connection-solution/connection4.jpeg" width="200">
 
 #### Sensor Placement
 
 - During testing, the distance sensors were positioned on the upper part of the robot. In this position, the sensors were too high and could not reliably detect the wall directly in front of the vehicle. After identifying this issue, we redesigned the sensor position and moved the distance sensors lower on the chassis. This improved their field of view and allowed them to detect the wall more reliably. This change showed us how sensor placement can affect the performance of the navigation system.
 
-<img src="media/development/version_2/build/build-03.jpeg" width="250">  <img src="media/development/version_2/build/build-04.jpeg" width="250">
+<img src="DEVELOPMENT-HISTORY/version_2/build/build-03.jpeg" width="250">  <img src="DEVELOPMENT-HISTORY/version_2/build/build-04.jpeg" width="250">
 
 **Test result:**
 | Sensor position | Successful wall detections |
@@ -450,7 +450,7 @@ All custom mechanical components and structural parts of the robot were designed
 
 -**wheels**:
 
-<img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200"> <img src="media/wheels-making/wheels-fusion.png" width="400" height='400'>
+<img src="BUILD-GUIDE/wheels-making/wheels2.jpeg" width="200">  <img src="BUILD-GUIDE/wheels-making/wheels3.jpeg" width="200"> <img src="BUILD-GUIDE/wheels-making/wheels-fusion.png" width="400" height='400'>
 
 -**chassis**:
 
