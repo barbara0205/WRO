@@ -1,0 +1,25 @@
+# Engineering Decisions
+
+## Robot-to-Laptop Connection
+
+### Problem
+
+Throughout our development process, we repeatedly experienced problems when connecting the robot to a laptop over Wi-Fi. The wireless connection was not reliable enough for our development and testing workflow.
+
+### Solutions We Tried
+
+During the season, we tried several approaches to improve the Wi-Fi connection. Although some of them worked temporarily, none provided the reliability we needed (to continue our robot development???).
+-napraviti mozda tablicu s rjesenjima koje smo testirali!!!!
+
+### Final Solution
+
+We decided to replace the wireless connection with a wired Ethernet connection using an RJ45 network cable.
+This provided a much more reliable connection between the robot and the laptop and made the development process more stable.
+
+### Why We Chose This Solution
+
+For us, connection reliability was more important than the convenience of a wireless connection. The Ethernet connection reduced the connection problems we had experienced with Wi-Fi and gave us a dependable way to access the robot during development.
+
+### What We Learned
+
+This problem showed us that the most convenient solution is not always the most reliable one. Testing different connection methods helped us choose the option that worked best for our development environment.
