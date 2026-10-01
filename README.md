@@ -5,7 +5,8 @@
 - **Nadia Kravčuk**
 - **Ivano Koren**
 
-<img src="media/team/team.jpeg" width="500" >
+(video/video_mechaminds.mp4)
+<img src="team/team.jpeg" width="500" >
 
 ## Table of Contents
 
