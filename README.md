@@ -332,7 +332,7 @@ The buttons used to turn the robot on, start it, and stop it was placed on top t
 </p>
 
 <p align="center">
-  <img src="POWER-AND-SENSORS/button2.jpeg" alt="Physical Buttons on Robot" width="50%" />
+  <img src="POWER-AND-SENSORS/buttons/button2.jpeg" alt="Physical Buttons on Robot" width="50%" />
 </p>
 
 <h4>Button Functions</h4>
