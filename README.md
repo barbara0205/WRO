@@ -23,7 +23,7 @@
  
 - [5. Mobility & Mechanical Design](#5-mobility--mechanical-design)
   - [5.1 Chassis](#51-chassis)
-  - [5.2 Steering & Driving System](#52-steering-&-driving-system)
+  - [5.2 Steering & Driving System](#52-steering--driving-system)
   - [5.3 Dimensions and Weight](#53-dimensions-and-weight)
   
 - [6. Power & Sensor Architecture](#6-power--sensor-architecture)
@@ -251,7 +251,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
 The robot is powered by a single ML-R BDC N20 micro brushed DC motor. It operates at 12V DC with a low-power profile, ensuring high efficiency for battery-powered operation. The integrated 1:100 gear ratio provides high output torque within a compact 12 mm form factor. This motor serves as the primary drive source for the robot's propulsion mechanism.
 
 <p align="left">
-  <img src="media/hardware/motor/motor.png" alt="ML-R BDC N20 Motor" width="200" />
+  <img src="POWER-AND-SENSORS/motor/motor.png" alt="ML-R BDC N20 Motor" width="200" />
 </p>
 
 <p align="right">
@@ -262,7 +262,7 @@ The robot is powered by a single ML-R BDC N20 micro brushed DC motor. It operate
 
 The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obstacles. The sensors have a specified range of up to 2 m and communicate with the rest of the system via CAN Bus. Each robot is equipped with three LiDAR sensors, allowing distance measurements in multiple directions. The collected data can be used for obstacle detection, navigation, and collision avoidance. Both LiDARSs are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
 
-<img src="media/hardware/sensors/sensor.jpg" width="200"> 
+<img src="POWER-AND-SENSORS/sensors/sensor.jpg" width="200"> 
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -272,7 +272,7 @@ The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obs
 
 The robot uses a Raspberry Pi Camera Module 3 for visual perception of its surroundings. The camera is connected to the Raspberry Pi 5 and can be used to capture images and video for further processing. It can support tasks such as line detection, object recognition, marker detection, and navigation. The camera complements the LiDAR sensors by providing visual information that distance sensors alone cannot provide.
 
-<img src="media/hardware/camera/camera.png" width="200"> 
+<img src="POWER-AND-SENSORS/camera/camera.png" width="200"> 
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
