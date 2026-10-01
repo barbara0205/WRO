@@ -89,7 +89,7 @@ We are the Croatian robotics team **MechaMinds** and our names are **Barbara Luk
 </p>
 
 ## 4. Development history 
-Our robot went through several major design changes during the development process.
+Our robot went through several major design changes during the development process. 
 ### 4.1. Version 1 
 **About the robot** 
   - Our first robot was a custom-built vehicle made using 3D-printed and hand-built parts. It had several distance sensors that helped us test the robot.
@@ -359,6 +359,14 @@ The buttons used to turn the robot on, start it, and stop it was placed on top t
 
 ## 7. Software Architecture
 ### 7.1 Overview
+### 7.2 Program Structure
+### 7.3 State Machine / Flowchart
+### 7.4 Open Challenge Strategy
+  -  For the open challenge we decedided that robot is going to use two ______ distance/giro??? sensors to avoid all the walls and to turn in a right direction.
+### 7.5 Obstacle Challenge Strategy
+  - For the obstacle challenge the strategy was to asamble a camera that 
+### 7.6 Control Algorithms
+### 7.7 Edge Cases and Failure Handling
 
 The robot software is written in C++. The code is developed and maintained within Visual Studio Code, utilizing dedicated extensions for embedded C++ compilation and debugging. The software architecture handles direct motor control, power management, and timing routines required for accurate motor drive operations.
 
@@ -444,7 +452,7 @@ All custom mechanical components and structural parts of the robot were designed
 * **Manufacturing:** 3D Printed
 * **3D Models & STL Files:**
   * Wheel STL file: [STL files/wheels/wheel11.stl](STL_files/wheels/wheel1.stl)
-  * Chassis STL file: [STL files/wheels/mrm3d-chmod110 chassis.stl](STL_files/wheels/mrm3d-chmod110-chassis.stl)
+  * Chassis STL file:
 
 
 
