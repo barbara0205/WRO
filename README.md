@@ -292,6 +292,8 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 
 The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obstacles. The sensors have a specified range of up to 2 m and communicate with the rest of the system via CAN Bus. Each robot is equipped with three lidar sensors, allowing distance measurements in multiple directions. The collected data can be used for obstacle detection, navigation, and collision avoidance.  
 
+<img src="media/hardware/sensors/sensors-photo.jpg" width="200"> 
+
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
