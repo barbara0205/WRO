@@ -258,9 +258,6 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
 ## 6. Power & Sensor Architecture
 ### 6.1 Motors
 
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
 <p align="left">
   <img src="media/hardware/motor/motor.png" alt="ML-R BDC N20 Motor" width="200" />
 </p>
@@ -272,6 +269,10 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
 <p>The integrated <b>1:100 gear ratio</b> provides high output torque within a compact <b>12 mm</b> form factor.</p>
 
 <p>This motor serves as the primary drive source for the robot's propulsion mechanism.</p>
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 ### 6.2 Sensors
 We are using two MRMS LIDAR 2 m (VL53L0CX), CAN Bus sensors. Both sensors are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
@@ -338,9 +339,7 @@ The robot uses a B6 LiPro 80W Balance Charger to charge the LiPo battery. It sup
 
 ### 6.5 ON/OFF Button
 The button used to turn the robot on, start it, and stop it was placed on top to make it easily accessible.
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
+
 <p>This section explains the code structure and button controls for operating the robot.</p>
 
 <h4 align="center">Code for Buttons</h4>
@@ -365,8 +364,16 @@ The button used to turn the robot on, start it, and stop it was placed on top to
 
 <p><strong>5. Button 5 (Pin 5) &ndash; Servo Reset:</strong> Resets the servo angle back to 0°.</p>
 
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
+
 ## 7. Software Architecture
 ### 7.1 Overview
+
+<p>The robot software is written in C++.</p>
+<p>The code is developed and maintained within Visual Studio Code, utilizing dedicated extensions for embedded C++ compilation and debugging.</p>
+<p>The software architecture handles direct motor control, power management, and timing routines required for accurate motor drive operations.</p>
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
