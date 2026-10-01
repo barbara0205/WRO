@@ -26,12 +26,13 @@
   - [5.3 Steering System](#53-steering-system)
   - [5.4 Dimensions and Weight](#54-dimensions-and-weight)
   
-- [6. Power & Sensor Architecture](#6-power--sensor-architecture)
+ [6. Power & Sensor Architecture](#6-power--sensor-architecture)
   - [6.1 Motors](#61-motors)
   - [6.2 Sensors](#62-sensors)
   - [6.3 Camera](#63-camera)
-  - [6.4 Power](#64-power)
-  - [6.5 ON/OFF Button](#65-onoff-button)
+  - [6.4 Wiring Diagram](#64-wiring-diagram)
+  - [6.5 Power](#65-power)
+  - [6.6 ON/OFF Button](#66-onoff-button)
   
 - [7. Software Architecture](#7-software-architecture)
   - [7.1 Overview](#71-overview)
