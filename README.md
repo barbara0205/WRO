@@ -286,8 +286,13 @@ The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obs
 
 ###  6.3 Camera
 
+The robot uses a Raspberry Pi Camera Module 3 for visual perception of its surroundings. The camera is connected to the Raspberry Pi 5 and can be used to capture images and video for further processing. It can support tasks such as line detection, object recognition, marker detection, and navigation. The camera complements the LiDAR sensors by providing visual information that distance sensors alone cannot provide.
+
 <img src="media/hardware/camera/camera.png" width="200"> 
-### 6.3 Sensor Placement
+
+<p align="right">
+  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
+</p>
 
 ### 6.3 Wiring Diagram
 
