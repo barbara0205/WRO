@@ -353,8 +353,6 @@ The button used to turn the robot on, start it, and stop it was placed on top to
 
 <p><strong>4. Button 4 (Pin 4) &ndash; Servo +2°:</strong> Manually increases the servo angle by 2 degrees.</p>
 
-<p><strong>5. Button 5 (Pin 5) &ndash; Servo Reset:</strong> Resets the servo angle back to 0°.</p>
-
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
