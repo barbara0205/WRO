@@ -1,3 +1,5 @@
+This was us making new wheels for our robot.
+This was us coding.
 # MechaMinds-WRO 2026 Future Engineers
 # WRO Future Engineers - Engineering Documentation
 ## Team Members
