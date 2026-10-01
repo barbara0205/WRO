@@ -268,7 +268,7 @@ The robot is powered by a single ML-R BDC N20 micro brushed DC motor. It operate
 
 ### 6.2 Sensors
 
-The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obstacles. The sensors have a specified range of up to 2 m and communicate with the rest of the system via CAN Bus. Each robot is equipped with three lidar sensors, allowing distance measurements in multiple directions. The collected data can be used for obstacle detection, navigation, and collision avoidance. Both sensors are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
+The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obstacles. The sensors have a specified range of up to 2 m and communicate with the rest of the system via CAN Bus. Each robot is equipped with three LiDAR sensors, allowing distance measurements in multiple directions. The collected data can be used for obstacle detection, navigation, and collision avoidance. Both LiDARSs are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
 
 <img src="media/hardware/sensors/sensor.jpg" width="200"> 
 
@@ -308,7 +308,7 @@ current for the robot's motors and electronic components.
 | Nominal voltage | 18.5 V |
 | Capacity | 5000 mAh (5.0 Ah) |
 | Discharge rating | 20–30C |
-| Maximum theoretical discharge current | 150 A |
+| Discharge current | 150 A |
 | Manufacturer | Turnigy |
 | Model | Turnigy 5.0 |
 | Main connector | High-current connector |
@@ -435,7 +435,7 @@ The Open Challenge requires the robot to complete three laps of the track autono
 </p>
 
 ## 11. Build & Reproduction Guide
-Our robot is completly made out of 3D-printed parts.
+Our robot is completely made out of 3D-printed parts.
 
 ### 11.1 Parts
 
@@ -443,7 +443,7 @@ All custom mechanical components and structural parts of the robot were designed
 * **3D Modeling & CAD:** Autodesk Fusion
 * **Manufacturing:** 3D Printed
 * **3D Models & STL Files:**
-  * Wheel STL file: [STL files/wheels/wheel11.stl](STL_files/wheels/wheel1.stl)
+  * Wheel STL file: [STL files/wheels/wheel1.stl](STL_files/wheels/wheel1.stl)
 
 
 
