@@ -256,11 +256,11 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
 ## 6. Power & Sensor Architecture
 ### 6.1 Motors
 
+The robot is powered by a single ML-R BDC N20 micro brushed DC motor. It operates at 12V DC with a low-power profile, ensuring high efficiency for battery-powered operation. The integrated 1:100 gear ratio provides high output torque within a compact 12 mm form factor. This motor serves as the primary drive source for the robot's propulsion mechanism.
+
 <p align="left">
   <img src="media/hardware/motor/motor.png" alt="ML-R BDC N20 Motor" width="200" />
 </p>
-
-The robot is powered by a single ML-R BDC N20 micro brushed DC motor. It operates at 12V DC with a low-power profile, ensuring high efficiency for battery-powered operation. The integrated 1:100 gear ratio provides high output torque within a compact 12 mm form factor. This motor serves as the primary drive source for the robot's propulsion mechanism.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
