@@ -138,10 +138,10 @@ Our robot went through several major design changes during the development proce
 
 ### 4.3. Version 3
 **About the robot**
-- This robot that we had built out of LEGO, it represents a model of a Ford car.
+- This robot was built out of LEGO, it represents a model of a Ford car.
 
 **Main problem**
-- Robot had a problem turning its wheels because of the design, so it could not compleate even one lap, because of this we had to completely redesign it.
+- The robot had a problem turning its wheels because of the design, so it could not complete even one lap, because of this we had to completely redesign it.
 
 | Front | Rear |
 |---|---|
@@ -161,10 +161,10 @@ Our robot went through several major design changes during the development proce
 
 ### 4.4. Version 4
 **About the robot**
-- This was our final robot that we went to the competition with, it was also build out of lego bricks, it worked with help of distance sensors.
+- This was our final robot that we went to the competition with, it was also built out of lego bricks, it worked with the help of distance sensors.
   
 **Main problem**
-- Although we went to the competition with this robot it still had a few flaws. The LEGO sensors that we used to measure distance were not able to detect walls from sufficient distance so the robot couldn't compleate even one lap.
+- Although we went to the competition with this robot it still had a few flaws. The LEGO sensors that we used to measure distance were not able to detect walls from sufficient distance so the robot couldn't complete even one lap.
 
 | Front | Rear |
 |---|---|
