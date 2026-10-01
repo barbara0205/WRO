@@ -261,6 +261,17 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
+<p align="left">
+  <img src="media/hardware/motor/motor.png" alt="ML-R BDC N20 Motor" width="200" />
+</p>
+
+<p>The robot is powered by a single <b>ML-R BDC N20</b> micro brushed DC motor.</p>
+
+<p>It operates at <b>12V DC</b> with a low-power profile, ensuring high efficiency for battery-powered operation.</p>
+
+<p>The integrated <b>1:100 gear ratio</b> provides high output torque within a compact <b>12 mm</b> form factor.</p>
+
+<p>This motor serves as the primary drive source for the robot's propulsion mechanism.</p>
 
 ### 6.2 Sensors
 We are using two MRMS LIDAR 2 m (VL53L0CX), CAN Bus sensors. Both sensors are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
