@@ -452,7 +452,7 @@ All custom mechanical components and structural parts of the robot were designed
 * **Manufacturing:** 3D Printed
 * **3D Models & STL Files:**
   * Wheel STL file: [STL files/wheels/wheel11.stl](STL_files/wheels/wheel1.stl)
-  * Chassis STL file:
+  * Chassis STL file: [STL files/wheels/mrm3d-chmod110-chassis.stl](STL_files/wheels/mrm3d-chmod110-chassis.stl)
 
 
 
