@@ -29,10 +29,9 @@
 - [6. Power & Sensor Architecture](#6-power--sensor-architecture)
   - [6.1 Motors](#61-motors)
   - [6.2 Sensors](#62-sensors)
-  - [6.3 Sensor Placement](#63-sensor-placement)
-  - [6.4 Wiring Diagram](#64-wiring-diagram)
-  - [6.5 Power Architecture](#65-power-architecture)
-  - [6.6 ON/OFF Button](#66-on-/-off-button)
+  - [6.3 Wiring Diagram](#63-wiring-diagram)
+  - [6.4 Power](#64-power)
+  - [6.5 ON/OFF Button](#65-onoff-button)
   
 - [7. Software Architecture](#7-software-architecture)
   - [7.1 Overview](#71-overview)
@@ -41,8 +40,7 @@
   - [7.4 Obstacle Challenge Strategy](#74-obstacle-challenge-strategy)
     
 - [8. Engineering Decisions](#8-engineering-decisions)
-  - [8.1 Constraints](#81-constraints)
-  - [8.2 Major Problems and Solutions](#82-major-problems-and-solutions)
+  - [8.1 Major Problems and Solutions](#81-major-problems-and-solutions)
 
 - [9. Testing & Results](#9-testing--results)
   - [9.1 Mechanical Tests](#91-mechanical-tests)
@@ -78,14 +76,14 @@ We are Croatia robotics team **MechaMinds** and our names are **Barbara Lukić**
 | Length | 18 cm |
 | Width | 17.5 cm |
 | Height | 15.5 cm |
-| Weight | _ |
+| Weight | 0.876 kg |
 | Drive type | Rear-wheel drive |
 | Steering type | Ackermann steering |     ---Servo-controlled front steering???
 | Main controller | Raspberry Pi 5 Model (B Rev1.1) |
 | Programming language | C++ |
 | Main sensors | MRMS LIDAR 2 m (VL53L0CX), CAN Bus |
 | Camera | Raspberry Pi Camera Module 3 |
-| Power source | 11.1 V, 5000 mAh (55.5 Wh) battery |
+| Power source | Turnigy 5S LiPo, 18.5 V, 5000 mAh |
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -187,7 +185,7 @@ sensors that helped us test the robot.
 </p>
 
 ### 4.5 Current Robot
-The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-version-2) 
+The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-version-2) and the problem with connection was solved. The solution can be found in [8.2 Major Problems and Solutions](#82-major-problems-and-solutions)
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -197,13 +195,10 @@ The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-ver
 ### 5.1 Chassis
 
 #### Chassis Overview
-Our current vehicle uses a four-wheel chassis designed for the WRO Future Engineers challenge. The chassis provides the mechanical base for the drive system, steering mechanism, sensors and processing hardware. The design was developed with stability, compact dimensions and reliable steering in mind.
-
-#### Material and Construction
-Our robot is completly made out of 3D-printed parts. The parts are explained in section 11.
+Our current vehicle uses a four-wheel chassis, the chassis provides the mechanical base for the drive system, steering mechanism, sensors and processing hardware. The design was developed with stability, compact dimensions and reliable steering in mind.
 
 #### Component Placement
-The electronic components are arranged on several levels above the main chassis plate. The battery is positioned low inside the chassis, while the processing and control electronics are mounted above it. The camera is mounted at the front of the robot on a dedicated 3D-printed support. The distance sensors are positioned near the front of the vehicle so that they can detect the surrounding walls during navigation.
+The electronic components are arranged on several levels above the main chassis plate. The battery is positioned low inside the chassis to keep the center of gravity as low as possible, while the processing and control electronics are placed above it. The camera is placed at the front of the robot on a dedicated 3D-printed support so it could have good visibility of the field. The distance sensors are positioned near the front of the vehicle so that they can detect the surrounding walls during navigation.
 
 (gdje se nalaze no) **TU CE ICI SLIKA SVEGA**
 - Main controller: on top of the robot
@@ -212,27 +207,6 @@ The electronic components are arranged on several levels above the main chassis 
 - Steering servo: in the front, underneath the chasis
 - Sensors: in the front, inside the chassis
 - Camera: the front of the robot
-
-#### Design Reasoning
-
-The battery was positioned low in the chassis to keep the center of gravity as low as possible.
-We placed sensors at the front and inside the chasis because we found that in these positions the results were much better.
-The button used to turn the robot on, start it, and stop it was placed on top to make it easily accessible.
-Camera was placed in the front of the robot so it could have good visibility of the field.
-
-#### Chassis Improvements
-
-During testing, the distance sensors were positioned on the upper part of the robot. In this position, the sensors were too high and could not reliably detect the wall directly in front of the vehicle. After identifying this issue, we redesigned the sensor position and moved the distance sensors lower on the chassis. This improved their field of view and allowed them to detect the wall more reliably. This change showed us how strongly sensor placement can affect the performance of the navigation system.
-
-
-<img src="media/development/version_2/build/build-03.jpeg" width="250">  <img src="media/development/version_2/build/build-04.jpeg" width="250">
-
-**Test result:**
-| Sensor position | Successful wall detections |
-|---|---:|
-| Original higher position | 4/10 |
-| Lowered position | 8/10 |
-????????????
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -248,7 +222,7 @@ During testing, the distance sensors were positioned on the upper part of the ro
 
 ### 5.3 Steering System
 
-The vehicle uses a servo-controlled front steering mechanism. A steering servo mounted at the front of the chassis moves a mechanical linkage that connects the two front wheels. Instead of controlling the left and right wheels with separate motors, both front wheels are mechanically linked and change direction together. This provides car-like steering while the rear wheels make the robot move forward. The steering components are mounted directly to the 3D-printed chassis, which allowed us to adjust the geometry and mounting positions during development.
+The vehicle uses a servo-controlled front steering mechanism. A steering servo placed at the front of the chassis moves a mechanical linkage that connects the two front wheels. Instead of controlling the left and right wheels with separate motors, both front wheels are mechanically linked and change direction together. This provides car-like steering while the rear wheels make the robot move forward. The steering components are mounted directly to the 3D-printed chassis, which allowed us to adjust the geometry and mounting positions during development.
 
 <p align="center">
   <img src="media/development/version_2/final/bottom.jpeg" width="500">
@@ -269,7 +243,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 | Length | 180 mm |
 | Width | 175 mm |
 | Height | 155 mm |
-| Weight | TODO g |
+| Weight | 0.876 kg |
 | Wheelbase | 100 mm |
 | Front track width | 175 mm |
 | Rear track width | 170 mm |
@@ -289,6 +263,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo m
 </p>
 
 ### 6.2 Sensors
+We are using two MRMS LIDAR 2 m (VL53L0CX), CAN Bus sensors. Both sensors are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
 
 The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obstacles. The sensors have a specified range of up to 2 m and communicate with the rest of the system via CAN Bus. Each robot is equipped with three lidar sensors, allowing distance measurements in multiple directions. The collected data can be used for obstacle detection, navigation, and collision avoidance.  
 
@@ -303,23 +278,50 @@ The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obs
 <img src="media/hardware/camera/camera.png" width="200"> 
 ### 6.3 Sensor Placement
 
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 6.4 Wiring Diagram
+### 6.3 Wiring Diagram
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.5 Power Architecture
+### 6.4 Power
+#### Battery
+
+Our robot is powered by a Turnigy 5.0 High Discharge LiPo battery. 
+The battery was selected to provide sufficient voltage, capacity and 
+current for the robot's motors and electronic components.
+
+#### Specifications
+
+| Parameter | Value |
+|---|---|
+| Battery type | LiPo (Lithium Polymer) |
+| Configuration | 5S |
+| Nominal voltage | 18.5 V |
+| Capacity | 5000 mAh (5.0 Ah) |
+| Discharge rating | 20–30C |
+| Maximum theoretical discharge current | 150 A |
+| Manufacturer | Turnigy |
+| Model | Turnigy 5.0 |
+| Main connector | High-current connector |
+| Balance connector | 5S balance connector |
+
+We chose this battery because our robot requires a power source capable of 
+supplying high current to the motors while maintaining a stable voltage.
+
+<img src="media/power/battery/battery1.jpeg" width="200"> <img src="media/power/battery/battery3.jpeg" width="200"> <img src="media/power/battery/battery4.jpeg" width="200">
+#### Charger
+
+The robot uses a B6 LiPro 80W Balance Charger to charge the LiPo battery. It supports 1–6 cell LiPo batteries and includes a balance function to keep the voltage of the individual cells equal during charging.
+
+<img src="media/power/charger/charger1.jpeg" width="200">
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.6 ON/OFF Button
+### 6.5 ON/OFF Button
+The button used to turn the robot on, start it, and stop it was placed on top to make it easily accessible.
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
@@ -373,19 +375,26 @@ The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obs
 
 
 ## 8. Engineering Decisions
-### 8.1 Constraints
-
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
-
-### 8.2 Major Problems and Solutions
+### 8.1 Major Problems and Solutions
 #### Connection Failure 
 
 - During development, we experienced repeated problems with the Wi-Fi connection between the robot and the development computer. The connection was unstable and we could not work with the robot properly. To improve reliability, we tested a wired Ethernet connection using an RJ45 network cable. During our tests, this connection proved to be significantly more stable and reliable than Wi-Fi, so we decided to use the wired connection during development.
 
 <img src="media/connection-solution/connection1.jpeg" width="200"> <img src="media/connection-solution/connection2.jpeg" width="200">
 <img src="media/connection-solution/connection3.jpeg" width="200"> <img src="media/connection-solution/connection4.jpeg" width="200">
+
+#### Sensor Placement
+
+- During testing, the distance sensors were positioned on the upper part of the robot. In this position, the sensors were too high and could not reliably detect the wall directly in front of the vehicle. After identifying this issue, we redesigned the sensor position and moved the distance sensors lower on the chassis. This improved their field of view and allowed them to detect the wall more reliably. This change showed us how sensor placement can affect the performance of the navigation system.
+
+<img src="media/development/version_2/build/build-03.jpeg" width="250">  <img src="media/development/version_2/build/build-04.jpeg" width="250">
+
+**Test result:**
+| Sensor position | Successful wall detections |
+|---|---:|
+| Original higher position | 3/10 |
+| Lowered position | 8/10 |
+
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -414,15 +423,22 @@ tu ide video s ytuba kad stavimo ruku on skrece
 </p>
 
 ## 11. Build & Reproduction Guide
+Our robot is completly made out of 3D-printed parts.
+
 ### 11.1 Parts
+
+All custom mechanical components and structural parts of the robot were designed using Autodesk Fusion and manufactured via 3D printing.
+* **3D Modeling & CAD:** Autodesk Fusion
+* **Manufacturing:** 3D Printed
+* **3D Models & STL Files:**
+  * Wheel STL file: [STL files/wheels/wheel11.stl](STL_files/wheels/wheel1.stl)
+
+
+
+
 -**wheels**:
 
- <img src="media/wheels-making/wheels1.jpeg" width="200">  <img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200">
-
-
--**wheels**
-
-<img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200">
+<img src="media/wheels-making/wheels2.jpeg" width="200">  <img src="media/wheels-making/wheels3.jpeg" width="200"> <img src="media/wheels-making/wheels-fusion.png" width="400" height='400'>
 
 
 <p align="right">
