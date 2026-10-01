@@ -29,7 +29,7 @@
 - [6. Power & Sensor Architecture](#6-power--sensor-architecture)
   - [6.1 Motors](#61-motors)
   - [6.2 Sensors](#62-sensors)
-  - [6.3 Wiring Diagram](#63-wiring-diagram)
+  - [6.3 Camera](#63-camera)
   - [6.4 Power](#64-power)
   - [6.5 ON/OFF Button](#65-onoff-button)
   
