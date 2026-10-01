@@ -138,10 +138,10 @@ Our robot went through several major design changes during the development proce
 
 ### 4.3. Version 3
 **About the robot**
-- This robot that we had build out of LEGO, it represents a model of a Ford car.
+- This robot that we had built out of LEGO, it represents a model of a Ford car.
 
 **Main problem**
-- Robot had a problem turning its wheels because of the design, so it could not compleate even one lap, beacuse of this we had to completaly redesign it.
+- Robot had a problem turning its wheels because of the design, so it could not compleate even one lap, because of this we had to completely redesign it.
 
 | Front | Rear |
 |---|---|
