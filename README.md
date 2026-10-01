@@ -298,6 +298,9 @@ The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obs
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
+###  6.3 Camera
+
+<img src="media/hardware/camera/camera.png" width="200"> 
 ### 6.3 Sensor Placement
 
 <p align="right">
