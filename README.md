@@ -394,6 +394,8 @@ The Open Challenge requires the robot to complete three laps of the track autono
 
 ### 7.4 Obstacle Challenge Strategy
 
+<p>The robot uses a <b>Raspberry Pi Camera Module 3</b> connected to a <b>Raspberry Pi 5</b>, enabling image and video capture for line detection, object recognition, and color marker detection. While LiDAR sensors handle wall-following and distance measurement, the camera provides visual perception that distance sensors alone cannot supply. By combining wall-following via LiDAR with visual processing from the camera, the robot actively detects red and green obstacles. The system processes camera data in real time to steer correctly around color-coded markers while maintaining high-speed autonomous navigation. This dual-sensing setup ensures precise positioning and seamless obstacle avoidance required to complete all three laps fully autonomously.</p>
+
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
