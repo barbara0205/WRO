@@ -43,8 +43,6 @@
   - [8.1 Major Problems and Solutions](#81-major-problems-and-solutions)
 
 - [9. Testing & Results](#9-testing--results)
-  - [9.1 Mechanical Tests](#91-mechanical-tests)
-  - [9.2 Sensor Tests](#92-sensor-tests)
 
 - [10. Components / Bill of Materials](#10-components--bill-of-materials)
 
@@ -419,14 +417,12 @@ The Open Challenge requires the robot to complete three laps of the track autono
 </p>
 
 ## 9. Testing & Results
-### 9.1 Mechanical Tests
 
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
+<p>You can see all the tests and results on our YouTube channel:</p>
 
-### 9.2 Sensor Tests
-tu ide video s ytuba kad stavimo ruku on skrece
+<a href="https://www.youtube.com/@mechaminds111" target="_blank">
+  MechaMinds Youtube Channel
+</a>
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
