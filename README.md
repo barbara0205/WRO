@@ -6,7 +6,7 @@
 - **Ivano Koren**
 
 <img src="TEAM-PICTURES/team photo/team photo.jpeg" width="500" > <br>
-[Watch the test video](TEAM-PICTURES/video_mechaminds.mp4)
+[Watch the test video](TEAM-PICTURES/video.mp4)
 
 ## Table of Contents
 
