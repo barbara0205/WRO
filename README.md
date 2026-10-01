@@ -1,5 +1,3 @@
-This was us making new wheels for our robot.
-This was us coding.
 # MechaMinds-WRO 2026 Future Engineers
 # WRO Future Engineers - Engineering Documentation
 ## Team Members
@@ -32,8 +30,9 @@ This was us coding.
   - [6.1 Motors](#61-motors)
   - [6.2 Sensors](#62-sensors)
   - [6.3 Camera](#63-camera)
-  - [6.4 Power](#64-power)
-  - [6.5 ON/OFF Button](#65-onoff-button)
+  - [6.4 Wiring Diagram](#64-wiring-diagram)
+  - [6.5 Power](#65-power)
+  - [6.6 ON/OFF Button](#66-onoff-button)
   
 - [7. Software Architecture](#7-software-architecture)
   - [7.1 Overview](#71-overview)
@@ -45,8 +44,6 @@ This was us coding.
   - [8.1 Major Problems and Solutions](#81-major-problems-and-solutions)
 
 - [9. Testing & Results](#9-testing--results)
-  - [9.1 Mechanical Tests](#91-mechanical-tests)
-  - [9.2 Sensor Tests](#92-sensor-tests)
 
 - [10. Components / Bill of Materials](#10-components--bill-of-materials)
 
@@ -66,7 +63,7 @@ Our project is an autonomous vehicle that can navigate the competition field, de
 </p>
 
 ## 2. Team
-We are Croatia robotics team **MechaMinds** and our names are **Barbara Lukić**, **Ivano Koren** and **Nadia Kravčuk**. We come from high school Tin Ujević in Kutina. Our mentors name is Damir Petravić. Together we worked on design of the robot, programming and testing our robot.
+We are the Croatian robotics team **MechaMinds** and our names are **Barbara Lukić**, **Ivano Koren** and **Nadia Kravčuk**. We come from Tin Ujević High School in Kutina. Our mentor's name is Damir Petravić. Together we worked on the design of the robot, programming and testing our robot.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -95,11 +92,10 @@ We are Croatia robotics team **MechaMinds** and our names are **Barbara Lukić**
 Our robot went through several major design changes during the development process.
 ### 4.1. Version 1 
 **About the robot** 
-  - Our first robot was a custom-build vehicle made using 3D-prined and hand-build parts. It had several distance
-sensors that helped us test the robot.
+  - Our first robot was a custom-built vehicle made using 3D-printed and hand-built parts. It had several distance sensors that helped us test the robot.
 
 **Main problem** 
-  - The robot was not realible in making 3 laps so we decided to change the robot for better performance.
+  - The robot was not reliable enough to complete three laps so we decided to change the robot for better performance.
 
 | Front | Rear |
 |---|---|
@@ -119,7 +115,7 @@ sensors that helped us test the robot.
 
 ### 4.2. Version 2
 **About the robot**
-- This robot was an upgraded version on the first one, it had a camera and several distance sensors.
+- This robot was an upgraded version of the first one, it had a camera and several distance sensors.
   
 **Main problem**
 - All year we have been working on this robot, about two months before the competition we started having problems connecting the robot to Wi-Fi, it started crashing and we tried to find a solution before the competition but we did not succeed.
@@ -142,10 +138,10 @@ sensors that helped us test the robot.
 
 ### 4.3. Version 3
 **About the robot**
-- This robot that we had build out of LEGO, it represents a model of a Ford car.
+- This robot was built out of LEGO, it represents a model of a Ford car.
 
 **Main problem**
-- Robot had a problem turning its wheels because of the design, so it could not compleate even one lap, beacuse of this we had to completaly redesign it.
+- The robot had a problem turning its wheels because of the design, so it could not complete even one lap, because of this we had to completely redesign it.
 
 | Front | Rear |
 |---|---|
@@ -165,10 +161,10 @@ sensors that helped us test the robot.
 
 ### 4.4. Version 4
 **About the robot**
-- This was our final robot that we went to the competition with, it was also build out of lego bricks, it worked with help of distance sensors.
+- This was our final robot that we went to the competition with, it was also built out of lego bricks, it worked with the help of distance sensors.
   
 **Main problem**
-- Although we went to the competition with this robot it still had a few flaws. The LEGO sensors that we used to measure distance were not able to detect walls from sufficient distance so the robot couldn't compleate even one lap.
+- Although we went to the competition with this robot it still had a few flaws. The LEGO sensors that we used to measure distance were not able to detect walls from sufficient distance so the robot couldn't complete even one lap.
 
 | Front | Rear |
 |---|---|
@@ -187,7 +183,7 @@ sensors that helped us test the robot.
 </p>
 
 ### 4.5 Current Robot
-The robot we are using for competition in Zagreb will be [4.2 Version 2](#42-version-2) and the problem with connection was solved. The solution can be found in [8.1 Major Problems and Solutions](#81-major-problems-and-solutions)
+The robot we will use for the competition in Zagreb is [4.2 Version 2](#42-version-2) the connection problem was solved. The solution can be found in [8.1 Major Problems and Solutions](#81-major-problems-and-solutions)
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -260,11 +256,11 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
 ## 6. Power & Sensor Architecture
 ### 6.1 Motors
 
+The robot is powered by a single ML-R BDC N20 micro brushed DC motor. It operates at 12V DC with a low-power profile, ensuring high efficiency for battery-powered operation. The integrated 1:100 gear ratio provides high output torque within a compact 12 mm form factor. This motor serves as the primary drive source for the robot's propulsion mechanism.
+
 <p align="left">
   <img src="media/hardware/motor/motor.png" alt="ML-R BDC N20 Motor" width="200" />
 </p>
-
-The robot is powered by a single ML-R BDC N20 micro brushed DC motor. It operates at 12V DC with a low-power profile, ensuring high efficiency for battery-powered operation. The integrated 1:100 gear ratio provides high output torque within a compact 12 mm form factor. This motor serves as the primary drive source for the robot's propulsion mechanism.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -272,7 +268,7 @@ The robot is powered by a single ML-R BDC N20 micro brushed DC motor. It operate
 
 ### 6.2 Sensors
 
-The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obstacles. The sensors have a specified range of up to 2 m and communicate with the rest of the system via CAN Bus. Each robot is equipped with three lidar sensors, allowing distance measurements in multiple directions. The collected data can be used for obstacle detection, navigation, and collision avoidance. Both sensors are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
+The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obstacles. The sensors have a specified range of up to 2 m and communicate with the rest of the system via CAN Bus. Each robot is equipped with three LiDAR sensors, allowing distance measurements in multiple directions. The collected data can be used for obstacle detection, navigation, and collision avoidance. Both LiDARSs are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
 
 <img src="media/hardware/sensors/sensor.jpg" width="200"> 
 
@@ -290,13 +286,13 @@ The robot uses a Raspberry Pi Camera Module 3 for visual perception of its surro
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.3 Wiring Diagram
+### 6.4 Wiring Diagram
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.4 Power
+### 6.5 Power
 #### Battery
 
 Our robot is powered by a Turnigy 5.0 High Discharge LiPo battery. 
@@ -312,7 +308,7 @@ current for the robot's motors and electronic components.
 | Nominal voltage | 18.5 V |
 | Capacity | 5000 mAh (5.0 Ah) |
 | Discharge rating | 20–30C |
-| Maximum theoretical discharge current | 150 A |
+| Discharge current | 150 A |
 | Manufacturer | Turnigy |
 | Model | Turnigy 5.0 |
 | Main connector | High-current connector |
@@ -332,8 +328,8 @@ The robot uses a B6 LiPro 80W Balance Charger to charge the LiPo battery. It sup
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.5 ON/OFF Button
-The button used to turn the robot on, start it, and stop it was placed on top to make it easily accessible.
+### 6.6 ON/OFF Button
+The buttons used to turn the robot on, start it, and stop it was placed on top to make it easily accessible.
 
 <p>This section explains the code structure and button controls for operating the robot.</p>
 
@@ -357,8 +353,6 @@ The button used to turn the robot on, start it, and stop it was placed on top to
 
 <p><strong>4. Button 4 (Pin 4) &ndash; Servo +2°:</strong> Manually increases the servo angle by 2 degrees.</p>
 
-<p><strong>5. Button 5 (Pin 5) &ndash; Servo Reset:</strong> Resets the servo angle back to 0°.</p>
-
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
@@ -379,7 +373,7 @@ The robot software is written in C++. The code is developed and maintained withi
 
 ### 7.3 Open Challenge Strategy
 
-The Open Challenge requires the robot to complete three laps of the track autonomously without colliding with obstacles. During the run, the robot uses its lidar sensors and camera to detect the track boundaries and nearby objects. Based on the sensor data, the control system continuously adjusts the robot’s direction and movement. The main goal is to achieve reliable navigation, smooth cornering, and consistent obstacle avoidance throughout all three laps.
+The Open Challenge requires the robot to complete three laps of the track autonomously without colliding with obstacles. During the run, the robot uses its LiDAR sensors and camera to detect the track boundaries and nearby objects. Based on the sensor data, the control system continuously adjusts the robot’s direction and movement. The main goal is to achieve reliable navigation, smooth cornering, and consistent obstacle avoidance throughout all three laps.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -421,14 +415,12 @@ The Open Challenge requires the robot to complete three laps of the track autono
 </p>
 
 ## 9. Testing & Results
-### 9.1 Mechanical Tests
 
-<p align="right">
-  <a href="#table-of-contents">⬆ Back to Table of Contents</a>
-</p>
+<p>You can see all the tests and results on our YouTube channel:</p>
 
-### 9.2 Sensor Tests
-tu ide video s ytuba kad stavimo ruku on skrece
+<a href="https://www.youtube.com/@mechaminds111" target="_blank">
+  MechaMinds Youtube Channel
+</a>
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
@@ -443,7 +435,7 @@ tu ide video s ytuba kad stavimo ruku on skrece
 </p>
 
 ## 11. Build & Reproduction Guide
-Our robot is completly made out of 3D-printed parts.
+Our robot is completely made out of 3D-printed parts.
 
 ### 11.1 Parts
 
@@ -453,6 +445,8 @@ All custom mechanical components and structural parts of the robot were designed
 * **3D Models & STL Files:**
   * Wheel STL file: [STL files/wheels/wheel11.stl](STL_files/wheels/wheel1.stl)
   * Wheel STL file: [STL files/wheels/mrm3d-chmod110 - chassis.stl](STL_files/wheels/mrm3d-chmod110 - chassis.stl)
+  * Wheel STL file: [STL files/wheels/wheel1.stl](STL_files/wheels/wheel1.stl)
+  * Chassis STL file: [STL files/wheels/mrm3d-chmod110chassis.stl](STL_files/wheels/mrm3d-chmod110chassis.stl)
 
 
 
