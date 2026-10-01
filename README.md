@@ -366,9 +366,7 @@ The button used to turn the robot on, start it, and stop it was placed on top to
 ## 7. Software Architecture
 ### 7.1 Overview
 
-<p>The robot software is written in C++.</p>
-<p>The code is developed and maintained within Visual Studio Code, utilizing dedicated extensions for embedded C++ compilation and debugging.</p>
-<p>The software architecture handles direct motor control, power management, and timing routines required for accurate motor drive operations.</p>
+The robot software is written in C++. The code is developed and maintained within Visual Studio Code, utilizing dedicated extensions for embedded C++ compilation and debugging. The software architecture handles direct motor control, power management, and timing routines required for accurate motor drive operations.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
