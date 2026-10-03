@@ -526,25 +526,19 @@ WRO/
 │   ├── motor
 |   |   └── moton.png
 │   ├── sensors
-|   |   └── sensor.jpg 
+|       └── sensor.jpg 
 │
 ├── archive
 |   └── first-readme.md.txt
 │
-├── media/
-│   ├── connection-solution/
-│   ├── development/
-│   │   ├── version_1/
-│   │   ├── version_2/
-│   │   │   ├── build/
-│   │   │   └── final/
-│   │   ├── version_3/
-│   │   ├── version_4/
-│   │   └── version_4.1/
-│   │       ├── before-repair/
-│   │       ├── final/
-│   │       ├── repair-process/
-│   │       └── testing/
+├── BUILD-GUIDE
+│   ├── Raspberry pi3
+│   │   └── RaspberryPI3.stl
+│   ├── panel
+│   │   └── mrm-pl90x35.stl
+│   ├── chassis
+│   │   ├── chassis.stl
+│   │   └── mrm3d-chmod110 - chassis.stl
 │   │
 │   ├── final-robot/
 │   ├── team/
