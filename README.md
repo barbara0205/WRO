@@ -381,15 +381,6 @@ The buttons used to turn the robot on, start it, and stop it was placed on top t
 
 ## 7. Software Architecture
 ### 7.1 Overview
-### 7.2 Program Structure
-### 7.3 State Machine / Flowchart
-### 7.4 Open Challenge Strategy
-  -  For the open challenge we decedided that robot is going to use two distance sensors to avoid all the walls and to turn in a right direction.
-### 7.5 Obstacle Challenge Strategy
-  - For the obstacle challenge the strategy was to asamble a camera that 
-### 7.6 Control Algorithms
-### 7.7 Edge Cases and Failure Handling
-
 The robot software is written in C++. The code is developed and maintained within Visual Studio Code, utilizing dedicated extensions for embedded C++ compilation and debugging. The software architecture handles direct motor control, power management, and timing routines required for accurate motor drive operations.
 
 <p align="right">
@@ -400,7 +391,8 @@ The robot software is written in C++. The code is developed and maintained withi
 #### Code used for distance sensors
 <img src="CODE/sensors code/sensors code.png" width="300">
 
-
+#### Code used for camera
+<img src="CODE/camera code/camera code.png" width="300">
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
