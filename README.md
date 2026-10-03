@@ -5,16 +5,22 @@
 - **Nadia Kravčuk**
 - **Ivano Koren**
 
-<img src="TEAM-PICTURES/team photo/team photo.jpeg" width="500" > <br>
+<p align="center">
+  <img src="TEAM-PICTURES/team photo/team photo.jpeg" width="500" >
+</p>
+<br>
 <p align="center">
   <em>Team picture.</em>
 </p>
-<img src="TEAM-PICTURES/funny photo/funny photo2.jpeg" width="500" > <br>
+<p align="center">
+  <img src="TEAM-PICTURES/funny photo/funny photo2.jpeg" width="500" > 
+</p>
+<br>
 <p align="center">
   <em>Funny team picture.</em>
 </p>
 
-[Watch the test video](TEAM-PICTURES/video/video_mechaminds.mp4)
+[Watch the introduction video](TEAM-PICTURES/video/video_mechaminds.mp4)
 
 ## Table of Contents
 
