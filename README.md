@@ -79,6 +79,10 @@ Our project is an autonomous vehicle that can navigate the competition field, de
 ## 2. Team
 We are the Croatian robotics team **MechaMinds** and our names are **Barbara Lukić**, **Ivano Koren** and **Nadia Kravčuk**. We come from Tin Ujević High School in Kutina. Our mentor's name is Damir Petravić. Together we worked on the design of the robot, programming and testing our robot.
 
+<img src="TEAM-PICTURES/school logo.pdf" width="200" > 
+<em> Our school logo.</em>
+
+
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
