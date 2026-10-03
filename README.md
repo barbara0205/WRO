@@ -137,7 +137,7 @@ Our robot went through several major design changes during the development proce
 - This robot was an upgraded version of the first one, it had a camera and several distance sensors.
   
 **Main problem**
-- All year we have been working on this robot, about two months before the competition we started having problems connecting the robot to Wi-Fi, it started crashing and we tried to find a solution before the competition but we did not succeed.
+- All year we have been working on this robot, about one month before the competition we started having problems connecting the robot to Wi-Fi, it started crashing and we tried to find a solution before the competition but we did not succeed.
 
 | Front | Rear |
 |---|---|
@@ -625,6 +625,11 @@ WRO/
 </p>
 
 ## 14. Engineering Journal
+With the start of last school year (8.9.2025) we started working with robot [4.1 Version 1](#41-version-1), but the robot was not reliable enough to complete three laps so we decided to change the robot for better performance. 
+On 31.3.2026. we started working with [4.2 Version 2](#42-version-2). The robot was working very well but then about one month before the competition we started having problems connecting the robot to Wi-Fi, it started crashing and we tried to find a solution before the competition but we did not succeed. 
+So, on 22.5.2026. we built [4.3 Version 3](#43-version-3). The robot had a problem turning its wheels because of the design, so it could not complete even one lap, because of this we had to completely redesign it.
+On 6.6.2026. we built [4.4 Version 4](#44-version-4). Although we went to the competition with this robot it still had a few flaws. The LEGO sensors that we used to measure distance were not able to detect walls from sufficient distance so the robot couldn't complete even one lap.
+Over the summer we decided that we should fix robot [4.2 Version 2](#42-version-2) so the whole summer we spent working on that robot and fixing it. On 27.8.2026. we connected robot to Wi-Fi and then we got into programming. 
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
