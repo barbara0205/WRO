@@ -33,40 +33,41 @@
   - [4.2 Version 2](#42-version-2)
   - [4.3 Version 3](#43-version-3)
   - [4.4 Version 4](#44-version-4)
-  - [4.5 Current Robot](#45-current-robot)
+
+- [5. Current Robot](#5-current-robot)
  
-- [5. Mobility & Mechanical Design](#5-mobility--mechanical-design)
-  - [5.1 Chassis](#51-chassis)
-  - [5.2 Steering & Driving System](#52-steering--driving-system)
-  - [5.3 Dimensions and Weight](#53-dimensions-and-weight)
+- [6. Mobility & Mechanical Design](#6-mobility--mechanical-design)
+  - [6.1 Chassis](#61-chassis)
+  - [6.2 Steering & Driving System](#62-steering--driving-system)
+  - [6.3 Dimensions and Weight](#63-dimensions-and-weight)
   
-- [6. Power & Sensor Architecture](#6-power--sensor-architecture)
-  - [6.1 Motors](#61-motors)
-  - [6.2 Sensors](#62-sensors)
-  - [6.3 Camera](#63-camera)
-  - [6.4 Wiring Diagram](#64-wiring-diagram)
-  - [6.5 Power](#65-power)
-  - [6.6 ON/OFF Button](#66-onoff-button)
+- [7. Power & Sensor Architecture](#7-power--sensor-architecture)
+  - [7.1 Motors](#71-motors)
+  - [7.2 Sensors](#72-sensors)
+  - [7.3 Camera](#73-camera)
+  - [7.4 Wiring Diagram](#74-wiring-diagram)
+  - [7.5 Power](#75-power)
+  - [7.6 ON/OFF Button](#76-onoff-button)
   
-- [7. Software Architecture](#7-software-architecture)
-  - [7.1 Overview](#71-overview)
-  - [7.2 Code](#72-code)
-  - [7.3 Open Challenge Strategy](#73-open-challenge-strategy)
-  - [7.4 Obstacle Challenge Strategy](#74-obstacle-challenge-strategy)
+- [8. Software Architecture](#8-software-architecture)
+  - [8.1 Overview](#81-overview)
+  - [8.2 Code](#82-code)
+  - [8.3 Open Challenge Strategy](#83-open-challenge-strategy)
+  - [8.4 Obstacle Challenge Strategy](#84-obstacle-challenge-strategy)
     
-- [8. Engineering Decisions](#8-engineering-decisions)
-  - [8.1 Major Problems and Solutions](#81-major-problems-and-solutions)
+- [9. Engineering Decisions](#9-engineering-decisions)
+  - [9.1 Major Problems and Solutions](#91-major-problems-and-solutions)
 
-- [9. Testing & Results](#9-testing--results)
+- [10. Testing & Results](#10-testing--results)
 
-- [10. Components / Bill of Materials](#10-components--bill-of-materials)
+- [11. Components / Bill of Materials](#11-components--bill-of-materials)
 
-- [11. Build & Reproduction Guide](#11-build--reproduction-guide)
-  - [11.1 Parts](#111-parts)
-  - [11.2 Assembly](#112-assembly)
+- [12. Build & Reproduction Guide](#12-build--reproduction-guide)
+  - [12.1 Parts](#121-parts)
+  - [12.2 Assembly](#122-assembly)
 
-- [12. Repository Structure](#12-repository-structure)
-- [13. Engineering Journal](#13-engineering-journal)
+- [13. Repository Structure](#13-repository-structure)
+- [14. Engineering Journal](#14-engineering-journal)
 
 
 ## 1. Project Overview
@@ -200,7 +201,7 @@ Our robot went through several major design changes during the development proce
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 4.5 Current Robot
+## 5. Current Robot
 The robot we will use for the competition in Zagreb is [4.2 Version 2](#42-version-2) the connection problem was solved. The solution can be found in [8.1 Major Problems and Solutions](#81-major-problems-and-solutions)
 This robot can now avoid obstacles and track walls using two distance sensors that are placed on each side of the robot. 
 
@@ -220,8 +221,8 @@ This robot can now avoid obstacles and track walls using two distance sensors th
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-## 5. Mobility & Mechanical Design
-### 5.1 Chassis
+## 6. Mobility & Mechanical Design
+### 6.1 Chassis
 
 #### Chassis Overview
 Our current vehicle uses a four-wheel chassis, the chassis provides the mechanical base for the drive system, steering mechanism, sensors and processing hardware. The design was developed with stability, compact dimensions and reliable steering in mind.
@@ -240,7 +241,7 @@ The electronic components are arranged on several levels above the main chassis 
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 5.2 Steering & Driving System
+### 6.2 Steering & Driving System
 
 The vehicle uses a servo-controlled front steering mechanism. A steering servo placed at the front of the chassis moves a mechanical linkage that connects the two front wheels. Instead of controlling the left and right wheels with separate motors, both front wheels are mechanically linked and change direction together. This provides car-like steering while the rear wheels make the robot move forward. The steering components are mounted directly to the 3D-printed chassis, which allowed us to adjust the geometry and mounting positions during development. The two rear wheels are connected by a metal rod and do not turn left or right, so they keep the robot moving straight. The motor is connected to the battery and provides the power needed to move the robot. This simple system allows the robot to move forward in a straight line.
 
@@ -256,7 +257,7 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 5.3 Dimensions and Weight
+### 6.3 Dimensions and Weight
 
 | Measurement | Value |
 |---|---|
@@ -275,8 +276,8 @@ The vehicle uses a servo-controlled front steering mechanism. A steering servo p
 </p>
 
 
-## 6. Power & Sensor Architecture
-### 6.1 Motors
+## 7. Power & Sensor Architecture
+### 7.1 Motors
 
 The robot is powered by a single ML-R BDC N20 micro brushed DC motor. It operates at 12V DC with a low-power profile, ensuring high efficiency for battery-powered operation. The integrated 1:100 gear ratio provides high output torque within a compact 12 mm form factor. This motor serves as the primary drive source for the robot's propulsion mechanism.
 
@@ -288,7 +289,7 @@ The robot is powered by a single ML-R BDC N20 micro brushed DC motor. It operate
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.2 Sensors
+### 7.2 Sensors
 
 The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obstacles. The sensors have a specified range of up to 2 m and communicate with the rest of the system via CAN Bus. Each robot is equipped with three LiDAR sensors, allowing distance measurements in multiple directions. The collected data can be used for obstacle detection, navigation, and collision avoidance. Both LiDARSs are placed at the front of the robot, each on one side, between two chassis and at the angle of 45° so they wouldn't be too high nor too low to not be able to detect walls from the side and from the front.
 
@@ -298,7 +299,7 @@ The robot uses MRMS VL53L0CX LiDAR sensors to measure the distance to nearby obs
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-###  6.3 Camera
+###  7.3 Camera
 
 The robot uses a Raspberry Pi Camera Module 3 for visual perception of its surroundings. The camera is connected to the Raspberry Pi 5 and can be used to capture images and video for further processing. It can support tasks such as line detection, object recognition, marker detection, and navigation. The camera complements the LiDAR sensors by providing visual information that distance sensors alone cannot provide.
 
@@ -308,13 +309,13 @@ The robot uses a Raspberry Pi Camera Module 3 for visual perception of its surro
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.4 Wiring Diagram
+### 7.4 Wiring Diagram
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.5 Power
+### 7.5 Power
 #### Battery
 
 Our robot is powered by a Turnigy 5.0 High Discharge LiPo battery. 
@@ -350,7 +351,7 @@ The robot uses a B6 LiPro 80W Balance Charger to charge the LiPo battery. It sup
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 6.6 ON/OFF Button
+### 7.6 ON/OFF Button
 The buttons used to turn the robot on, start it, and stop it was placed on top to make it easily accessible.
 
 <p>This section explains the code structure and button controls for operating the robot.</p>
@@ -379,15 +380,15 @@ The buttons used to turn the robot on, start it, and stop it was placed on top t
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-## 7. Software Architecture
-### 7.1 Overview
+## 8. Software Architecture
+### 8.1 Overview
 The robot software is written in C++. The code is developed and maintained within Visual Studio Code, utilizing dedicated extensions for embedded C++ compilation and debugging. The software architecture handles direct motor control, power management, and timing routines required for accurate motor drive operations.
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 7.2 Code
+### 8.2 Code
 #### Code used for distance sensors
 <img src="CODE/sensors code/sensors code.png" width="300">
 
@@ -398,7 +399,7 @@ The robot software is written in C++. The code is developed and maintained withi
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 7.3 Open Challenge Strategy
+### 8.3 Open Challenge Strategy
 
 The Open Challenge requires the robot to complete three laps of the track autonomously without colliding with obstacles. During the run, the robot uses its LiDAR sensors and camera to detect the track boundaries and nearby objects. Based on the sensor data, the control system continuously adjusts the robot’s direction and movement. The main goal is to achieve reliable navigation, smooth cornering, and consistent obstacle avoidance throughout all three laps.
 
@@ -406,7 +407,7 @@ The Open Challenge requires the robot to complete three laps of the track autono
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 7.4 Obstacle Challenge Strategy
+### 8.4 Obstacle Challenge Strategy
 
 <p>The robot uses a <b>Raspberry Pi Camera Module 3</b> connected to a <b>Raspberry Pi 5</b>, enabling image and video capture for line detection, object recognition, and color marker detection. While LiDAR sensors handle wall-following and distance measurement, the camera provides visual perception that distance sensors alone cannot supply. By combining wall-following via LiDAR with visual processing from the camera, the robot actively detects red and green obstacles. The system processes camera data in real time to steer correctly around color-coded markers while maintaining high-speed autonomous navigation. This dual-sensing setup ensures precise positioning and seamless obstacle avoidance required to complete all three laps fully autonomously.</p>
 
@@ -415,8 +416,8 @@ The Open Challenge requires the robot to complete three laps of the track autono
 </p>
 
 
-## 8. Engineering Decisions
-### 8.1 Major Problems and Solutions
+## 9. Engineering Decisions
+### 9.1 Major Problems and Solutions
 #### Connection Failure 
 
 - During development, we experienced repeated problems with the Wi-Fi connection between the robot and the development computer. The connection was unstable and we could not work with the robot properly. To improve reliability, we tested a wired Ethernet connection using an RJ45 network cable. During our tests, this connection proved to be significantly more stable and reliable than Wi-Fi, so we decided to use the wired connection during development.
@@ -441,7 +442,7 @@ The Open Challenge requires the robot to complete three laps of the track autono
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-## 9. Testing & Results
+## 10. Testing & Results
 
 <p>You can see all the tests and results on our YouTube channel:</p>
 
@@ -453,7 +454,7 @@ The Open Challenge requires the robot to complete three laps of the track autono
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
   
-## 10. Components / Bill of Materials
+## 11. Components / Bill of Materials
 
 [View the Bill of Materials PDF](docs/bill-of-materials/bill-of-materials.pdf)
 
@@ -461,10 +462,10 @@ The Open Challenge requires the robot to complete three laps of the track autono
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-## 11. Build & Reproduction Guide
+## 12. Build & Reproduction Guide
 Our robot is completely made out of 3D-printed parts.
 
-### 11.1 Parts
+### 12.1 Parts
 
 All custom mechanical components and structural parts of the robot were designed using Autodesk Fusion and manufactured via 3D printing.
 * **3D Modeling & CAD:** Autodesk Fusion
@@ -486,35 +487,51 @@ All custom mechanical components and structural parts of the robot were designed
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-### 11.2 Assembly
+### 12.2 Assembly
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
 
-## 12. Repository Structure
+## 13. Repository Structure
 This repository is organized into separate folders for documentation, hardware, software, media and testing. It makes it easier to locate files needed to understand and reproduce the robot.
 
 ```text
 WRO/
 ├── README.md
 │
-├── backup photos/
-│   └── lego - mechaminds
+├── TEAM-PICTURES/
+│   ├── funny photo
+│   │   ├── funny-photo1.jpeg
+│   │   ├── funny-photo2.jpeg
+│   │   ├── funny-photo3.jpeg
+│   │   └── funny-photo4.jpeg
+|   ├── other-photos
+|   |   ├── lego - mechaminds.jpg
+|   |   ├── team2.jpeg
+|   |   ├── team3.JPG
+|   |   └── team4.JPG
+│   ├── team-photo
+|   |   └── team-photo.jpeg
+|   ├── video
+|   |   ├── video_mechaminds.mp4
+|   |   └── video_mechaminds.zip
+|   └── school-logo.png
+|
+├── POWER-AND-SENSORS
+│   ├── buttons
+|   |   ├── button1.jpeg
+|   |   └── button2.jpeg
+│   ├── camera
+|   |   └── camepa.png
+│   ├── motor
+|   |   └── moton.png
+│   ├── sensors
+|   |   └── sensor.jpg 
 │
-├── docs/
-│   ├── archive/
-│   ├── bill-of-materials/
-│   ├── images/
-│   ├── build-guide.md
-│   ├── engineering-decisions.md
-│   ├── mechanical-design.md
-│   ├── power-and-sensor.md
-│   ├── software-arhitecture.md
-│   └── testing.md
-│
-├── hardware/
+├── archive
+|   └── first-readme.md.txt
 │
 ├── media/
 │   ├── connection-solution/
@@ -544,13 +561,11 @@ WRO/
 └── tests/
 ```
 
-**OVO JE PODLOZNO MiJENJANU NECE OVAK NIS BIT SAM DA VIDIMO KAK TREBA IZGLEDAT**
-
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-## 13. Engineering Journal
+## 14. Engineering Journal
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
