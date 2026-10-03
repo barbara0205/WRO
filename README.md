@@ -473,15 +473,12 @@ All custom mechanical components and structural parts of the robot were designed
 * **3D Models & STL Files:**
   * Wheel STL file: [STL files/wheels/wheel11.stl](STL_files/wheels/wheel1.stl)
   * Chassis STL file: [STL files/wheels/mrm3d-chmod110-chassis.stl](STL_files/wheels/mrm3d-chmod110-chassis.stl)
-
+  * Raspberry 
 
 
 -**wheels**:
 
 <img src="BUILD-GUIDE/wheels-making/wheels2.jpeg" width="200">  <img src="BUILD-GUIDE/wheels-making/wheels3.jpeg" width="200"> <img src="BUILD-GUIDE/wheels-making/wheels-fusion.png" width="400" height='400'>
-
--**chassis**:
-
 
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
