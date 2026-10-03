@@ -497,60 +497,127 @@ This repository is organized into separate folders for documentation, hardware, 
 
 ```text
 WRO/
-├── README.md
+├── BATTERY-AND-CHARGER/
+│   ├── battery/
+│   │   ├── battery1.jpeg
+│   │   ├── battery2.jpeg
+│   │   ├── battery3.jpeg
+│   │   └── battery4.jpeg
+│   └── charger/
+│       └── charger1.jpeg
 │
-├── TEAM-PICTURES/
-│   ├── funny photo
-│   │   ├── funny-photo1.jpeg
-│   │   ├── funny-photo2.jpeg
-│   │   ├── funny-photo3.jpeg
-│   │   └── funny-photo4.jpeg
-|   ├── other-photos
-|   |   ├── lego - mechaminds.jpg
-|   |   ├── team2.jpeg
-|   |   ├── team3.JPG
-|   |   └── team4.JPG
-│   ├── team-photo
-|   |   └── team-photo.jpeg
-|   ├── video
-|   |   ├── video_mechaminds.mp4
-|   |   └── video_mechaminds.zip
-|   └── school-logo.png
-|
-├── POWER-AND-SENSORS
-│   ├── buttons
-|   |   ├── button1.jpeg
-|   |   └── button2.jpeg
-│   ├── camera
-|   |   └── camepa.png
-│   ├── motor
-|   |   └── moton.png
-│   ├── sensors
-|       └── sensor.jpg 
-│
-├── archive
-|   └── first-readme.md.txt
-│
-├── BUILD-GUIDE
-│   ├── Raspberry pi3
-│   │   └── RaspberryPI3.stl
-│   ├── panel
-│   │   └── mrm-pl90x35.stl
-│   ├── chassis
+├── BUILD-GUIDE/
+│   ├── Raspberry pi3/
+│   │   └── RaspberryPi3.stl
+│   ├── chassis/
 │   │   ├── chassis.stl
 │   │   └── mrm3d-chmod110 - chassis.stl
-│   │
-│   ├── final-robot/
-│   ├── team/
-│   ├── team2
-│   ├── team3
-│   └── team4
+│   ├── panel/
+│   │   └── mrm-pl90x35.stl
+│   ├── rotaryjoint/
+│   │   └── RotaryJointRoundTop.stl
+│   ├── wheels-making/
+│   │   ├── wheels-fusion.png
+│   │   ├── wheels1.jpeg
+│   │   ├── wheels2.jpeg
+│   │   └── wheels3.jpeg
+│   ├── wheels/
+│   │   ├── wheel1.stl
+│   │   └── wheel5-70.step
+│   ├── wiring/
+│   │   └── donjaploca.PNG.jpg
+│   └── engineering-decisions.md.txt
 │
-├── obstacle challenge/
-├── open challenge/
-├── Other/
-├── software/
-└── tests/
+├── CODE/
+│   ├── camera code/
+│   │   └── camera code.png
+│   └── sensors code/
+│       └── sensors code.png
+│
+├── DEVELOPMENT-HISTORY/
+│   ├── version_1/
+│   │   ├── bottom.jpeg
+│   │   ├── front.jpeg
+│   │   ├── left.jpeg
+│   │   ├── rear.jpeg
+│   │   ├── right.jpeg
+│   │   └── top.jpeg
+│   │
+│   ├── version_2/
+│   │   ├── build/
+│   │   │   ├── build-01.jpeg
+│   │   │   ├── build-02.jpeg
+│   │   │   ├── build-03.jpeg
+│   │   │   ├── build-04.jpeg
+│   │   │   ├── build-05.jpeg
+│   │   │   └── build-06.jpeg
+│   │   └── final/
+│   │       ├── bottom.jpeg
+│   │       ├── front.jpeg
+│   │       ├── left.jpeg
+│   │       ├── rear.jpeg
+│   │       ├── right.jpeg
+│   │       └── top.jpeg
+│   │
+│   ├── version_3/
+│   │   ├── bottom.jpeg
+│   │   ├── ford1.jpeg
+│   │   ├── ford2.jpeg
+│   │   ├── front.jpeg
+│   │   ├── left.jpeg
+│   │   ├── rear.jpeg
+│   │   └── right.jpeg
+│   │
+│   └── version_4/
+│       ├── bottom.jpeg
+│       ├── front.jpeg
+│       ├── left.jpeg
+│       ├── rear.jpeg
+│       ├── right.jpeg
+│       └── top.jpeg
+│
+├── POWER-AND-SENSORS/
+│   ├── buttons/
+│   │   ├── button1.jpeg
+│   │   └── button2.jpeg
+│   ├── camera/
+│   │   └── camera.png
+│   ├── motor/
+│   │   └── motor.png
+│   └── sensors/
+│       └── sensor.jpg
+│
+├── TEAM-PICTURES/
+│   ├── funny photo/
+│   │   ├── funny photo1.jpeg
+│   │   ├── funny photo2.jpeg
+│   │   ├── funny photo3.jpeg
+│   │   └── funny photo4.jpeg
+│   ├── other photos/
+│   │   ├── lego - mechaminds.jpg
+│   │   ├── team2.jpeg
+│   │   ├── team3.JPG
+│   │   └── team4.JPG
+│   ├── team photo/
+│   │   └── team photo.jpeg
+│   ├── video/
+│   │   ├── video_mechaminds.mp4
+│   │   └── video_mechaminds.zip
+│   └── school logo.png
+│
+├── archive/
+│   └── first-readme.md.txt
+│
+├── bill-of-materials/
+│   └── bill-of-materials.pdf
+│
+├── connection-solution/
+│   ├── connection1.jpeg
+│   ├── connection2.jpeg
+│   ├── connection3.jpeg
+│   └── connection4.jpeg
+│
+└── README.md
 ```
 
 <p align="right">
