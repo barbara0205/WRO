@@ -398,6 +398,8 @@ The robot software is written in C++. The code is developed and maintained withi
 
 ### 7.2 Code
 #### Code used for distance sensors
+<img src="CODE/sensors code/sensors code.png" width="300">
+
 
 
 <p align="right">
