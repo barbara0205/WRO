@@ -474,6 +474,7 @@ All custom mechanical components and structural parts of the robot were designed
   * Wheel STL file: [BUILD-GUIDE/wheels/wheel11.stl](BUILD-GUIDE/wheels/wheel1.stl)
   * Chassis STL file: [BUILD-GUIDE/chassis/mrm3d-chmod110-chassis.stl](BUILD-GUIDE/chassis/mrm3d-chmod110-chassis.stl)
   * Raspberry pi3 STL file: [BUILD-GUIDE/Raspberry-pi3/RaspberryPI3.stl](BUILD-GUIDE/Raspberry-pi3/RaspberryPi3.stl)
+  * RotaryJointRoundTop STL file: [BUILD-GUIDE/rotaryjoint/RotaryJointRoundTop.stl](BUILD-GUIDE/rotaryjoint/RotaryJointRoundTop.stl)
 
 
 -**wheels**:
