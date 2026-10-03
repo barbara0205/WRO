@@ -311,6 +311,12 @@ The robot uses a Raspberry Pi Camera Module 3 for visual perception of its surro
 
 ### 7.4 Wiring Diagram
 
+<p>
+  This diagram illustrates the robot's physical structure and highlights the core components, 
+  demonstrating how the essential systems and connections are wired together.
+</p>
+
+
 <p align="right">
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
