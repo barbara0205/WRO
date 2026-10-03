@@ -229,7 +229,6 @@ Our current vehicle uses a four-wheel chassis, the chassis provides the mechanic
 #### Component Placement
 The electronic components are arranged on several levels above the main chassis plate. The battery is positioned low inside the chassis to keep the center of gravity as low as possible, while the processing and control electronics are placed above it. The camera is placed at the front of the robot on a dedicated 3D-printed support so it could have good visibility of the field. The distance sensors are positioned near the front of the vehicle so that they can detect the surrounding walls during navigation.
 
-(gdje se nalaze no) **TU CE ICI SLIKA SVEGA**
 - Main controller: on top of the robot
 - Battery: inside the chassis
 - Drive motor: in the back, underneath the chassis
@@ -243,7 +242,7 @@ The electronic components are arranged on several levels above the main chassis 
 
 ### 5.2 Steering & Driving System
 
-The vehicle uses a servo-controlled front steering mechanism. A steering servo placed at the front of the chassis moves a mechanical linkage that connects the two front wheels. Instead of controlling the left and right wheels with separate motors, both front wheels are mechanically linked and change direction together. This provides car-like steering while the rear wheels make the robot move forward. The steering components are mounted directly to the 3D-printed chassis, which allowed us to adjust the geometry and mounting positions during development.
+The vehicle uses a servo-controlled front steering mechanism. A steering servo placed at the front of the chassis moves a mechanical linkage that connects the two front wheels. Instead of controlling the left and right wheels with separate motors, both front wheels are mechanically linked and change direction together. This provides car-like steering while the rear wheels make the robot move forward. The steering components are mounted directly to the 3D-printed chassis, which allowed us to adjust the geometry and mounting positions during development. The two rear wheels are connected by a metal rod and do not turn left or right, so they keep the robot moving straight. The motor is connected to the battery and provides the power needed to move the robot. This simple system allows the robot to move forward in a straight line.
 
 <p align="center">
   <img src="DEVELOPMENT-HISTORY/version_2/final/bottom.jpeg" width="500">
