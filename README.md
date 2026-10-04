@@ -2,6 +2,7 @@
 # WRO Future Engineers - Engineering Documentation
 <p align="center">
 <img src="TEAM-PICTURES/school logo.png" width="200" > 
+<br>
 <em> Our school logo.</em>
 </p>
 
