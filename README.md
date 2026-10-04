@@ -411,6 +411,8 @@ The robot software is written in C++. The code is developed and maintained withi
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
+[Code](4_vožnja_u_lrug_bez_prepreka.md.txt)
+
 ### 8.3 Open Challenge Strategy
 
 The Open Challenge requires the robot to complete three laps of the track autonomously without colliding with obstacles. During the run, the robot uses its LiDAR sensors and camera to detect the track boundaries and nearby objects. Based on the sensor data, the control system continuously adjusts the robot’s direction and movement. The main goal is to achieve reliable navigation, smooth cornering, and consistent obstacle avoidance throughout all three laps.
