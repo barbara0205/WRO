@@ -411,7 +411,7 @@ The robot software is written in C++. The code is developed and maintained withi
   <a href="#table-of-contents">⬆ Back to Table of Contents</a>
 </p>
 
-[Code](4_vožnja_u_lrug_bez_prepreka.txt)
+[Code](4vožnjaulrugbezprepreka.txt)
 
 ### 8.3 Open Challenge Strategy
 
