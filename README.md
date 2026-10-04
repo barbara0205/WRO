@@ -320,7 +320,7 @@ The robot uses a Raspberry Pi Camera Module 3 for visual perception of its surro
   demonstrating how the essential systems and connections are wired together.
 </p>
 
-<img src="BUILD-GUDIE/wiring/zicerobotaa.png" width="500" >
+<img src="BUILD-GUIDE/wiring/zicerobotaa.png" width="500" >
 
 
 <p align="right">
