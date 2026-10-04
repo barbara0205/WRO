@@ -1,0 +1,302 @@
+void RobotLine::loop() //ubačeno 27092026
+{
+    //motorsOn = false;
+    //mrm_servo->write(1, 1);   //max servo udesno 
+	//mrm_servo->write(119, 1);   //max servo ulijevo, 
+    //delay(1000);
+	
+	//mrm_servo->write(59, 1);  //kotači su poravnati, provjeriti je li to 59, 60 ili 61...
+	//delay(1000);
+
+	/*Logika je ova: ako je robot bliže desnom zidu, right je manji pa je error pozitivan, 
+	servo ide iznad 60 i robot bi trebao korigirati ulijevo. 
+	Ako je bliže lijevom zidu, servo ide ispod 60 i korigira udesno.*/
+
+	// Za ovaj test motori miruju
+      
+
+	
+    // =====================================================
+    // TRAJNE VARIJABLE
+    // =====================================================
+
+    static bool startDone = false;
+
+    static int lastRightDist = 180;
+
+    static bool cameraArmed = false;
+    static int lowBlueCount = 0;
+    static int blueCount = 0;
+	
+	static unsigned long rearmStart = 0;
+	static int clearBlueCount = 0;
+
+    static bool turningLeft = false;
+    static unsigned long turnStart = 0;
+    static int wallFoundCount = 0;
+
+
+
+    // =====================================================
+    // POČETAK - SAMO JEDNOM PORAVNAJ KOTAČE
+    // =====================================================
+
+    if (!startDone)
+    {
+        motorsOn = true;
+
+        mrm_servo->write(59, 1);   // ravno
+        delay(500);
+
+        startDone = true;
+    }
+
+
+    // =====================================================
+    // DESNI LIDAR
+    // =====================================================
+
+    int rightRaw = mrm_lid_can_b->distance(1);
+    int rightDist = rightRaw;
+
+    // Povremeni 2000 ignoriramo za normalno praćenje zida
+    if (rightRaw > 0 && rightRaw < 500)
+    {
+        lastRightDist = rightRaw;
+    }
+    else
+    {
+        rightDist = lastRightDist;
+    }
+
+
+    // =====================================================
+    // KAMERA - DETEKCIJA PLAVE
+    // =====================================================
+
+    double blueRatio = 0.0;
+
+    camera->imageGet();
+
+    if (camera->newFrameAvailable && !camera->frame->empty())
+    {
+        cv::Mat frame = *camera->frame;
+
+        int w = frame.cols;
+        int h = frame.rows;
+
+        // Donja trećina slike
+        int roiY = (2 * h) / 3;
+        int roiH = h - roiY;
+
+        cv::Rect roi(
+            0,
+            roiY,
+            w,
+            roiH
+        );
+
+        cv::Mat part = frame(roi);
+
+        cv::Mat hsv;
+
+        cv::cvtColor(
+            part,
+            hsv,
+            cv::COLOR_RGB2HSV
+        );
+
+        cv::Mat blueMask;
+
+        // HSV područje za plavu boju
+        cv::inRange(
+            hsv,
+            cv::Scalar(90, 80, 60),
+            cv::Scalar(130, 255, 255),
+            blueMask
+        );
+
+        int bluePixels = cv::countNonZero(blueMask);
+
+        int totalPixels =
+            blueMask.rows * blueMask.cols;
+
+        if (totalPixels > 0)
+        {
+            blueRatio =
+                (double)bluePixels /
+                (double)totalPixels;
+        }
+
+        camera->newFrameAvailable = false;
+    }
+
+
+    // =====================================================
+    // UKLJUČI MOTORE
+    // =====================================================
+
+    motorsOn = true;
+
+
+    // =====================================================
+    // ARMIRANJE KAMERE
+    // =====================================================
+
+    if (!turningLeft)
+    {
+       if (!turningLeft && !cameraArmed && rearmStart > 0)
+{
+    // prvo najmanje 2 sekunde ignoriramo kameru
+    if (millis() - rearmStart >= 2000)
+    {
+        // plava mora stvarno nestati iz kadra
+        if (blueRatio <= 0.002)
+        {
+            clearBlueCount++;
+        }
+        else
+        {
+            clearBlueCount = 0;
+        }
+
+        // 5 uzastopnih čistih kadrova
+        if (clearBlueCount >= 5)
+        {
+            cameraArmed = true;
+
+            clearBlueCount = 0;
+            blueCount = 0;
+            rearmStart = 0;
+
+            print(">>> CAMERA REARMED <<<\n\r");
+        }
+    }
+}
+        // =================================================
+        // DETEKCIJA PLAVE CRTE
+        // =================================================
+
+        else
+        {
+            if (blueRatio >= 0.004)
+            {
+                blueCount++;
+            }
+            else
+            {
+                blueCount = 0;
+            }
+
+            // Dva uzastopna dobra očitanja
+            if (blueCount >= 2)
+            {
+                turningLeft = true;
+
+                turnStart = millis();
+
+                blueCount = 0;
+                wallFoundCount = 0;
+
+                print(
+                    ">>> PLAVA CRTA - START LIJEVOG ZAVOJA <<<\n\r"
+                );
+            }
+        }
+    }
+
+
+    // =====================================================
+    // LIJEVI ZAVOJ
+    // =====================================================
+
+    if (turningLeft)
+    {
+        // Jaki lijevi zavoj
+        mrm_servo->write(119, 1);
+
+        go(35, 35);
+
+        // Prvih 5 s NE pokušavamo završiti zavoj
+        if (millis() - turnStart >= 4500)
+        {
+            // Nakon 6 s tražimo novi desni zid
+            if (rightRaw >= 0 && rightRaw <= 320)
+            {
+                wallFoundCount++;
+            }
+            else
+            {
+                wallFoundCount = 0;
+            }
+
+            // Novi desni zid mora biti potvrđen 3 puta
+            if (wallFoundCount >= 3)
+{
+    turningLeft = false;
+
+    wallFoundCount = 0;
+    blueCount = 0;
+    lowBlueCount = 0;
+
+    cameraArmed = false;
+
+    // počinje čekanje da napustimo staru plavu crtu
+    rearmStart = millis();
+    clearBlueCount = 0;
+
+    mrm_servo->write(59, 1);
+
+    print(
+        ">>> KRAJ LIJEVOG ZAVOJA - PRATIM ZID <<<\n\r"
+    );
+}  }
+    }
+
+
+    // =====================================================
+    // NORMALNO PRAĆENJE DESNOG ZIDA
+    // =====================================================
+
+    else
+    {
+        // Preblizu desnom zidu -> lijevo
+        if (rightDist < 160)
+        {
+            mrm_servo->write(105, 1);
+        }
+
+        // Dobra zona
+        else if (rightDist <= 210)
+        {
+            mrm_servo->write(59, 1);
+        }
+
+        // Predaleko -> desno
+        else
+        {
+            mrm_servo->write(25, 1);
+        }
+
+        go(30, 30);
+    }
+
+
+    // =====================================================
+    // DIJAGNOSTIKA
+    // =====================================================
+
+    print(
+        "R:%i BLUE:%.3f armed:%i blueCount:%i turn:%i found:%i\n\r",
+        rightDist,
+        blueRatio,
+        cameraArmed,
+        blueCount,
+        turningLeft,
+        wallFoundCount
+    );
+
+
+    delay(200);
+
+}
